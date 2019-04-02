@@ -1,3 +1,2 @@
-# Teasy: The Domain Specific Language for Functional Tests.
-
+# YTL
 This project aims to create a Domain-Specific Language for functional tests
