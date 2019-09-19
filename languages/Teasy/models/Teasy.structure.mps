@@ -187,18 +187,59 @@
     <property role="EcuMT" value="804515601402514435" />
     <property role="TrG5h" value="Action" />
     <property role="34LRSv" value="Action" />
+    <property role="R4oN_" value="This file dispatcher a action in system" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="GEdEPdQOK4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="GEdEPdQPKu" role="1TKVEl">
+      <property role="IQ2nx" value="804515601402518558" />
+      <property role="TrG5h" value="OBJECTIVE" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPKz" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402518563" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="NEXT_PAGE_AFTER_ACTION" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Declaration" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPK_" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402518565" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENT_VERIFIER_VALID_FLOW" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPKC" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402518568" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENT_VERIFIER_INVALID_FLOW" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPKG" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402518572" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENT_TO_ACTIVE_ACTION" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOKg" resolve="ActionElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKa">
     <property role="EcuMT" value="804515601402514442" />
     <property role="TrG5h" value="BlockAction" />
     <property role="34LRSv" value="Block Action" />
+    <property role="R4oN_" value="This file contains actions to execute in sequence mode" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="GEdEPdQOKb" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPKW" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402518588" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ACTION" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKd">
@@ -212,9 +253,20 @@
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKg">
     <property role="EcuMT" value="804515601402514448" />
-    <property role="TrG5h" value="DefaultElement" />
-    <property role="34LRSv" value="Default Element" />
+    <property role="TrG5h" value="ActionElement" />
+    <property role="34LRSv" value="Action Element" />
+    <property role="R4oN_" value="This file represents a element for active a action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="GEdEPdQPKY" role="1TKVEl">
+      <property role="IQ2nx" value="804515601402518590" />
+      <property role="TrG5h" value="IDENTIFIER" />
+      <ref role="AX2Wp" node="GEdEPdQPdO" resolve="identifier" />
+    </node>
+    <node concept="1TJgyi" id="GEdEPdQPL0" role="1TKVEl">
+      <property role="IQ2nx" value="804515601402518592" />
+      <property role="TrG5h" value="IS_CLICKABLE" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="GEdEPdQOKh" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

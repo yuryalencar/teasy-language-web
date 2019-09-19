@@ -9,9 +9,29 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
+  public static final int Action = 0;
+  public static final int Actor = 1;
+  public static final int BlockAction = 2;
+  public static final int Configuration = 3;
+  public static final int DataForAction = 4;
+  public static final int Declaration = 5;
+  public static final int DefaultElement = 6;
+  public static final int EquivalencePartition = 7;
+  public static final int Flow = 8;
+  public static final int VerifierElement = 9;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x67c1fa65c7ac493dL, 0xb11b664188147c91L);
+    builder.put(0xb2a36ad4ddb4c03L, Action);
+    builder.put(0xb2a36ad4ddb4bffL, Actor);
+    builder.put(0xb2a36ad4ddb4c0aL, BlockAction);
+    builder.put(0xb2a36ad4ddb4bfbL, Configuration);
+    builder.put(0xb2a36ad4ddb4c0dL, DataForAction);
+    builder.put(0xb2a36ad4ddb4bfcL, Declaration);
+    builder.put(0xb2a36ad4ddb4c10L, DefaultElement);
+    builder.put(0xb2a36ad4ddb4c13L, EquivalencePartition);
+    builder.put(0xb2a36ad4ddb4c16L, Flow);
+    builder.put(0xb2a36ad4ddb4c02L, VerifierElement);
     myIndex = builder.seal();
   }
 
