@@ -104,7 +104,36 @@
     <property role="EcuMT" value="804515601402514428" />
     <property role="TrG5h" value="Declaration" />
     <property role="34LRSv" value="Declaration File" />
+    <property role="R4oN_" value="This file represents a system page file" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="GEdEPdQPdx" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402516321" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="VERIFIER_ELEMENT" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPdz" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402516323" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ACTION" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPdA" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402516326" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="BLOCK_ACTION" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
+    </node>
+    <node concept="1TJgyj" id="GEdEPdQPdE" role="1TKVEi">
+      <property role="IQ2ns" value="804515601402516330" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="DATA_FOR_ACTION" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOKd" resolve="DataForAction" />
+    </node>
     <node concept="PrWs8" id="GEdEPdQOK6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
