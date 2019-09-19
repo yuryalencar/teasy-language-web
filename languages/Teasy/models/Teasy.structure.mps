@@ -163,7 +163,7 @@
     <property role="TrG5h" value="VerifierElement" />
     <property role="34LRSv" value="Verifier Element" />
     <property role="R4oN_" value="Element in the page to verifier system status" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPdJ" role="1TKVEl">
       <property role="IQ2nx" value="804515601402516335" />
       <property role="TrG5h" value="TEMPORARY_ELEMENT" />
@@ -173,14 +173,6 @@
       <property role="IQ2nx" value="804515601402516337" />
       <property role="TrG5h" value="TEXT_PRESENT_IN_ELEMENT" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="GEdEPdQPdX" role="1TKVEl">
-      <property role="IQ2nx" value="804515601402516349" />
-      <property role="TrG5h" value="IDENTIFIER" />
-      <ref role="AX2Wp" node="GEdEPdQPdO" resolve="identifier" />
-    </node>
-    <node concept="PrWs8" id="GEdEPdQOK8" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOK3">
@@ -256,19 +248,11 @@
     <property role="TrG5h" value="ActionElement" />
     <property role="34LRSv" value="Action Element" />
     <property role="R4oN_" value="This file represents a element for active a action" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="GEdEPdQPKY" role="1TKVEl">
-      <property role="IQ2nx" value="804515601402518590" />
-      <property role="TrG5h" value="IDENTIFIER" />
-      <ref role="AX2Wp" node="GEdEPdQPdO" resolve="identifier" />
-    </node>
+    <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPL0" role="1TKVEl">
       <property role="IQ2nx" value="804515601402518592" />
       <property role="TrG5h" value="IS_CLICKABLE" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="GEdEPdQOKh" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKj">
@@ -284,9 +268,31 @@
     <property role="EcuMT" value="804515601402514454" />
     <property role="TrG5h" value="Flow" />
     <property role="34LRSv" value="Flow" />
+    <property role="R4oN_" value="This file represents a flow for generate tests using the system described" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="GEdEPdQOKn" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="67uri0niFHo" role="1TKVEi">
+      <property role="IQ2ns" value="7052194051105930072" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="PAGE" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Declaration" />
+    </node>
+    <node concept="1TJgyj" id="67uri0niFHu" role="1TKVEi">
+      <property role="IQ2ns" value="7052194051105930078" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="1..n" />
+      <property role="20kJfa" value="ACTION" />
+      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+    </node>
+    <node concept="1TJgyj" id="67uri0niFHx" role="1TKVEi">
+      <property role="IQ2ns" value="7052194051105930081" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENT_TO_VERIFY" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
     </node>
   </node>
   <node concept="AxPO7" id="GEdEPdQPdO">
@@ -306,6 +312,21 @@
     <node concept="M4N5e" id="GEdEPdQPdQ" role="M5hS2">
       <property role="1uS6qo" value="CLASS CSS" />
       <property role="1uS6qv" value="CLASS_CSS" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="67uri0niDTW">
+    <property role="EcuMT" value="7052194051105922684" />
+    <property role="TrG5h" value="DefaultElement" />
+    <property role="34LRSv" value="DefaultElement" />
+    <property role="R4oN_" value="This is a element father" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="67uri0niDTZ" role="1TKVEl">
+      <property role="IQ2nx" value="7052194051105922687" />
+      <property role="TrG5h" value="IDENTIFIER" />
+      <ref role="AX2Wp" node="GEdEPdQPdO" resolve="identifier" />
+    </node>
+    <node concept="PrWs8" id="67uri0niDTX" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
