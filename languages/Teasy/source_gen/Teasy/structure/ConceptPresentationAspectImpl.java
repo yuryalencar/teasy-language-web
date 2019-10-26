@@ -10,14 +10,17 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Action;
+  private ConceptPresentation props_ActiveActionElement;
   private ConceptPresentation props_Actor;
   private ConceptPresentation props_BlockAction;
   private ConceptPresentation props_Configuration;
   private ConceptPresentation props_DataForAction;
   private ConceptPresentation props_Declaration;
   private ConceptPresentation props_DefaultElement;
-  private ConceptPresentation props_EquivalencePartition;
+  private ConceptPresentation props_ElementToReceiveData;
   private ConceptPresentation props_Flow;
+  private ConceptPresentation props_InvalidData;
+  private ConceptPresentation props_ValidData;
   private ConceptPresentation props_VerifierElement;
 
   @Override
@@ -28,13 +31,23 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Action:
         if (props_Action == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This file dispatcher a action in system");
           cpb.presentationByName();
           props_Action = cpb.create();
         }
         return props_Action;
+      case LanguageConceptSwitch.ActiveActionElement:
+        if (props_ActiveActionElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This file represents a element for active a action");
+          cpb.presentationByName();
+          props_ActiveActionElement = cpb.create();
+        }
+        return props_ActiveActionElement;
       case LanguageConceptSwitch.Actor:
         if (props_Actor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This class represents of the actor in system");
           cpb.presentationByName();
           props_Actor = cpb.create();
         }
@@ -42,6 +55,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.BlockAction:
         if (props_BlockAction == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This file contains actions to execute in sequence mode");
           cpb.presentationByName();
           props_BlockAction = cpb.create();
         }
@@ -57,6 +71,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.DataForAction:
         if (props_DataForAction == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This concept represents data for use in action");
           cpb.presentationByName();
           props_DataForAction = cpb.create();
         }
@@ -72,24 +87,43 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.DefaultElement:
         if (props_DefaultElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This is a element father");
           cpb.presentationByName();
           props_DefaultElement = cpb.create();
         }
         return props_DefaultElement;
-      case LanguageConceptSwitch.EquivalencePartition:
-        if (props_EquivalencePartition == null) {
+      case LanguageConceptSwitch.ElementToReceiveData:
+        if (props_ElementToReceiveData == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This concept represents for ");
           cpb.presentationByName();
-          props_EquivalencePartition = cpb.create();
+          props_ElementToReceiveData = cpb.create();
         }
-        return props_EquivalencePartition;
+        return props_ElementToReceiveData;
       case LanguageConceptSwitch.Flow:
         if (props_Flow == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This file represents a flow for generate tests using the system described");
           cpb.presentationByName();
           props_Flow = cpb.create();
         }
         return props_Flow;
+      case LanguageConceptSwitch.InvalidData:
+        if (props_InvalidData == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This concept represents invalid data for use in data for action file");
+          cpb.rawPresentation("Invalid data");
+          props_InvalidData = cpb.create();
+        }
+        return props_InvalidData;
+      case LanguageConceptSwitch.ValidData:
+        if (props_ValidData == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("For insert valid data");
+          cpb.rawPresentation("Valid data");
+          props_ValidData = cpb.create();
+        }
+        return props_ValidData;
       case LanguageConceptSwitch.VerifierElement:
         if (props_VerifierElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

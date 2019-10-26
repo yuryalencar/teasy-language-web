@@ -138,13 +138,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
     </node>
-    <node concept="1TJgyj" id="GEdEPdQPdE" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402516330" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="DATA_FOR_ACTION" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="GEdEPdQOKd" resolve="DataForAction" />
-    </node>
     <node concept="PrWs8" id="GEdEPdQOK6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -153,7 +146,18 @@
     <property role="EcuMT" value="804515601402514431" />
     <property role="TrG5h" value="Actor" />
     <property role="34LRSv" value="Actor" />
+    <property role="R4oN_" value="This class represents of the actor in system" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5xyw3xREHYg" role="1TKVEl">
+      <property role="IQ2nx" value="6368793803069513616" />
+      <property role="TrG5h" value="USERNAME" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5xyw3xREHYl" role="1TKVEl">
+      <property role="IQ2nx" value="6368793803069513621" />
+      <property role="TrG5h" value="PASSWORD" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="GEdEPdQOK0" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -180,14 +184,18 @@
     <property role="TrG5h" value="Action" />
     <property role="34LRSv" value="Action" />
     <property role="R4oN_" value="This file dispatcher a action in system" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="GEdEPdQOK4" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPKu" role="1TKVEl">
       <property role="IQ2nx" value="804515601402518558" />
       <property role="TrG5h" value="OBJECTIVE" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5xyw3xREHZA" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069513702" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ACTOR_CAN_EXECUTE_ACTION" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
     </node>
     <node concept="1TJgyj" id="GEdEPdQPKz" role="1TKVEi">
       <property role="IQ2ns" value="804515601402518563" />
@@ -214,7 +222,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="ELEMENT_TO_ACTIVE_ACTION" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="GEdEPdQOKg" resolve="ActionElement" />
+      <ref role="20lvS9" node="GEdEPdQOKg" resolve="ActiveActionElement" />
+    </node>
+    <node concept="1TJgyj" id="5xyw3xRERyU" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069552826" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="DATA_FOR_ACTION" />
+      <ref role="20lvS9" node="GEdEPdQOKd" resolve="DataForAction" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKa">
@@ -238,30 +252,29 @@
     <property role="EcuMT" value="804515601402514445" />
     <property role="TrG5h" value="DataForAction" />
     <property role="34LRSv" value="Data For Action" />
+    <property role="R4oN_" value="This concept represents data for use in action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5xyw3xRERyH" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069552813" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENT_TO_RECEIVE_DATA" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+    </node>
     <node concept="PrWs8" id="GEdEPdQOKe" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKg">
     <property role="EcuMT" value="804515601402514448" />
-    <property role="TrG5h" value="ActionElement" />
-    <property role="34LRSv" value="Action Element" />
+    <property role="TrG5h" value="ActiveActionElement" />
+    <property role="34LRSv" value="Active Action Element" />
     <property role="R4oN_" value="This file represents a element for active a action" />
     <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPL0" role="1TKVEl">
       <property role="IQ2nx" value="804515601402518592" />
       <property role="TrG5h" value="IS_CLICKABLE" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="GEdEPdQOKj">
-    <property role="EcuMT" value="804515601402514451" />
-    <property role="TrG5h" value="EquivalencePartition" />
-    <property role="34LRSv" value="Equivalence Partition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="GEdEPdQOKk" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKm">
@@ -283,16 +296,16 @@
     <node concept="1TJgyj" id="67uri0niFHu" role="1TKVEi">
       <property role="IQ2ns" value="7052194051105930078" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <property role="20kJfa" value="ACTION" />
       <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
     </node>
-    <node concept="1TJgyj" id="67uri0niFHx" role="1TKVEi">
-      <property role="IQ2ns" value="7052194051105930081" />
+    <node concept="1TJgyj" id="5xyw3xREHZS" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069513720" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ELEMENT_TO_VERIFY" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+      <property role="20kJfa" value="BLOCK_ACTION" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
     </node>
   </node>
   <node concept="AxPO7" id="GEdEPdQPdO">
@@ -327,6 +340,51 @@
     </node>
     <node concept="PrWs8" id="67uri0niDTX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5xyw3xRERyy">
+    <property role="EcuMT" value="6368793803069552802" />
+    <property role="TrG5h" value="ValidData" />
+    <property role="34LRSv" value="Valid data" />
+    <property role="R4oN_" value="For insert valid data" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5xyw3xRERyz" role="1TKVEl">
+      <property role="IQ2nx" value="6368793803069552803" />
+      <property role="TrG5h" value="DATA" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5xyw3xRERy_">
+    <property role="EcuMT" value="6368793803069552805" />
+    <property role="TrG5h" value="InvalidData" />
+    <property role="34LRSv" value="Invalid data" />
+    <property role="R4oN_" value="This concept represents invalid data for use in data for action file" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5xyw3xRERyA" role="1TKVEl">
+      <property role="IQ2nx" value="6368793803069552806" />
+      <property role="TrG5h" value="DATA" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5xyw3xRERyL">
+    <property role="EcuMT" value="6368793803069552817" />
+    <property role="TrG5h" value="ElementToReceiveData" />
+    <property role="34LRSv" value="Element to receive data" />
+    <property role="R4oN_" value="This concept represents for " />
+    <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
+    <node concept="1TJgyj" id="5xyw3xRERyM" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069552818" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="VALID_DATA" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5xyw3xRERyy" resolve="ValidData" />
+    </node>
+    <node concept="1TJgyj" id="5xyw3xRERyO" role="1TKVEi">
+      <property role="IQ2ns" value="6368793803069552820" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="INVALID_DATA" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5xyw3xRERy_" resolve="InvalidData" />
     </node>
   </node>
 </model>
