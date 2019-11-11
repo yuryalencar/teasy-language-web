@@ -2,25 +2,69 @@
 <project version="4">
   <component name="BookmarksTool">
     <option name="myTreeState">
-      <TreeState />
+      <TreeState>
+        <option name="expansion">
+          <list>
+            <option value="/" />
+          </list>
+        </option>
+      </TreeState>
     </option>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce6a11c-c26e-4d4c-9196-4ef8ffcc050f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Action_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Action_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionItemList_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionItemList_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionListToImplement_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionListToImplement_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionListToReferences_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockActionListToReferences_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockAction_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/BlockAction_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Configuration_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Configuration_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataItemList_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataItemList_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataListToImplement_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataListToImplement_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataListToReferences_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ElementToReceiveDataListToReferences_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageListToImplement_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageListToImplement_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementItemList_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementItemList_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementListToImplement_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementListToImplement_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementListToReferences_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/VerifierElementListToReferences_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Teasy.asta.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/LanguageConceptSwitch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/trace.info" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +78,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="b87e3186-0c15-40e4-9c1d-9ef80bb8224a/r:21e6ba90-4d29-47ec-ab50-8ece812598ae(TempModuleb87e3186-0c15-40e4-9c1d-9ef80bb8224a/TempModel_1125757110309599)">
+            <model ref="1e2433c3-1a17-4dc6-962b-5bbbdd3f5e48/r:63b4163a-7950-428f-a172-1359d1e3a2f7(TempModule1e2433c3-1a17-4dc6-962b-5bbbdd3f5e48/TempModel_1165803693233700)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -54,11 +98,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5xyw3xREHXZ">
-                <node concept="3balQm" id="5xyw3xREHY0" role="aymYE" />
-                <node concept="2Clz$F" id="5xyw3xREHY1" role="aymYO" />
-                <node concept="2_V_lH" id="5xyw3xREHY2" role="1PhJh3">
-                  <ref role="2_V_lI" node="5xyw3xREHY1" resolve="CommandHolder" />
+              <node concept="aymSD" id="4NxwlgZaTh5">
+                <node concept="3balQm" id="4NxwlgZaTh6" role="aymYE" />
+                <node concept="2Clz$F" id="4NxwlgZaTh7" role="aymYO" />
+                <node concept="2_V_lH" id="4NxwlgZaTh8" role="1PhJh3">
+                  <ref role="2_V_lI" node="4NxwlgZaTh7" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -81,7 +125,76 @@
     </search_options>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://Teasy/Teasy.structure/PageListToImplement">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="107" />
+                    <property name="caretXRelative" value="16" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959615" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Teasy/Teasy.structure/Page">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="211" />
+                    <property name="caretXRelative" value="160" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_text">
+                      <node node_reference="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483267175" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/3718931146099002800" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +205,11 @@
         <BookmarkInfo />
         <BookmarkInfo />
         <BookmarkInfo />
-        <BookmarkInfo />
+        <BookmarkInfo>
+          <option name="nodeRef" value="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215481009855" />
+          <option name="myNumber" value="3" />
+          <option name="myIsNull" value="false" />
+        </BookmarkInfo>
         <BookmarkInfo />
         <BookmarkInfo />
         <BookmarkInfo />
@@ -111,21 +228,19 @@
       </MessageListState>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="NodeEditorSearchHistory">
+    <option name="searches">
       <list>
-        <option value="$PROJECT_DIR$/.mps/misc.xml" />
-        <option value="$PROJECT_DIR$/.mps/vcs.xml" />
-        <option value="$PROJECT_DIR$/.mps/modules.xml" />
-        <option value="$PROJECT_DIR$/.mps/migration.xml" />
+        <option value="PASSWORD" />
+        <option value="ACTORS" />
+        <option value="samuel" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="-1927" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectPluginManager">
     <option name="pluginsState">
@@ -197,6 +312,22 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -220,7 +351,39 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[file://C:/Users/yurya/Documents/PersonalProjects/FrameworkForFunctionalTesting/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
         </subPane>
       </pane>
       <pane id="FileSystem" />
@@ -246,10 +409,10 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.26599148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -257,7 +420,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Model Checker" order="7" />
+      <window_info anchor="bottom" id="Model Checker" order="7" sideWeight="0.49573562" weight="0.32910052" />
       <window_info anchor="bottom" id="Bookmarks" order="8" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
@@ -265,24 +428,60 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Classpath Explorer" order="13" />
       <window_info anchor="bottom" id="Usages" order="14" />
-      <window_info anchor="bottom" id="Node Explorer" order="15" />
+      <window_info anchor="bottom" id="Node Explorer" order="15" weight="0.32910052" />
       <window_info anchor="bottom" id="Module Dependencies" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.22116402" />
       <window_info anchor="bottom" id="Generation Tracer" order="18" />
       <window_info anchor="bottom" id="Cell Explorer" order="19" />
-      <window_info anchor="bottom" id="Messages" order="20" weight="0.328594" />
+      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.4946695" visible="true" weight="0.43809524" />
       <window_info anchor="bottom" id="Console" order="21" weight="0.32941177" />
-      <window_info anchor="bottom" id="RefactoringView" order="22" />
-      <window_info anchor="bottom" id="Inspector" order="23" side_tool="true" />
+      <window_info anchor="bottom" id="RefactoringView" order="22" sideWeight="0.49946696" weight="0.33227512" />
+      <window_info anchor="bottom" id="Inspector" order="23" sideWeight="0.5053305" side_tool="true" visible="true" weight="0.43809524" />
       <window_info anchor="bottom" id="Dependencies Viewer" order="24" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2489339" />
       <window_info anchor="right" id="Class Hierarchy" order="3" />
       <window_info anchor="right" id="Typesystem Trace" order="4" />
       <window_info anchor="right" id="Supertypes" order="5" />
-      <window_info anchor="right" id="Context Actions" order="6" />
+      <window_info anchor="right" id="Context Actions" order="6" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" visible="true" weight="0.26599148" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Model Checker" order="7" weight="0.32910052" />
+      <window_info anchor="bottom" id="Bookmarks" order="8" />
+      <window_info anchor="bottom" id="Migration" order="9" />
+      <window_info anchor="bottom" id="Menu Trace" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Classpath Explorer" order="13" />
+      <window_info anchor="bottom" id="Usages" order="14" />
+      <window_info anchor="bottom" id="Node Explorer" order="15" weight="0.32910052" />
+      <window_info anchor="bottom" id="Module Dependencies" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.22116402" />
+      <window_info anchor="bottom" id="Generation Tracer" order="18" />
+      <window_info anchor="bottom" id="Cell Explorer" order="19" />
+      <window_info anchor="bottom" id="Messages" order="20" visible="true" weight="0.43809524" />
+      <window_info anchor="bottom" id="Console" order="21" weight="0.32941177" />
+      <window_info anchor="bottom" id="RefactoringView" order="22" />
+      <window_info anchor="bottom" id="Inspector" order="23" side_tool="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Dependencies Viewer" order="24" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2489339" />
+      <window_info anchor="right" id="Class Hierarchy" order="3" />
+      <window_info anchor="right" id="Typesystem Trace" order="4" />
+      <window_info anchor="right" id="Supertypes" order="5" />
+      <window_info anchor="right" id="Context Actions" order="6" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
@@ -292,83 +491,18 @@
     </default_view_options>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[EnumerationDataTypeDeclaration]" />
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]" />
-    <entry file="mps://node://jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure/INamedConcept">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Actor List to References">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="263" />
-                <property name="caretXRelative" value="104" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1169194658468" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1169194658468" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1169194658468" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/identifier">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="223" />
-                <property name="caretXRelative" value="32" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_hasNoDefaultMember">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516340" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516340" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/Configuration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="195" />
-                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="127" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516283" />
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683927" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -377,7 +511,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516283" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482446759" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -385,31 +519,58 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514427" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/VerifierElement">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="319" />
-                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="439" />
+                <property name="caretXRelative" value="48" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514434" />
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683927" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+            </errorMarkers>
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514434" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683927" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -417,31 +578,191 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514434" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/Declaration">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="187" />
-                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="183" />
+                <property name="caretXRelative" value="48" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516323" />
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+            </errorMarkers>
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514442" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683925" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -449,31 +770,37 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514428" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/ActionElement">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="167" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptShortDescription">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514448" />
+                <cellInfo cellId="empty_ACTION_ITEM">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683945" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683939" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTION_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683945" />
+              </errorMarker>
+            </errorMarkers>
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514448" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482446759" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -481,13 +808,12 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514448" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/Actor">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -495,8 +821,8 @@
                 <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyChildrenPlaceHolder">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514431" />
+                <cellInfo cellId="empty_BLOCK_ACTIONS">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683938" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -505,7 +831,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514431" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482446759" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -513,13 +839,68 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="183" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683930" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683931" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482446759" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
     <entry file="mps://node://Teasy/Teasy.structure/BlockAction">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -537,7 +918,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514442" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384393" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -549,27 +930,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/Flow">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="227" />
-                <property name="caretXRelative" value="40" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069513720" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069513720" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -577,136 +988,12 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514454" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/EquivalencePartition">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <node />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/ValidData">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="135" />
-                <property name="caretXRelative" value="48" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552803" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552803" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552802" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </inspectorMemento>
-          <node />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/InvalidData">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -714,8 +1001,8 @@
                 <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyRefPlaceHolder">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552805" />
+                <cellInfo cellId="empty_BLOCK_ACTIONS">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683938" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -724,7 +1011,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552805" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482683938" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -732,31 +1019,508 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552805" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/DefaultElement">
+    <entry file="mps://node://Teasy/Teasy.structure/ActionListToReferences">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_rootable">
+                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215479928081" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384404" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215479928081" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800412" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482684098" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800412" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800406" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800407" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482800412" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="543" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_ACTOR_ITEM">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917133" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917133" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917125" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917126" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917126" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215482917126" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482202414" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/ActorItemList">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text">
+                  <node node_reference="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483033685" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215482683948" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215480493930" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="159" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_ACTOR_ITEM">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150265" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150265" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215482917138" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretX" value="175" />
-                <property name="caretXRelative" value="40" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7052194051105922687" />
+                <cellInfo cellId="empty_ACTOR_ITEM">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150265" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150265" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150259" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150260" />
+              </errorMarker>
+            </errorMarkers>
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7052194051105922687" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483150265" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -764,13 +1528,12 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7052194051105922684" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
@@ -785,13 +1548,12 @@
             <foldable />
             <restoreAlways />
           </inspectorMemento>
-          <node />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
@@ -806,31 +1568,70 @@
             <foldable />
             <restoreAlways />
           </inspectorMemento>
-          <node />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/DataForAction">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="275" />
-                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="16" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552813" />
+                <cellInfo cellId="Constant_8bscln_e0">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorMarkers />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266762" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266764" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266767" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266771" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+            </errorMarkers>
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552817" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483150401" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -838,13 +1639,104 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514445" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Teasy/Teasy.structure/ElementToReceiveData">
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Actor List">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266760" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_8bscln_e0">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266762" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266764" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266767" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ACTOR_ITEM">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266771" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266757" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483266756" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/System">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -852,8 +1744,8 @@
                 <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyPropertiesPlaceHolder">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552817" />
+                <cellInfo cellId="Constant_ueqr71_h1c0">
+                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959602" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -862,7 +1754,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552817" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483384480" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -870,7 +1762,335 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552817" />
+          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959602" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/ElementToReceiveDataListToImplement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_c0a">
+                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215481272755" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215481272755" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215481272755" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Verifier Element List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="279" />
+                <property name="caretXRelative" value="64" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384400" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384400" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384400" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_TEXT_PRESENT_IN_ELEMENT">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384400" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483384480" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="120" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384404" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="255" />
+                <property name="caretXRelative" value="120" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_OBJECTIVE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_VALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_NEXT_PAGE_AFTER_ACTION_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="false" cellId="empty_ELEMENT_TO_VERIFY_INVALID_CASE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384407" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_IDENTIFIERTYPE">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_LOCAL">
+                <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384408" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384413" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="160" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384422" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384413" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/ActorListToImplement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="155" />
+                <property name="caretXRelative" value="88" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text">
+                  <node node_reference="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215481558398" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215482683948" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215480493745" />
         </state>
       </provider>
     </entry>
@@ -881,11 +2101,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="435" />
-                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="331" />
+                <property name="caretXRelative" value="88" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_6h6dhy_e2a">
-                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552826" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215482683948" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -894,7 +2114,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552826" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215482683948" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -903,6 +2123,143 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Block Action List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="343" />
+                <property name="caretXRelative" value="160" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox)/5539851215483384422" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483384480" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/Page">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="211" />
+                <property name="caretXRelative" value="160" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text">
+                  <node node_reference="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/5539851215483267175" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/3718931146099002800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Page List">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="300">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy.sandbox/Teasy.sandbox/Configuration">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Teasy/Teasy.structure/Pages">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="107" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959616" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3718931146098959615" />
         </state>
       </provider>
     </entry>

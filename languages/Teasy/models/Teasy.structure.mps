@@ -49,6 +49,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -57,10 +60,18 @@
   <node concept="1TIwiD" id="GEdEPdQOJV">
     <property role="EcuMT" value="804515601402514427" />
     <property role="TrG5h" value="Configuration" />
-    <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Configuration File" />
+    <property role="34LRSv" value="Configuration" />
     <property role="R4oN_" value="This file is for configuration test" />
+    <property role="3GE5qa" value="CONFIGURATION" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZkdt1" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481919297" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ROOT_PAGE_SYSTEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
+    </node>
     <node concept="1TJgyi" id="GEdEPdQPcY" role="1TKVEl">
       <property role="IQ2nx" value="804515601402516286" />
       <property role="TrG5h" value="GENERATION_USE_SPECIFIED_FLOWS" />
@@ -96,47 +107,34 @@
       <property role="TrG5h" value="MAXIMUM_TEST_SEQUENCES" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyj" id="GEdEPdQPcT" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402516281" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ROOT_PAGE_SYSTEM" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Declaration" />
-    </node>
-    <node concept="1TJgyj" id="GEdEPdQPcV" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402516283" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="SYSTEM_ACTOR" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
-    </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOJW">
     <property role="EcuMT" value="804515601402514428" />
-    <property role="TrG5h" value="Declaration" />
-    <property role="34LRSv" value="Declaration File" />
+    <property role="TrG5h" value="Page" />
+    <property role="34LRSv" value="Page File" />
     <property role="R4oN_" value="This file represents a system page file" />
+    <property role="3GE5qa" value="SUT" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="GEdEPdQPdx" role="1TKVEi">
       <property role="IQ2ns" value="804515601402516321" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="VERIFIER_ELEMENT" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+      <property role="20kJfa" value="VERIFIERS_ELEMENT" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="4NxwlgZjVao" resolve="VerifierElementListToReferences" />
     </node>
     <node concept="1TJgyj" id="GEdEPdQPdz" role="1TKVEi">
       <property role="IQ2ns" value="804515601402516323" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ACTION" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+      <property role="20kJfa" value="ACTIONS" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="4NxwlgZcBkh" resolve="ActionListToReferences" />
     </node>
     <node concept="1TJgyj" id="GEdEPdQPdA" role="1TKVEi">
       <property role="IQ2ns" value="804515601402516326" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="BLOCK_ACTION" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="4NxwlgZfrdP" resolve="BlockActionListToReferences" />
     </node>
     <node concept="PrWs8" id="GEdEPdQOK6" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -147,6 +145,7 @@
     <property role="TrG5h" value="Actor" />
     <property role="34LRSv" value="Actor" />
     <property role="R4oN_" value="This class represents of the actor in system" />
+    <property role="3GE5qa" value="ACTORS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5xyw3xREHYg" role="1TKVEl">
       <property role="IQ2nx" value="6368793803069513616" />
@@ -167,6 +166,7 @@
     <property role="TrG5h" value="VerifierElement" />
     <property role="34LRSv" value="Verifier Element" />
     <property role="R4oN_" value="Element in the page to verifier system status" />
+    <property role="3GE5qa" value="VERIFIER ELEMENTS" />
     <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPdJ" role="1TKVEl">
       <property role="IQ2nx" value="804515601402516335" />
@@ -184,38 +184,40 @@
     <property role="TrG5h" value="Action" />
     <property role="34LRSv" value="Action" />
     <property role="R4oN_" value="This file dispatcher a action in system" />
+    <property role="3GE5qa" value="ACTIONS" />
     <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
+    <node concept="1TJgyj" id="4NxwlgZliuM" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215482202034" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="NEXT_PAGE_AFTER_ACTION_VALID_CASE" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
+    </node>
+    <node concept="1TJgyj" id="4NxwlgZliNG" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215482203372" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="NEXT_PAGE_AFTER_ACTION_INVALID_CASE" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
+    </node>
+    <node concept="1TJgyj" id="4NxwlgZliwN" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215482202163" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ELEMENT_TO_VERIFY_VALID_CASE" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+    <node concept="1TJgyj" id="4NxwlgZliG2" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215482202882" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ELEMENT_TO_VERIFY_INVALID_CASE" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
     <node concept="1TJgyi" id="GEdEPdQPKu" role="1TKVEl">
       <property role="IQ2nx" value="804515601402518558" />
       <property role="TrG5h" value="OBJECTIVE" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5xyw3xREHZA" role="1TKVEi">
-      <property role="IQ2ns" value="6368793803069513702" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ACTOR_CAN_EXECUTE_ACTION" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
-    </node>
-    <node concept="1TJgyj" id="GEdEPdQPKz" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402518563" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="NEXT_PAGE_AFTER_ACTION" />
-      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Declaration" />
-    </node>
-    <node concept="1TJgyj" id="GEdEPdQPK_" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402518565" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ELEMENT_VERIFIER_VALID_FLOW" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
-    </node>
-    <node concept="1TJgyj" id="GEdEPdQPKC" role="1TKVEi">
-      <property role="IQ2ns" value="804515601402518568" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ELEMENT_VERIFIER_INVALID_FLOW" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
     </node>
     <node concept="1TJgyj" id="GEdEPdQPKG" role="1TKVEi">
       <property role="IQ2ns" value="804515601402518572" />
@@ -230,12 +232,19 @@
       <property role="20kJfa" value="DATA_FOR_ACTION" />
       <ref role="20lvS9" node="GEdEPdQOKd" resolve="DataForAction" />
     </node>
+    <node concept="1TJgyj" id="4NxwlgZn88G" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215482683948" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ACTOR_CAN_EXECUTE_ACTION" />
+      <ref role="20lvS9" node="4NxwlgZeLpQ" resolve="ActorListToReferences" />
+    </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKa">
     <property role="EcuMT" value="804515601402514442" />
     <property role="TrG5h" value="BlockAction" />
     <property role="34LRSv" value="Block Action" />
     <property role="R4oN_" value="This file contains actions to execute in sequence mode" />
+    <property role="3GE5qa" value="BLOCK ACTIONS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="GEdEPdQOKb" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -243,9 +252,9 @@
     <node concept="1TJgyj" id="GEdEPdQPKW" role="1TKVEi">
       <property role="IQ2ns" value="804515601402518588" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ACTION" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+      <property role="20kJfa" value="ACTIONS" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4NxwlgZcBkh" resolve="ActionListToReferences" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKd">
@@ -253,6 +262,7 @@
     <property role="TrG5h" value="DataForAction" />
     <property role="34LRSv" value="Data For Action" />
     <property role="R4oN_" value="This concept represents data for use in action" />
+    <property role="3GE5qa" value="DATA FOR ACTION" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5xyw3xRERyH" role="1TKVEi">
       <property role="IQ2ns" value="6368793803069552813" />
@@ -261,15 +271,13 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
     </node>
-    <node concept="PrWs8" id="GEdEPdQOKe" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKg">
     <property role="EcuMT" value="804515601402514448" />
     <property role="TrG5h" value="ActiveActionElement" />
     <property role="34LRSv" value="Active Action Element" />
     <property role="R4oN_" value="This file represents a element for active a action" />
+    <property role="3GE5qa" value="ACTIONS" />
     <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyi" id="GEdEPdQPL0" role="1TKVEl">
       <property role="IQ2nx" value="804515601402518592" />
@@ -282,6 +290,7 @@
     <property role="TrG5h" value="Flow" />
     <property role="34LRSv" value="Flow" />
     <property role="R4oN_" value="This file represents a flow for generate tests using the system described" />
+    <property role="3GE5qa" value="SUT FLOW" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="GEdEPdQOKn" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -291,7 +300,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="PAGE" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Declaration" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
     </node>
     <node concept="1TJgyj" id="67uri0niFHu" role="1TKVEi">
       <property role="IQ2ns" value="7052194051105930078" />
@@ -313,6 +322,7 @@
     <property role="PDuV0" value="true" />
     <property role="3lZH7k" value="derive_from_presentation" />
     <property role="Q2FuW" value="Choose a Identifier" />
+    <property role="3GE5qa" value="TYPES" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="GEdEPdQPdP" role="M5hS2">
       <property role="1uS6qv" value="ID" />
@@ -332,11 +342,17 @@
     <property role="TrG5h" value="DefaultElement" />
     <property role="34LRSv" value="DefaultElement" />
     <property role="R4oN_" value="This is a element father" />
+    <property role="3GE5qa" value="TYPES" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="67uri0niDTZ" role="1TKVEl">
       <property role="IQ2nx" value="7052194051105922687" />
-      <property role="TrG5h" value="IDENTIFIER" />
+      <property role="TrG5h" value="IDENTIFIERTYPE" />
       <ref role="AX2Wp" node="GEdEPdQPdO" resolve="identifier" />
+    </node>
+    <node concept="1TJgyi" id="3esj2LNnmk9" role="1TKVEl">
+      <property role="IQ2nx" value="3718931146098959625" />
+      <property role="TrG5h" value="LOCAL" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="67uri0niDTX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -347,6 +363,7 @@
     <property role="TrG5h" value="ValidData" />
     <property role="34LRSv" value="Valid data" />
     <property role="R4oN_" value="For insert valid data" />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5xyw3xRERyz" role="1TKVEl">
       <property role="IQ2nx" value="6368793803069552803" />
@@ -359,6 +376,7 @@
     <property role="TrG5h" value="InvalidData" />
     <property role="34LRSv" value="Invalid data" />
     <property role="R4oN_" value="This concept represents invalid data for use in data for action file" />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5xyw3xRERyA" role="1TKVEl">
       <property role="IQ2nx" value="6368793803069552806" />
@@ -371,6 +389,7 @@
     <property role="TrG5h" value="ElementToReceiveData" />
     <property role="34LRSv" value="Element to receive data" />
     <property role="R4oN_" value="This concept represents for " />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
     <ref role="1TJDcQ" node="67uri0niDTW" resolve="DefaultElement" />
     <node concept="1TJgyj" id="5xyw3xRERyM" role="1TKVEi">
       <property role="IQ2ns" value="6368793803069552818" />
@@ -385,6 +404,255 @@
       <property role="20kJfa" value="INVALID_DATA" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="5xyw3xRERy_" resolve="InvalidData" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3esj2LNnc8H">
+    <property role="EcuMT" value="3718931146098917933" />
+    <property role="TrG5h" value="ActorListToImplement" />
+    <property role="34LRSv" value="Actor List" />
+    <property role="R4oN_" value="This concept contains a Actor list for use the system" />
+    <property role="3GE5qa" value="ACTORS" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3esj2LNnc8K" role="1TKVEi">
+      <property role="IQ2ns" value="3718931146098917936" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="ACTORS" />
+      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3esj2LNnmjZ">
+    <property role="EcuMT" value="3718931146098959615" />
+    <property role="TrG5h" value="PageListToImplement" />
+    <property role="34LRSv" value="Page List" />
+    <property role="R4oN_" value="Represents a set pages in the system" />
+    <property role="3GE5qa" value="SUT" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3esj2LNnmk0" role="1TKVEi">
+      <property role="IQ2ns" value="3718931146098959616" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="PAGES" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3esj2LNnmp1">
+    <property role="EcuMT" value="3718931146098959937" />
+    <property role="3GE5qa" value="VERIFIER ELEMENTS" />
+    <property role="TrG5h" value="VerifierElementListToImplement" />
+    <property role="34LRSv" value="Verifier Element List" />
+    <property role="R4oN_" value="List for register a verifier element" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3esj2LNnmp2" role="1TKVEi">
+      <property role="IQ2ns" value="3718931146098959938" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="VERIFIERS" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZaThs">
+    <property role="EcuMT" value="5539851215479477340" />
+    <property role="3GE5qa" value="ACTIONS" />
+    <property role="TrG5h" value="ActionItemList" />
+    <property role="34LRSv" value="Action Item List" />
+    <property role="R4oN_" value="Action item to insert in action list with references for Action" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZaTht" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215479477341" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ACTION_ITEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZaThv">
+    <property role="EcuMT" value="5539851215479477343" />
+    <property role="3GE5qa" value="ACTIONS" />
+    <property role="TrG5h" value="ActionListToImplement" />
+    <property role="34LRSv" value="Action List" />
+    <property role="R4oN_" value="List of the actions using action item" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZaThw" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215479477344" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ACTIONS" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZcBkh">
+    <property role="EcuMT" value="5539851215479928081" />
+    <property role="3GE5qa" value="ACTIONS" />
+    <property role="TrG5h" value="ActionListToReferences" />
+    <property role="34LRSv" value="Action List to References" />
+    <property role="R4oN_" value="Action List to References the ActionListToImplement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZcBki" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215479928082" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="ACTION_ITEMS" />
+      <ref role="20lvS9" node="4NxwlgZaThs" resolve="ActionItemList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZeLpQ">
+    <property role="EcuMT" value="5539851215480493686" />
+    <property role="TrG5h" value="ActorListToReferences" />
+    <property role="34LRSv" value="Actor List to References" />
+    <property role="R4oN_" value="This concept contains a Actor items refences for use the system" />
+    <property role="3GE5qa" value="ACTORS" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZeLpR" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215480493687" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="ACTORS_ITEMS" />
+      <ref role="20lvS9" node="4NxwlgZeLpS" resolve="ActorItemList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZeLpS">
+    <property role="EcuMT" value="5539851215480493688" />
+    <property role="TrG5h" value="ActorItemList" />
+    <property role="34LRSv" value="Actor" />
+    <property role="R4oN_" value="This class represents of the actor references in system" />
+    <property role="3GE5qa" value="ACTORS" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZeLpX" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215480493693" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ACTOR_ITEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
+    </node>
+    <node concept="PrWs8" id="4NxwlgZeLpV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZfrdM">
+    <property role="EcuMT" value="5539851215480664946" />
+    <property role="3GE5qa" value="BLOCK ACTIONS" />
+    <property role="TrG5h" value="BlockActionListToImplement" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Block Action List" />
+    <property role="R4oN_" value="List to register block actions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZfrdN" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215480664947" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="BLOCK_ACTIONS" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZfrdP">
+    <property role="EcuMT" value="5539851215480664949" />
+    <property role="3GE5qa" value="BLOCK ACTIONS" />
+    <property role="TrG5h" value="BlockActionListToReferences" />
+    <property role="34LRSv" value="Block Action List to References" />
+    <property role="R4oN_" value="List of the Block Actions for references" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZfrsc" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215480665868" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="BLOCK_ACTIONS_ITEM" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4NxwlgZfrdQ" resolve="BlockActionItemList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZfrdQ">
+    <property role="EcuMT" value="5539851215480664950" />
+    <property role="3GE5qa" value="BLOCK ACTIONS" />
+    <property role="TrG5h" value="BlockActionItemList" />
+    <property role="34LRSv" value="Item of the Block Action" />
+    <property role="R4oN_" value="Item of the Block Action for References" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZfrdR" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215480664951" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="BLOCK_ACTION_ITEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZhJAN">
+    <property role="EcuMT" value="5539851215481272755" />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
+    <property role="TrG5h" value="ElementToReceiveDataListToImplement" />
+    <property role="34LRSv" value="Element to Receive Data List" />
+    <property role="R4oN_" value="List of the receive data elements" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZhJC9" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481272841" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="1..n" />
+      <property role="20kJfa" value="ELEMENTS_TO_RECEIVE_DATA" />
+      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZhJAO">
+    <property role="EcuMT" value="5539851215481272756" />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
+    <property role="TrG5h" value="ElementToReceiveDataListToReferences" />
+    <property role="34LRSv" value="Element to receive data list references" />
+    <property role="R4oN_" value="for use in others archives to references" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZhJAS" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481272760" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ELEMENTS_TO_RECEIVE_DATA" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4NxwlgZhJAP" resolve="ElementToReceiveDataItemList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZhJAP">
+    <property role="EcuMT" value="5539851215481272757" />
+    <property role="3GE5qa" value="ELEMENT TO RECEIVE DATA" />
+    <property role="TrG5h" value="ElementToReceiveDataItemList" />
+    <property role="34LRSv" value="Element to receive data item list" />
+    <property role="R4oN_" value="For use in list elements receive data list" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZhJAQ" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481272758" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ELEMENT_TO_RECEIVE_DATA_ITEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZjVao">
+    <property role="EcuMT" value="5539851215481844376" />
+    <property role="3GE5qa" value="VERIFIER ELEMENTS" />
+    <property role="TrG5h" value="VerifierElementListToReferences" />
+    <property role="34LRSv" value="Verifier element list to references" />
+    <property role="R4oN_" value="for use in other concept for references verifiers elements" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZjVbp" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481844441" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="VERIFIER_ELEMENTS_ITEMS" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4NxwlgZjVap" resolve="VerifierElementItemList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZjVap">
+    <property role="EcuMT" value="5539851215481844377" />
+    <property role="3GE5qa" value="VERIFIER ELEMENTS" />
+    <property role="TrG5h" value="VerifierElementItemList" />
+    <property role="34LRSv" value="Verifier Element item list to references" />
+    <property role="R4oN_" value="For use in references list" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZjVaq" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215481844378" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="VERIFIER_ELEMENT_ITEM" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
     </node>
   </node>
 </model>
