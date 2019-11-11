@@ -37,6 +37,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptElementToReceiveDataListToImplement = createDescriptorForElementToReceiveDataListToImplement();
   /*package*/ final ConceptDescriptor myConceptElementToReceiveDataListToReferences = createDescriptorForElementToReceiveDataListToReferences();
   /*package*/ final ConceptDescriptor myConceptFlow = createDescriptorForFlow();
+  /*package*/ final ConceptDescriptor myConceptFlowListToImplement = createDescriptorForFlowListToImplement();
   /*package*/ final ConceptDescriptor myConceptInvalidData = createDescriptorForInvalidData();
   /*package*/ final ConceptDescriptor myConceptPage = createDescriptorForPage();
   /*package*/ final ConceptDescriptor myConceptPageListToImplement = createDescriptorForPageListToImplement();
@@ -60,7 +61,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptConfiguration, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptFlow, myConceptInvalidData, myConceptPage, myConceptPageListToImplement, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences);
+    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptConfiguration, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptFlow, myConceptFlowListToImplement, myConceptInvalidData, myConceptPage, myConceptPageListToImplement, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences);
   }
 
   @Override
@@ -109,6 +110,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptElementToReceiveDataListToReferences;
       case LanguageConceptSwitch.Flow:
         return myConceptFlow;
+      case LanguageConceptSwitch.FlowListToImplement:
+        return myConceptFlowListToImplement;
       case LanguageConceptSwitch.InvalidData:
         return myConceptInvalidData;
       case LanguageConceptSwitch.Page:
@@ -201,6 +204,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("USERNAME", 0x5862803877aadf90L).type(PrimitiveTypeId.STRING).origin("6368793803069513616").done();
     b.property("PASSWORD", 0x5862803877aadf95L).type(PrimitiveTypeId.STRING).origin("6368793803069513621").done();
+    b.associate("ELEMENT_TO_RECEIVE_DATA_USERNAME", 0x4ce181543f7e3b90L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78b1L).optional(false).origin("5539851215484894096").done();
+    b.associate("ELEMENT_TO_RECEIVE_DATA_PASSWORD", 0x4ce181543f7e3b92L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78b1L).optional(false).origin("5539851215484894098").done();
     b.alias("Actor");
     return b.create();
   }
@@ -290,7 +295,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514445");
     b.version(2);
-    b.aggregate("ELEMENT_TO_RECEIVE_DATA", 0x5862803877ab78adL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78b1L).optional(false).ordered(true).multiple(true).origin("6368793803069552813").done();
+    b.aggregate("ELEMENT_TO_RECEIVE_DATA", 0x5862803877ab78adL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f46f9b4L).optional(false).ordered(true).multiple(true).origin("6368793803069552813").done();
     b.alias("Data For Action");
     return b.create();
   }
@@ -349,10 +354,20 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514454");
     b.version(2);
-    b.aggregate("PAGE", 0x61de6d20174abb58L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(false).ordered(true).multiple(true).origin("7052194051105930072").done();
-    b.aggregate("ACTION", 0x61de6d20174abb5eL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c03L).optional(true).ordered(true).multiple(true).origin("7052194051105930078").done();
-    b.aggregate("BLOCK_ACTION", 0x5862803877aadff8L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c0aL).optional(true).ordered(true).multiple(true).origin("6368793803069513720").done();
+    b.associate("PAGES", 0x4ce181543f73c32fL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(false).origin("5539851215484207919").done();
+    b.associate("ACTOR", 0x4ce181543f73c337L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bffL).optional(true).origin("5539851215484207927").done();
+    b.associate("ACTION", 0x4ce181543f73c33cL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c03L).optional(true).origin("5539851215484207932").done();
+    b.associate("BLOCK_ACTION", 0x4ce181543f73c342L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c0aL).optional(true).origin("5539851215484207938").done();
     b.alias("Flow");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForFlowListToImplement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "FlowListToImplement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f75d2a8L);
+    b.class_(false, false, true);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5539851215484342952");
+    b.version(2);
+    b.aggregate("FLOWS", 0x4ce181543f75d2a9L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c16L).optional(false).ordered(true).multiple(true).origin("5539851215484342953").done();
+    b.alias("Flow List");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInvalidData() {

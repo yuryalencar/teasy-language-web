@@ -90,6 +90,24 @@
         <property role="1$x2rV" value="Insert Username Actor here" />
         <ref role="1NtTu8" to="57va:5xyw3xREHYg" resolve="USERNAME" />
       </node>
+      <node concept="3F0ifn" id="4NxwlgZvzIx" role="3EZMnx">
+        <property role="3F0ifm" value="ELEMENT TO INSERT USERNAME:" />
+        <node concept="pVoyu" id="4NxwlgZvzJi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZvzJk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZvzIV" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZvzIg" resolve="ELEMENT_TO_RECEIVE_DATA_USERNAME" />
+        <node concept="1sVBvm" id="4NxwlgZvzIX" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZvzJf" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="3esj2LNmRpq" role="3EZMnx">
         <property role="3F0ifm" value="PASSWORD:" />
         <node concept="pVoyu" id="3esj2LNmRpS" role="3F10Kt">
@@ -101,6 +119,24 @@
       </node>
       <node concept="3F0A7n" id="3esj2LNmRpG" role="3EZMnx">
         <ref role="1NtTu8" to="57va:5xyw3xREHYl" resolve="PASSWORD" />
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZvzJD" role="3EZMnx">
+        <property role="3F0ifm" value="ELEMENT TO INSERT PASSWORD:" />
+        <node concept="pVoyu" id="4NxwlgZvzKG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZvzKI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZvzKf" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZvzIi" resolve="ELEMENT_TO_RECEIVE_DATA_PASSWORD" />
+        <node concept="1sVBvm" id="4NxwlgZvzKh" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZvzKD" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="3esj2LNmRlU" role="2iSdaV" />
     </node>
@@ -1356,7 +1392,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4NxwlgZkdEO" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:GEdEPdQPdp" resolve="MAXIMUM_TEST_SEQUENCES" />
+        <ref role="1NtTu8" to="57va:GEdEPdQPdi" resolve="GENERATE_TEST_SEQUENCES" />
       </node>
       <node concept="3F0ifn" id="4NxwlgZkdFO" role="3EZMnx">
         <property role="3F0ifm" value="MAXIMUM OF THE TEST SEQUENCES TO GENERATE:" />
@@ -1633,6 +1669,133 @@
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZpNax" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NxwlgZsWe4">
+    <property role="3GE5qa" value="SUT FLOW" />
+    <ref role="1XX52x" to="57va:GEdEPdQOKm" resolve="Flow" />
+    <node concept="3EZMnI" id="4NxwlgZsWe9" role="2wV5jI">
+      <node concept="3F0ifn" id="4NxwlgZtt9A" role="3EZMnx">
+        <property role="3F0ifm" value="FLOW NAME:" />
+      </node>
+      <node concept="3F0A7n" id="4NxwlgZttae" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZsWeb" role="3EZMnx">
+        <property role="3F0ifm" value="IN PAGE " />
+        <node concept="pVoyu" id="4NxwlgZttaz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZtta_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZsWej" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZsWcJ" resolve="PAGES" />
+        <node concept="1sVBvm" id="4NxwlgZsWel" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZsWet" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZsWeA" role="3EZMnx">
+        <property role="3F0ifm" value="EXECUTE THIS " />
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZsWeO" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZsWcW" resolve="ACTION" />
+        <node concept="1sVBvm" id="4NxwlgZsWeQ" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZsWf2" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZsWff" role="3EZMnx">
+        <property role="3F0ifm" value=" ACTION OR " />
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZsWgA" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZsWd2" resolve="BLOCK_ACTION" />
+        <node concept="1sVBvm" id="4NxwlgZsWgC" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZsWgW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZsWhh" role="3EZMnx">
+        <property role="3F0ifm" value=" USING " />
+      </node>
+      <node concept="1iCGBv" id="4NxwlgZsWf_" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZsWcR" resolve="ACTOR" />
+        <node concept="1sVBvm" id="4NxwlgZsWfB" role="1sWHZn">
+          <node concept="3F0A7n" id="4NxwlgZsWfR" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZsWg8" role="3EZMnx">
+        <property role="3F0ifm" value="WITH ACTOR" />
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZttda" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="4NxwlgZttdy" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4NxwlgZsWec" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4NxwlgZttb4">
+    <property role="3GE5qa" value="SUT FLOW" />
+    <ref role="1XX52x" to="57va:4NxwlgZttaC" resolve="FlowListToImplement" />
+    <node concept="3EZMnI" id="4NxwlgZttb6" role="2wV5jI">
+      <node concept="3F0ifn" id="4NxwlgZttbd" role="3EZMnx">
+        <property role="3F0ifm" value="FLOWS" />
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZttbj" role="3EZMnx">
+        <property role="3F0ifm" value="#START FLOWS" />
+        <node concept="pVoyu" id="4NxwlgZttbY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZttc0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VechU" id="4NxwlgZttcl" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+        <node concept="Vb9p2" id="4NxwlgZttcm" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4NxwlgZttb_" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4NxwlgZttaD" resolve="FLOWS" />
+        <node concept="2iRkQZ" id="4NxwlgZttbC" role="2czzBx" />
+        <node concept="VPM3Z" id="4NxwlgZttbD" role="3F10Kt" />
+        <node concept="pVoyu" id="4NxwlgZttc3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZttc6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4NxwlgZttbQ" role="3EZMnx">
+        <property role="3F0ifm" value="#END FLOWS" />
+        <node concept="pVoyu" id="4NxwlgZttca" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4NxwlgZttcc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VechU" id="4NxwlgZttcf" role="3F10Kt">
+          <property role="Vb096" value="blue" />
+        </node>
+        <node concept="Vb9p2" id="4NxwlgZttcg" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4NxwlgZttb9" role="2iSdaV" />
     </node>
   </node>
 </model>

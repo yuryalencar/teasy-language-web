@@ -30,6 +30,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ElementToReceiveDataListToImplement;
   private ConceptPresentation props_ElementToReceiveDataListToReferences;
   private ConceptPresentation props_Flow;
+  private ConceptPresentation props_FlowListToImplement;
   private ConceptPresentation props_InvalidData;
   private ConceptPresentation props_Page;
   private ConceptPresentation props_PageListToImplement;
@@ -212,6 +213,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Flow = cpb.create();
         }
         return props_Flow;
+      case LanguageConceptSwitch.FlowListToImplement:
+        if (props_FlowListToImplement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("List of the flows to execute");
+          cpb.rawPresentation("Flow List");
+          props_FlowListToImplement = cpb.create();
+        }
+        return props_FlowListToImplement;
       case LanguageConceptSwitch.InvalidData:
         if (props_InvalidData == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

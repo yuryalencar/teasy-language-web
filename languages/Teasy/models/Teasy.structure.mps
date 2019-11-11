@@ -147,6 +147,20 @@
     <property role="R4oN_" value="This class represents of the actor in system" />
     <property role="3GE5qa" value="ACTORS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZvzIg" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484894096" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ELEMENT_TO_RECEIVE_DATA_USERNAME" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+    </node>
+    <node concept="1TJgyj" id="4NxwlgZvzIi" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484894098" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ELEMENT_TO_RECEIVE_DATA_PASSWORD" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+    </node>
     <node concept="1TJgyi" id="5xyw3xREHYg" role="1TKVEl">
       <property role="IQ2nx" value="6368793803069513616" />
       <property role="TrG5h" value="USERNAME" />
@@ -269,7 +283,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="ELEMENT_TO_RECEIVE_DATA" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="5xyw3xRERyL" resolve="ElementToReceiveData" />
+      <ref role="20lvS9" node="4NxwlgZhJAO" resolve="ElementToReceiveDataListToReferences" />
     </node>
   </node>
   <node concept="1TIwiD" id="GEdEPdQOKg">
@@ -292,29 +306,33 @@
     <property role="R4oN_" value="This file represents a flow for generate tests using the system described" />
     <property role="3GE5qa" value="SUT FLOW" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="GEdEPdQOKn" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="67uri0niFHo" role="1TKVEi">
-      <property role="IQ2ns" value="7052194051105930072" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="PAGE" />
-      <property role="20lbJX" value="1..n" />
+    <node concept="1TJgyj" id="4NxwlgZsWcJ" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484207919" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="PAGES" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="GEdEPdQOJW" resolve="Page" />
     </node>
-    <node concept="1TJgyj" id="67uri0niFHu" role="1TKVEi">
-      <property role="IQ2ns" value="7052194051105930078" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..n" />
+    <node concept="1TJgyj" id="4NxwlgZsWcR" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484207927" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="ACTOR" />
+      <ref role="20lvS9" node="GEdEPdQOJZ" resolve="Actor" />
+    </node>
+    <node concept="1TJgyj" id="4NxwlgZsWcW" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484207932" />
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="ACTION" />
       <ref role="20lvS9" node="GEdEPdQOK3" resolve="Action" />
     </node>
-    <node concept="1TJgyj" id="5xyw3xREHZS" role="1TKVEi">
-      <property role="IQ2ns" value="6368793803069513720" />
-      <property role="20lmBu" value="aggregation" />
+    <node concept="1TJgyj" id="4NxwlgZsWd2" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484207938" />
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="BLOCK_ACTION" />
-      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="GEdEPdQOKa" resolve="BlockAction" />
+    </node>
+    <node concept="PrWs8" id="GEdEPdQOKn" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="AxPO7" id="GEdEPdQPdO">
@@ -653,6 +671,22 @@
       <property role="20kJfa" value="VERIFIER_ELEMENT_ITEM" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="GEdEPdQOK2" resolve="VerifierElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4NxwlgZttaC">
+    <property role="EcuMT" value="5539851215484342952" />
+    <property role="3GE5qa" value="SUT FLOW" />
+    <property role="TrG5h" value="FlowListToImplement" />
+    <property role="34LRSv" value="Flow List" />
+    <property role="R4oN_" value="List of the flows to execute" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4NxwlgZttaD" role="1TKVEi">
+      <property role="IQ2ns" value="5539851215484342953" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="FLOWS" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="GEdEPdQOKm" resolve="Flow" />
     </node>
   </node>
 </model>
