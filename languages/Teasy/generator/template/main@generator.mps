@@ -2,6 +2,7 @@
 <model ref="r:c462d32c-c5d1-40a1-b229-3f32c86acd58(main@generator)">
   <persistence version="9" />
   <languages>
+    <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>

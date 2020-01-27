@@ -11,11 +11,21 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspectBase" />
   </dependency>
+  <dependency className="Teasy.structure.EnumerationDescriptor_browsers">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.EnumerationLiteralsIndex" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptorBase" />
+  </dependency>
   <dependency className="Teasy.structure.EnumerationDescriptor_identifier">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Arrays" />
-    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.EnumerationLiteralsIndex" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.EnumerationDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
@@ -29,6 +39,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
   </dependency>
   <dependency className="Teasy.structure.StructureAspectDescriptor">
+    <classNode dependClassName="Teasy.structure.EnumerationDescriptor_browsers" />
     <classNode dependClassName="Teasy.structure.EnumerationDescriptor_identifier" />
     <classNode dependClassName="Teasy.structure.LanguageConceptSwitch" />
     <classNode dependClassName="java.lang.Override" />

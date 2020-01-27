@@ -14,13 +14,9 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyOrNode;
-import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -31,6 +27,8 @@ import java.util.Objects;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class InvalidData_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -72,16 +70,14 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a5L, 0x5862803877ab78a6L, "DATA");
+      final SProperty property = PROPS.DATA$gE0;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no DATA>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_DATA");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -95,5 +91,13 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
     } finally {
       getCellFactory().popCellContext();
     }
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty DATA$gE0 = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a5L, 0x5862803877ab78a6L, "DATA");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept PropertyAttribute$jT = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
   }
 }

@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -28,6 +27,8 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class BlockActionListToReferences_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -80,7 +81,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new BlockActionListToReferences_EditorBuilder_a.BLOCK_ACTIONS_ITEMListHandler_ggx6no_c0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new BLOCK_ACTIONS_ITEMListHandler_ggx6no_c0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_BLOCK_ACTIONS_ITEM");
     Style style = new StyleImpl();
@@ -105,10 +106,10 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L, 0x4ce181543f3db70cL, "BLOCK_ACTIONS_ITEM");
+      return LINKS.BLOCK_ACTIONS_ITEM$fag6;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db376L, "Teasy.structure.BlockActionItemList");
+      return CONCEPTS.BlockActionItemList$hX;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -118,7 +119,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(BLOCK_ACTIONS_ITEMListHandler_ggx6no_c0.this.getNode(), MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L, 0x4ce181543f3db70cL, "BLOCK_ACTIONS_ITEM")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(BLOCK_ACTIONS_ITEMListHandler_ggx6no_c0.this.getNode(), LINKS.BLOCK_ACTIONS_ITEM$fag6));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -152,5 +153,13 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink BLOCK_ACTIONS_ITEM$fag6 = MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L, 0x4ce181543f3db70cL, "BLOCK_ACTIONS_ITEM");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept BlockActionItemList$hX = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db376L, "Teasy.structure.BlockActionItemList");
   }
 }

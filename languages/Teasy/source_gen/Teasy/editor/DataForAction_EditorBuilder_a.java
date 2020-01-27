@@ -10,17 +10,13 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.openapi.editor.style.StyleRegistry;
-import jetbrains.mps.nodeEditor.MPSColors;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -28,6 +24,8 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class DataForAction_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -54,10 +52,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createRefNodeList_0());
-    editorCell.addEditorCell(createConstant_3());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -66,30 +61,8 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "ELEMENT TO RECEIVE DATA:");
-    editorCell.setCellId("Constant_jecckr_b0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "#START ELEMENTS TO RECEIVE DATA");
-    editorCell.setCellId("Constant_jecckr_c0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new DataForAction_EditorBuilder_a.ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_d0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_b0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_ELEMENT_TO_RECEIVE_DATA");
     Style style = new StyleImpl();
@@ -100,11 +73,11 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_d0 extends RefNodeListHandler {
+  private static class ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_b0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_d0(SNode ownerNode, EditorContext context) {
+    public ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_b0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -114,10 +87,10 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c0dL, 0x5862803877ab78adL, "ELEMENT_TO_RECEIVE_DATA");
+      return LINKS.ELEMENT_TO_RECEIVE_DATA$mn$8;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f46f9b4L, "Teasy.structure.ElementToReceiveDataListToReferences");
+      return CONCEPTS.ElementToReceiveDataListToReferences$nL;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -127,7 +100,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_d0.this.getNode(), MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c0dL, 0x5862803877ab78adL, "ELEMENT_TO_RECEIVE_DATA")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(ELEMENT_TO_RECEIVE_DATAListHandler_jecckr_b0.this.getNode(), LINKS.ELEMENT_TO_RECEIVE_DATA$mn$8));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -151,16 +124,12 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
       }
     }
   }
-  private EditorCell createConstant_3() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "#END ELEMENTS TO RECEIVE DATA");
-    editorCell.setCellId("Constant_jecckr_e0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-    style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.blue));
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink ELEMENT_TO_RECEIVE_DATA$mn$8 = MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c0dL, 0x5862803877ab78adL, "ELEMENT_TO_RECEIVE_DATA");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept ElementToReceiveDataListToReferences$nL = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f46f9b4L, "Teasy.structure.ElementToReceiveDataListToReferences");
   }
 }

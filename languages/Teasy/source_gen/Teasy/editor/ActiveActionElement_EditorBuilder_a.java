@@ -11,13 +11,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyOrNode;
-import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -31,6 +27,8 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class ActiveActionElement_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -75,16 +73,14 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+      final SProperty property = PROPS.name$tAp1;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no name>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_name");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -112,16 +108,14 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x61de6d20174a9e7cL, 0x61de6d20174a9e7fL, "IDENTIFIERTYPE");
+      final SProperty property = PROPS.IDENTIFIER_TYPE$pGsY;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no IDENTIFIERTYPE>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
-      editorCell.setCellId("property_IDENTIFIERTYPE");
+      editorCell.setDefaultText("<no IDENTIFIER_TYPE>");
+      editorCell.setCellId("property_IDENTIFIER_TYPE");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -137,7 +131,7 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
     }
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "LOCAL:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "TEXT TO IDENTIFY ELEMENT:");
     editorCell.setCellId("Constant_ayhxk6_e0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -149,16 +143,14 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   private EditorCell createProperty_2() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x61de6d20174a9e7cL, 0x339c4c2c735d6509L, "LOCAL");
+      final SProperty property = PROPS.TEXT_TO_IDENTIFY$AcOQ;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no LOCAL>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
-      editorCell.setCellId("property_LOCAL");
+      editorCell.setDefaultText("<no TEXT_TO_IDENTIFY>");
+      editorCell.setCellId("property_TEXT_TO_IDENTIFY");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -186,16 +178,14 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
   private EditorCell createProperty_3() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c10L, 0xb2a36ad4ddb5c40L, "IS_CLICKABLE");
+      final SProperty property = PROPS.IS_CLICKABLE$hPeJ;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no IS_CLICKABLE>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_IS_CLICKABLE");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -209,5 +199,16 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
     } finally {
       getCellFactory().popCellContext();
     }
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty IDENTIFIER_TYPE$pGsY = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x61de6d20174a9e7cL, 0x61de6d20174a9e7fL, "IDENTIFIER_TYPE");
+    /*package*/ static final SProperty TEXT_TO_IDENTIFY$AcOQ = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x61de6d20174a9e7cL, 0x339c4c2c735d6509L, "TEXT_TO_IDENTIFY");
+    /*package*/ static final SProperty IS_CLICKABLE$hPeJ = MetaAdapterFactory.getProperty(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c10L, 0xb2a36ad4ddb5c40L, "IS_CLICKABLE");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept PropertyAttribute$jT = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
   }
 }

@@ -30,6 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBlockActionListToImplement = createDescriptorForBlockActionListToImplement();
   /*package*/ final ConceptDescriptor myConceptBlockActionListToReferences = createDescriptorForBlockActionListToReferences();
   /*package*/ final ConceptDescriptor myConceptConfiguration = createDescriptorForConfiguration();
+  /*package*/ final ConceptDescriptor myConceptConfigurationOld = createDescriptorForConfigurationOld();
   /*package*/ final ConceptDescriptor myConceptDataForAction = createDescriptorForDataForAction();
   /*package*/ final ConceptDescriptor myConceptDefaultElement = createDescriptorForDefaultElement();
   /*package*/ final ConceptDescriptor myConceptElementToReceiveData = createDescriptorForElementToReceiveData();
@@ -46,6 +47,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptVerifierElementItemList = createDescriptorForVerifierElementItemList();
   /*package*/ final ConceptDescriptor myConceptVerifierElementListToImplement = createDescriptorForVerifierElementListToImplement();
   /*package*/ final ConceptDescriptor myConceptVerifierElementListToReferences = createDescriptorForVerifierElementListToReferences();
+  /*package*/ final EnumerationDescriptor myEnumerationbrowsers = new EnumerationDescriptor_browsers();
   /*package*/ final EnumerationDescriptor myEnumerationidentifier = new EnumerationDescriptor_identifier();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -61,7 +63,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptConfiguration, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptFlow, myConceptFlowListToImplement, myConceptInvalidData, myConceptPage, myConceptPageListToImplement, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences);
+    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptFlow, myConceptFlowListToImplement, myConceptInvalidData, myConceptPage, myConceptPageListToImplement, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences);
   }
 
   @Override
@@ -96,6 +98,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptBlockActionListToReferences;
       case LanguageConceptSwitch.Configuration:
         return myConceptConfiguration;
+      case LanguageConceptSwitch.ConfigurationOld:
+        return myConceptConfigurationOld;
       case LanguageConceptSwitch.DataForAction:
         return myConceptDataForAction;
       case LanguageConceptSwitch.DefaultElement:
@@ -135,7 +139,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationidentifier);
+    return Arrays.asList(myEnumerationbrowsers, myEnumerationidentifier);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -275,8 +279,20 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForConfiguration() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Configuration", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfbL);
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Configuration", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e115f171L);
     b.class_(false, false, true);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7168771041841770865");
+    b.version(2);
+    b.property("browser", 0x637c9747e115f172L).type(MetaIdFactory.dataTypeId(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e115f174L)).origin("7168771041841770866").done();
+    b.property("url_root_page", 0x637c9747e115f17fL).type(PrimitiveTypeId.STRING).origin("7168771041841770879").done();
+    b.property("time_to_wait", 0x637c9747e115f182L).type(PrimitiveTypeId.INTEGER).origin("7168771041841770882").done();
+    b.property("max_test_to_generate", 0x637c9747e115f186L).type(PrimitiveTypeId.INTEGER).origin("7168771041841770886").done();
+    b.alias("Configuration");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForConfigurationOld() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "ConfigurationOld", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfbL);
+    b.class_(false, false, false);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514427");
     b.version(2);
     b.property("GENERATION_USE_SPECIFIED_FLOWS", 0xb2a36ad4ddb533eL).type(PrimitiveTypeId.BOOLEAN).origin("804515601402516286").done();
@@ -286,7 +302,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("MAXIMUM_TEST_SCRIPTS", 0xb2a36ad4ddb534cL).type(PrimitiveTypeId.INTEGER).origin("804515601402516300").done();
     b.property("GENERATE_TEST_SEQUENCES", 0xb2a36ad4ddb5352L).type(PrimitiveTypeId.BOOLEAN).origin("804515601402516306").done();
     b.property("MAXIMUM_TEST_SEQUENCES", 0xb2a36ad4ddb5359L).type(PrimitiveTypeId.INTEGER).origin("804515601402516313").done();
-    b.associate("ROOT_PAGE_SYSTEM", 0x4ce181543f50d741L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(false).origin("5539851215481919297").done();
+    b.property("URL_ROOT_PAGE", 0x1baae46d0b7cbfb1L).type(PrimitiveTypeId.STRING).origin("1993656942060158897").done();
+    b.associate("LOGIN_PAGE", 0x1baae46d0b7b4e69L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(true).origin("1993656942060064361").done();
+    b.associate("ROOT_PAGE_SYSTEM", 0x1baae46d0b7e2b47L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(false).origin("1993656942060251975").done();
     b.alias("Configuration");
     return b.create();
   }
@@ -305,8 +323,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7052194051105922684");
     b.version(2);
-    b.property("IDENTIFIERTYPE", 0x61de6d20174a9e7fL).type(MetaIdFactory.dataTypeId(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb5374L)).origin("7052194051105922687").done();
-    b.property("LOCAL", 0x339c4c2c735d6509L).type(PrimitiveTypeId.STRING).origin("3718931146098959625").done();
+    b.property("IDENTIFIER_TYPE", 0x61de6d20174a9e7fL).type(MetaIdFactory.dataTypeId(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb5374L)).origin("7104666410623122226").done();
+    b.property("TEXT_TO_IDENTIFY", 0x339c4c2c735d6509L).type(PrimitiveTypeId.STRING).origin("3718931146098959625").done();
     b.alias("DefaultElement");
     return b.create();
   }
@@ -316,8 +334,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("Teasy.structure.DefaultElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x61de6d20174a9e7cL);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/6368793803069552817");
     b.version(2);
-    b.aggregate("VALID_DATA", 0x5862803877ab78b2L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a2L).optional(false).ordered(true).multiple(true).origin("6368793803069552818").done();
-    b.aggregate("INVALID_DATA", 0x5862803877ab78b4L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a5L).optional(false).ordered(true).multiple(true).origin("6368793803069552820").done();
+    b.property("IS_A_SELECT_ELEMENT", 0x1baae46d0b828af4L).type(PrimitiveTypeId.BOOLEAN).origin("1993656942060538612").done();
+    b.aggregate("VALID_DATA", 0x5862803877ab78b2L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a2L).optional(true).ordered(true).multiple(true).origin("6368793803069552818").done();
+    b.aggregate("INVALID_DATA", 0x5862803877ab78b4L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a5L).optional(true).ordered(true).multiple(true).origin("6368793803069552820").done();
     b.alias("Element to receive data");
     return b.create();
   }
@@ -385,7 +404,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514428");
     b.version(2);
-    b.aggregate("VERIFIERS_ELEMENT", 0xb2a36ad4ddb5361L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f4fb298L).optional(true).ordered(true).multiple(false).origin("804515601402516321").done();
     b.aggregate("ACTIONS", 0xb2a36ad4ddb5363L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f327511L).optional(true).ordered(true).multiple(false).origin("804515601402516323").done();
     b.aggregate("BLOCK_ACTION", 0xb2a36ad4ddb5366L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L).optional(true).ordered(true).multiple(false).origin("804515601402516326").done();
     b.alias("Page File");

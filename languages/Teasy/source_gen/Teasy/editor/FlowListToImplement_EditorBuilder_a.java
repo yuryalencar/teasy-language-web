@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -28,6 +27,8 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class FlowListToImplement_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -78,7 +79,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new FlowListToImplement_EditorBuilder_a.FLOWSListHandler_kgjvy0_c0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new FLOWSListHandler_kgjvy0_c0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_FLOWS");
     Style style = new StyleImpl();
@@ -103,10 +104,10 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f75d2a8L, 0x4ce181543f75d2a9L, "FLOWS");
+      return LINKS.FLOWS$Q6A0;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c16L, "Teasy.structure.Flow");
+      return CONCEPTS.Flow$WE;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -116,7 +117,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(FLOWSListHandler_kgjvy0_c0.this.getNode(), MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f75d2a8L, 0x4ce181543f75d2a9L, "FLOWS")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(FLOWSListHandler_kgjvy0_c0.this.getNode(), LINKS.FLOWS$Q6A0));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -151,5 +152,13 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink FLOWS$Q6A0 = MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f75d2a8L, 0x4ce181543f75d2a9L, "FLOWS");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Flow$WE = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c16L, "Teasy.structure.Flow");
   }
 }

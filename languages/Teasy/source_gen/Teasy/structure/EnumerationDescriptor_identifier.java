@@ -5,20 +5,23 @@ package Teasy.structure;
 import jetbrains.mps.smodel.runtime.EnumerationDescriptorBase;
 import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.runtime.EnumerationDescriptor;
+import jetbrains.mps.lang.smodel.EnumerationLiteralsIndex;
+import java.util.List;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.annotations.NotNull;
-import java.util.Collection;
-import java.util.Arrays;
 
 public class EnumerationDescriptor_identifier extends EnumerationDescriptorBase {
 
   public EnumerationDescriptor_identifier() {
-    super(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb5374L, "identifier", "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516340", PrimitiveTypeId.STRING);
+    super(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb5374L, "identifier", "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7104666410623122209", PrimitiveTypeId.STRING);
   }
 
-  private final EnumerationDescriptor.MemberDescriptor VALUE_ID_0 = new EnumerationDescriptor.MemberDescriptor("ID", "ID", "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516341", "ID");
-  private final EnumerationDescriptor.MemberDescriptor VALUE_XPATH_0 = new EnumerationDescriptor.MemberDescriptor("XPATH", "XPATH", "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516345", "XPATH");
-  private final EnumerationDescriptor.MemberDescriptor VALUE_CLASS_CSS_0 = new EnumerationDescriptor.MemberDescriptor("CLASS_CSS", "CLASS CSS", "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402516342", "CLASS CSS");
+  private final EnumerationDescriptor.MemberDescriptor myMember_ID_0 = new EnumerationDescriptor.MemberDescriptor("ID", "ID", 0xb2a36ad4ddb5375L, "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7104666410623122211", "ID", "ID");
+  private final EnumerationDescriptor.MemberDescriptor myMember_XPATH_0 = new EnumerationDescriptor.MemberDescriptor("XPATH", "XPATH", 0xb2a36ad4ddb5379L, "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7104666410623122212", "XPATH", "XPATH");
+  private final EnumerationDescriptor.MemberDescriptor myMember_CLASS_CSS_0 = new EnumerationDescriptor.MemberDescriptor("CLASS_CSS", "CLASS CSS", 0xb2a36ad4ddb5376L, "r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7104666410623122213", "CLASS CSS", "CLASS_CSS");
+
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb5374L, 0xb2a36ad4ddb5375L, 0xb2a36ad4ddb5379L, 0xb2a36ad4ddb5376L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ID_0, myMember_XPATH_0, myMember_CLASS_CSS_0);
 
   @Nullable
   @Override
@@ -28,24 +31,34 @@ public class EnumerationDescriptor_identifier extends EnumerationDescriptorBase 
 
   @NotNull
   @Override
-  public Collection<EnumerationDescriptor.MemberDescriptor> getMembers() {
-    return Arrays.asList(VALUE_ID_0, VALUE_XPATH_0, VALUE_CLASS_CSS_0);
+  public List<EnumerationDescriptor.MemberDescriptor> getMembers() {
+    return myMembers;
   }
 
   @Nullable
   @Override
-  public EnumerationDescriptor.MemberDescriptor getMember(@Nullable String string) {
-    if (string == null) {
+  public EnumerationDescriptor.MemberDescriptor getMember(@Nullable String memberName) {
+    if (memberName == null) {
       return null;
     }
-    switch (string) {
+    switch (memberName) {
       case "ID":
-        return VALUE_ID_0;
+        return myMember_ID_0;
       case "XPATH":
-        return VALUE_XPATH_0;
+        return myMember_XPATH_0;
       case "CLASS_CSS":
-        return VALUE_CLASS_CSS_0;
+        return myMember_CLASS_CSS_0;
     }
     return null;
+  }
+
+  @Nullable
+  @Override
+  public EnumerationDescriptor.MemberDescriptor getMember(long idValue) {
+    int index = myIndex.index(idValue);
+    if (index == -1) {
+      return null;
+    }
+    return myMembers.get(index);
   }
 }

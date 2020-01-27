@@ -44,7 +44,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 12:
         return Collections.<ConceptEditor>singletonList(new BlockActionListToReferences_Editor());
       case 13:
-        return Collections.<ConceptEditor>singletonList(new Configuration_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConfigurationOld_Editor());
       case 14:
         return Collections.<ConceptEditor>singletonList(new DataForAction_Editor());
       case 15:

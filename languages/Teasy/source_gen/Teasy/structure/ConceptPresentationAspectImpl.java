@@ -23,6 +23,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BlockActionListToImplement;
   private ConceptPresentation props_BlockActionListToReferences;
   private ConceptPresentation props_Configuration;
+  private ConceptPresentation props_ConfigurationOld;
   private ConceptPresentation props_DataForAction;
   private ConceptPresentation props_DefaultElement;
   private ConceptPresentation props_ElementToReceiveData;
@@ -152,11 +153,19 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Configuration:
         if (props_Configuration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("This file is for configuration test");
+          cpb.shortDesc("Configuration for running tests");
           cpb.rawPresentation("Configuration");
           props_Configuration = cpb.create();
         }
         return props_Configuration;
+      case LanguageConceptSwitch.ConfigurationOld:
+        if (props_ConfigurationOld == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This file is for configuration test");
+          cpb.rawPresentation("Configuration");
+          props_ConfigurationOld = cpb.create();
+        }
+        return props_ConfigurationOld;
       case LanguageConceptSwitch.DataForAction:
         if (props_DataForAction == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

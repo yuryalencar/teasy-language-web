@@ -2,7 +2,7 @@
 <model ref="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -163,10 +163,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiPms" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiPmt" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="3esj2LNnkaq" role="3EZMnx">
@@ -189,10 +189,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiPmy" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiPmz" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="3esj2LNnc9j" role="2iSdaV" />
@@ -218,10 +218,10 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3esj2LNnmlU" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:67uri0niDTZ" resolve="IDENTIFIERTYPE" />
+        <ref role="1NtTu8" to="57va:6aoQ7lkPNGM" resolve="IDENTIFIER_TYPE" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnmmd" role="3EZMnx">
-        <property role="3F0ifm" value="LOCAL:" />
+        <property role="3F0ifm" value="TEXT TO IDENTIFY ELEMENT:" />
         <node concept="pVoyu" id="3esj2LNnmmD" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -230,7 +230,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3esj2LNnmmv" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="LOCAL" />
+        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="TEXT_TO_IDENTIFY" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnmmU" role="3EZMnx">
         <property role="3F0ifm" value="IS A TEMPORARY ELEMENT: " />
@@ -275,10 +275,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZjE0y" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZjE0z" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="3esj2LNnmpP" role="3EZMnx">
@@ -301,10 +301,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZjE0C" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZjE0D" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="3esj2LNnmpy" role="2iSdaV" />
@@ -331,10 +331,10 @@
       </node>
       <node concept="l2Vlx" id="3esj2LNnq14" role="2iSdaV" />
       <node concept="3F0A7n" id="3esj2LNnq1w" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:67uri0niDTZ" resolve="IDENTIFIERTYPE" />
+        <ref role="1NtTu8" to="57va:6aoQ7lkPNGM" resolve="IDENTIFIER_TYPE" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnq1J" role="3EZMnx">
-        <property role="3F0ifm" value="LOCAL:" />
+        <property role="3F0ifm" value="TEXT TO IDENTIFY ELEMENT:" />
         <node concept="pVoyu" id="3esj2LNnq2N" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -343,7 +343,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3esj2LNnq1Z" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="LOCAL" />
+        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="TEXT_TO_IDENTIFY" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnq2h" role="3EZMnx">
         <property role="3F0ifm" value="IS CLICKABLE:" />
@@ -396,7 +396,7 @@
     <ref role="1XX52x" to="57va:5xyw3xRERyL" resolve="ElementToReceiveData" />
     <node concept="3EZMnI" id="3esj2LNnq59" role="2wV5jI">
       <node concept="3F0ifn" id="3esj2LNnq5g" role="3EZMnx">
-        <property role="3F0ifm" value="ELEMENT TO RECEIVED DATA:" />
+        <property role="3F0ifm" value="ELEMENT TO RECEIVED DATA NAME:" />
       </node>
       <node concept="3F0A7n" id="3esj2LNnq5m" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -411,10 +411,10 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3esj2LNnq5C" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:67uri0niDTZ" resolve="IDENTIFIERTYPE" />
+        <ref role="1NtTu8" to="57va:6aoQ7lkPNGM" resolve="IDENTIFIER_TYPE" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnq5O" role="3EZMnx">
-        <property role="3F0ifm" value="LOCAL:" />
+        <property role="3F0ifm" value="TEXT TO IDENTIFY ELEMENT:" />
         <node concept="pVoyu" id="3esj2LNnq8c" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -423,7 +423,19 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3esj2LNnq62" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="LOCAL" />
+        <ref role="1NtTu8" to="57va:3esj2LNnmk9" resolve="TEXT_TO_IDENTIFY" />
+      </node>
+      <node concept="3F0ifn" id="1IET6ObwCGE" role="3EZMnx">
+        <property role="3F0ifm" value="IS A SELECT ELEMENT:" />
+        <node concept="pVoyu" id="1IET6ObwCJa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="1IET6ObwCJc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="1IET6ObwCIk" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1IET6ObwCFO" resolve="IS_A_SELECT_ELEMENT" />
       </node>
       <node concept="3F0ifn" id="3esj2LNnq6B" role="3EZMnx">
         <property role="3F0ifm" value="INSERT SPECIFIC VALID DATA: " />
@@ -440,10 +452,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgZrl" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgZrm" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
         <node concept="lj46D" id="4NxwlgZgZrq" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -469,10 +481,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgZwT" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgZwU" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZgZtb" role="3EZMnx">
@@ -502,10 +514,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgZwN" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgZwO" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="3esj2LNnq7I" role="3EZMnx">
@@ -531,10 +543,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgZwH" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgZwI" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="3esj2LNnq5c" role="2iSdaV" />
@@ -547,30 +559,6 @@
       <node concept="3F0ifn" id="3esj2LNnqbp" role="3EZMnx">
         <property role="3F0ifm" value="DATA FOR ACTION:" />
       </node>
-      <node concept="3F0ifn" id="3esj2LNnqbJ" role="3EZMnx">
-        <property role="3F0ifm" value="ELEMENT TO RECEIVE DATA:" />
-        <node concept="pVoyu" id="3esj2LNnqeg" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="3esj2LNnqei" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4NxwlgZjDY$" role="3EZMnx">
-        <property role="3F0ifm" value="#START ELEMENTS TO RECEIVE DATA" />
-        <node concept="pVoyu" id="4NxwlgZjDZc" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="4NxwlgZjDZe" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="4NxwlgZjDZ$" role="3F10Kt">
-          <property role="Vb096" value="blue" />
-        </node>
-        <node concept="Vb9p2" id="4NxwlgZjDZ_" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
-        </node>
-      </node>
       <node concept="3F2HdR" id="3esj2LNnqdY" role="3EZMnx">
         <ref role="1NtTu8" to="57va:5xyw3xRERyH" resolve="ELEMENT_TO_RECEIVE_DATA" />
         <node concept="2iRkQZ" id="3esj2LNnqe1" role="2czzBx" />
@@ -580,21 +568,6 @@
         </node>
         <node concept="lj46D" id="3esj2LNnqec" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4NxwlgZjDYY" role="3EZMnx">
-        <property role="3F0ifm" value="#END ELEMENTS TO RECEIVE DATA" />
-        <node concept="pVoyu" id="4NxwlgZjDZv" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="4NxwlgZjDZx" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="4NxwlgZjDZE" role="3F10Kt">
-          <property role="Vb096" value="blue" />
-        </node>
-        <node concept="Vb9p2" id="4NxwlgZjDZF" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="3esj2LNnqbh" role="2iSdaV" />
@@ -610,45 +583,6 @@
       <node concept="3F0A7n" id="3esj2LNnwSr" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="4NxwlgZpmrQ" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-        <node concept="pVoyu" id="4NxwlgZpms8" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4NxwlgZpmst" role="3EZMnx">
-        <property role="3F0ifm" value="#START VERIFIER ELEMENTS" />
-        <node concept="pVoyu" id="4NxwlgZpmv3" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="4NxwlgZpmw6" role="3F10Kt">
-          <property role="Vb096" value="blue" />
-        </node>
-        <node concept="Vb9p2" id="4NxwlgZpmw7" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="4NxwlgZpmvy" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:GEdEPdQPdx" resolve="VERIFIERS_ELEMENT" />
-        <node concept="pVoyu" id="4NxwlgZpmvW" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="4NxwlgZpmvY" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4NxwlgZpmt5" role="3EZMnx">
-        <property role="3F0ifm" value="#END VERIFIER ELEMENTS" />
-        <node concept="pVoyu" id="4NxwlgZpmv5" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="4NxwlgZpmw1" role="3F10Kt">
-          <property role="Vb096" value="blue" />
-        </node>
-        <node concept="Vb9p2" id="4NxwlgZpmw2" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="4NxwlgZe$PT" role="3EZMnx">
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="4NxwlgZe$Q5" role="3F10Kt">
@@ -661,10 +595,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpmrr" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpmrs" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F1sOY" id="4NxwlgZdqEs" role="3EZMnx">
@@ -682,10 +616,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpmrw" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpmrx" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZpmwD" role="3EZMnx">
@@ -700,10 +634,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpm_q" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpm_r" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F1sOY" id="4NxwlgZpm$H" role="3EZMnx">
@@ -721,10 +655,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpm_v" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpm_w" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZr9lZ" role="3EZMnx">
@@ -749,10 +683,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbcX" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbcY" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZcdpR" role="3EZMnx">
@@ -772,10 +706,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbcS" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbcT" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZcdpH" role="2iSdaV" />
@@ -794,10 +728,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbdW" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbdX" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZcBkW" role="3EZMnx">
@@ -817,10 +751,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgJsa" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgJsb" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZcBkM" role="2iSdaV" />
@@ -861,10 +795,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiPlA" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiPlB" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
         <node concept="lj46D" id="4NxwlgZiPlF" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -890,10 +824,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiPmm" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiPmn" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZeLr9" role="2iSdaV" />
@@ -943,10 +877,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbah" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbai" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZfVcE" role="3EZMnx">
@@ -976,10 +910,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbap" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbaq" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZfren" role="2iSdaV" />
@@ -998,10 +932,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgb9T" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgba1" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZfroj" role="3EZMnx">
@@ -1021,10 +955,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgba9" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbaa" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZfro5" role="2iSdaV" />
@@ -1046,10 +980,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbaD" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbaE" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZfrpb" role="3EZMnx">
@@ -1069,10 +1003,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZgbax" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZgbay" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZfrp1" role="2iSdaV" />
@@ -1135,10 +1069,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZhJE9" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZhJEa" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZhJDd" role="3EZMnx">
@@ -1161,10 +1095,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZhJE3" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZhJE4" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZhJCD" role="2iSdaV" />
@@ -1186,10 +1120,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiinx" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiiny" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZiimr" role="3EZMnx">
@@ -1212,10 +1146,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZiinB" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZiinC" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZiilZ" role="2iSdaV" />
@@ -1259,10 +1193,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZkduB" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZkduC" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZkdtR" role="3EZMnx">
@@ -1285,10 +1219,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZkdux" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZkduy" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZkdt_" role="2iSdaV" />
@@ -1296,15 +1230,45 @@
   </node>
   <node concept="24kQdi" id="4NxwlgZkdv7">
     <property role="3GE5qa" value="CONFIGURATION" />
-    <ref role="1XX52x" to="57va:GEdEPdQOJV" resolve="Configuration" />
+    <ref role="1XX52x" to="57va:GEdEPdQOJV" resolve="ConfigurationOld" />
     <node concept="3EZMnI" id="4NxwlgZkdvh" role="2wV5jI">
       <node concept="3F0ifn" id="4NxwlgZkdvo" role="3EZMnx">
-        <property role="3F0ifm" value="ROOT PAGE IN SYSTEM:" />
+        <property role="3F0ifm" value="URL ROOT PAGE IN SYSTEM:" />
       </node>
-      <node concept="1iCGBv" id="4NxwlgZkdvu" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:4NxwlgZkdt1" resolve="ROOT_PAGE_SYSTEM" />
-        <node concept="1sVBvm" id="4NxwlgZkdvw" role="1sWHZn">
-          <node concept="3F0A7n" id="4NxwlgZkdvC" role="2wV5jI">
+      <node concept="3F0A7n" id="1IET6Obvc07" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1IET6ObvbYL" resolve="URL_ROOT_PAGE" />
+      </node>
+      <node concept="3F0ifn" id="1IET6ObvyHM" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="1IET6ObvyLc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1IET6ObvyJ4" role="3EZMnx">
+        <property role="3F0ifm" value="ROOT PAGE IN SYSTEM:" />
+        <node concept="pVoyu" id="1IET6ObvyLe" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="1IET6ObvyKo" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1IET6ObvyH7" resolve="ROOT_PAGE_SYSTEM" />
+        <node concept="1sVBvm" id="1IET6ObvyKq" role="1sWHZn">
+          <node concept="3F0A7n" id="1IET6ObvyL9" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1IET6ObuOUh" role="3EZMnx">
+        <property role="3F0ifm" value="LOGIN PAGE:" />
+        <node concept="pVoyu" id="1IET6ObuOWd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="1IET6ObuOVt" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1IET6ObuOTD" resolve="LOGIN_PAGE" />
+        <node concept="1sVBvm" id="1IET6ObuOVv" role="1sWHZn">
+          <node concept="3F0A7n" id="1IET6ObuOWa" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
@@ -1458,10 +1422,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZliun" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZliuo" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZlitu" role="3EZMnx">
@@ -1509,10 +1473,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZli_l" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZli_m" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
         <node concept="ljvvj" id="4NxwlgZli_r" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1533,10 +1497,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZliUf" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZliUg" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZliEG" role="3EZMnx">
@@ -1584,10 +1548,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZliUl" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZliUm" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZlj3u" role="3EZMnx">
@@ -1633,10 +1597,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpNcn" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpNco" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZpNaR" role="3EZMnx">
@@ -1656,10 +1620,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZpNch" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZpNci" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F0ifn" id="4NxwlgZpNbP" role="3EZMnx">
@@ -1763,10 +1727,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZttcl" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZttcm" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="3F2HdR" id="4NxwlgZttb_" role="3EZMnx">
@@ -1789,10 +1753,10 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="VechU" id="4NxwlgZttcf" role="3F10Kt">
-          <property role="Vb096" value="blue" />
+          <property role="Vb096" value="fLwANPu/blue" />
         </node>
         <node concept="Vb9p2" id="4NxwlgZttcg" role="3F10Kt">
-          <property role="Vbekb" value="ITALIC" />
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
         </node>
       </node>
       <node concept="l2Vlx" id="4NxwlgZttb9" role="2iSdaV" />
