@@ -29,6 +29,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptBlockActionItemList = createDescriptorForBlockActionItemList();
   /*package*/ final ConceptDescriptor myConceptBlockActionListToImplement = createDescriptorForBlockActionListToImplement();
   /*package*/ final ConceptDescriptor myConceptBlockActionListToReferences = createDescriptorForBlockActionListToReferences();
+  /*package*/ final ConceptDescriptor myConceptClickElement = createDescriptorForClickElement();
+  /*package*/ final ConceptDescriptor myConceptComponent = createDescriptorForComponent();
+  /*package*/ final ConceptDescriptor myConceptComponents = createDescriptorForComponents();
   /*package*/ final ConceptDescriptor myConceptConfiguration = createDescriptorForConfiguration();
   /*package*/ final ConceptDescriptor myConceptConfigurationOld = createDescriptorForConfigurationOld();
   /*package*/ final ConceptDescriptor myConceptDataForAction = createDescriptorForDataForAction();
@@ -37,18 +40,32 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptElementToReceiveDataItemList = createDescriptorForElementToReceiveDataItemList();
   /*package*/ final ConceptDescriptor myConceptElementToReceiveDataListToImplement = createDescriptorForElementToReceiveDataListToImplement();
   /*package*/ final ConceptDescriptor myConceptElementToReceiveDataListToReferences = createDescriptorForElementToReceiveDataListToReferences();
+  /*package*/ final ConceptDescriptor myConceptExecuteJavascript = createDescriptorForExecuteJavascript();
   /*package*/ final ConceptDescriptor myConceptFlow = createDescriptorForFlow();
   /*package*/ final ConceptDescriptor myConceptFlowListToImplement = createDescriptorForFlowListToImplement();
+  /*package*/ final ConceptDescriptor myConceptInputText = createDescriptorForInputText();
   /*package*/ final ConceptDescriptor myConceptInvalidData = createDescriptorForInvalidData();
+  /*package*/ final ConceptDescriptor myConceptKeyword = createDescriptorForKeyword();
+  /*package*/ final ConceptDescriptor myConceptKeywords = createDescriptorForKeywords();
   /*package*/ final ConceptDescriptor myConceptPage = createDescriptorForPage();
   /*package*/ final ConceptDescriptor myConceptPageListToImplement = createDescriptorForPageListToImplement();
+  /*package*/ final ConceptDescriptor myConceptPageShouldContain = createDescriptorForPageShouldContain();
+  /*package*/ final ConceptDescriptor myConceptPageShouldContainElement = createDescriptorForPageShouldContainElement();
+  /*package*/ final ConceptDescriptor myConceptPageShouldNotContain = createDescriptorForPageShouldNotContain();
+  /*package*/ final ConceptDescriptor myConceptPageShouldNotContainElement = createDescriptorForPageShouldNotContainElement();
+  /*package*/ final ConceptDescriptor myConceptStep = createDescriptorForStep();
   /*package*/ final ConceptDescriptor myConceptValidData = createDescriptorForValidData();
   /*package*/ final ConceptDescriptor myConceptVerifierElement = createDescriptorForVerifierElement();
   /*package*/ final ConceptDescriptor myConceptVerifierElementItemList = createDescriptorForVerifierElementItemList();
   /*package*/ final ConceptDescriptor myConceptVerifierElementListToImplement = createDescriptorForVerifierElementListToImplement();
   /*package*/ final ConceptDescriptor myConceptVerifierElementListToReferences = createDescriptorForVerifierElementListToReferences();
+  /*package*/ final ConceptDescriptor myConceptWaitForCondition = createDescriptorForWaitForCondition();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsEnabled = createDescriptorForWaitUntilElementIsEnabled();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsNotVisible = createDescriptorForWaitUntilElementIsNotVisible();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsVisible = createDescriptorForWaitUntilElementIsVisible();
   /*package*/ final EnumerationDescriptor myEnumerationbrowsers = new EnumerationDescriptor_browsers();
   /*package*/ final EnumerationDescriptor myEnumerationidentifier = new EnumerationDescriptor_identifier();
+  /*package*/ final EnumerationDescriptor myEnumerationselectors = new EnumerationDescriptor_selectors();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -63,7 +80,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptFlow, myConceptFlowListToImplement, myConceptInvalidData, myConceptPage, myConceptPageListToImplement, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences);
+    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptExecuteJavascript, myConceptFlow, myConceptFlowListToImplement, myConceptInputText, myConceptInvalidData, myConceptKeyword, myConceptKeywords, myConceptPage, myConceptPageListToImplement, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible);
   }
 
   @Override
@@ -96,6 +113,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptBlockActionListToImplement;
       case LanguageConceptSwitch.BlockActionListToReferences:
         return myConceptBlockActionListToReferences;
+      case LanguageConceptSwitch.ClickElement:
+        return myConceptClickElement;
+      case LanguageConceptSwitch.Component:
+        return myConceptComponent;
+      case LanguageConceptSwitch.Components:
+        return myConceptComponents;
       case LanguageConceptSwitch.Configuration:
         return myConceptConfiguration;
       case LanguageConceptSwitch.ConfigurationOld:
@@ -112,16 +135,34 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptElementToReceiveDataListToImplement;
       case LanguageConceptSwitch.ElementToReceiveDataListToReferences:
         return myConceptElementToReceiveDataListToReferences;
+      case LanguageConceptSwitch.ExecuteJavascript:
+        return myConceptExecuteJavascript;
       case LanguageConceptSwitch.Flow:
         return myConceptFlow;
       case LanguageConceptSwitch.FlowListToImplement:
         return myConceptFlowListToImplement;
+      case LanguageConceptSwitch.InputText:
+        return myConceptInputText;
       case LanguageConceptSwitch.InvalidData:
         return myConceptInvalidData;
+      case LanguageConceptSwitch.Keyword:
+        return myConceptKeyword;
+      case LanguageConceptSwitch.Keywords:
+        return myConceptKeywords;
       case LanguageConceptSwitch.Page:
         return myConceptPage;
       case LanguageConceptSwitch.PageListToImplement:
         return myConceptPageListToImplement;
+      case LanguageConceptSwitch.PageShouldContain:
+        return myConceptPageShouldContain;
+      case LanguageConceptSwitch.PageShouldContainElement:
+        return myConceptPageShouldContainElement;
+      case LanguageConceptSwitch.PageShouldNotContain:
+        return myConceptPageShouldNotContain;
+      case LanguageConceptSwitch.PageShouldNotContainElement:
+        return myConceptPageShouldNotContainElement;
+      case LanguageConceptSwitch.Step:
+        return myConceptStep;
       case LanguageConceptSwitch.ValidData:
         return myConceptValidData;
       case LanguageConceptSwitch.VerifierElement:
@@ -132,6 +173,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptVerifierElementListToImplement;
       case LanguageConceptSwitch.VerifierElementListToReferences:
         return myConceptVerifierElementListToReferences;
+      case LanguageConceptSwitch.WaitForCondition:
+        return myConceptWaitForCondition;
+      case LanguageConceptSwitch.WaitUntilElementIsEnabled:
+        return myConceptWaitUntilElementIsEnabled;
+      case LanguageConceptSwitch.WaitUntilElementIsNotVisible:
+        return myConceptWaitUntilElementIsNotVisible;
+      case LanguageConceptSwitch.WaitUntilElementIsVisible:
+        return myConceptWaitUntilElementIsVisible;
       default:
         return null;
     }
@@ -139,7 +188,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationbrowsers, myEnumerationidentifier);
+    return Arrays.asList(myEnumerationbrowsers, myEnumerationidentifier, myEnumerationselectors);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -278,6 +327,35 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Block Action List to References");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForClickElement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "ClickElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882605");
+    b.version(2);
+    b.associate("component", 0x1afad254c1f432b0L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636882608").done();
+    b.alias("Click Element");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForComponent() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Component", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/7168771041841939563");
+    b.version(2);
+    b.property("selector", 0x637c9747e118846eL).type(MetaIdFactory.dataTypeId(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e1188470L)).origin("7168771041841939566").done();
+    b.property("selector_value", 0x637c9747e1188484L).type(PrimitiveTypeId.STRING).origin("7168771041841939588").done();
+    b.alias("Component");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForComponents() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Components", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x7dbf8857483dd032L);
+    b.class_(false, false, true);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/9061110883748270130");
+    b.version(2);
+    b.aggregate("components", 0x7dbf8857483dd033L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).ordered(true).multiple(true).origin("9061110883748270131").done();
+    b.alias("Components");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForConfiguration() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Configuration", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e115f171L);
     b.class_(false, false, true);
@@ -287,6 +365,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("url_root_page", 0x637c9747e115f17fL).type(PrimitiveTypeId.STRING).origin("7168771041841770879").done();
     b.property("time_to_wait", 0x637c9747e115f182L).type(PrimitiveTypeId.INTEGER).origin("7168771041841770882").done();
     b.property("max_test_to_generate", 0x637c9747e115f186L).type(PrimitiveTypeId.INTEGER).origin("7168771041841770886").done();
+    b.property("screen_width", 0x6c6c48292536ecb9L).type(PrimitiveTypeId.INTEGER).origin("7812698795136183481").done();
+    b.property("screen_height", 0x6c6c48292536ecc0L).type(PrimitiveTypeId.INTEGER).origin("7812698795136183488").done();
     b.alias("Configuration");
     return b.create();
   }
@@ -367,6 +447,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Element to receive data list references");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForExecuteJavascript() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "ExecuteJavascript", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432fbL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882683");
+    b.version(2);
+    b.property("function", 0x1afad254c1f432fcL).type(PrimitiveTypeId.STRING).origin("1944097450636882684").done();
+    b.alias("Execute JavaScript");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForFlow() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Flow", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4c16L);
     b.class_(false, false, false);
@@ -389,6 +478,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Flow List");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForInputText() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "InputText", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411413534063");
+    b.version(2);
+    b.property("text", 0x29b0fffc80c7b572L).type(PrimitiveTypeId.STRING).origin("3004182411413534066").done();
+    b.property("clear", 0x1afad254c1ec9729L).type(PrimitiveTypeId.BOOLEAN).origin("1944097450636384041").done();
+    b.associate("component", 0x29b0fffc80c7b570L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("3004182411413534064").done();
+    b.alias("Input Text");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForInvalidData() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "InvalidData", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x5862803877ab78a5L);
     b.class_(false, false, false);
@@ -396,6 +496,26 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("DATA", 0x5862803877ab78a6L).type(PrimitiveTypeId.STRING).origin("6368793803069552806").done();
     b.alias("Invalid data");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForKeyword() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Keyword", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf369dL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977309");
+    b.version(2);
+    b.aggregate("step", 0x29b0fffc80bf36a8L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L).optional(false).ordered(true).multiple(true).origin("3004182411412977320").done();
+    b.alias("Keyword");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForKeywords() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Keywords", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a1L);
+    b.class_(false, false, true);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977313");
+    b.version(2);
+    b.aggregate("steps", 0x29b0fffc80bf36a4L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf369dL).optional(false).ordered(true).multiple(true).origin("3004182411412977316").done();
+    b.alias("Keywords");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPage() {
@@ -416,6 +536,61 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("PAGES", 0x339c4c2c735d6500L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(true).ordered(true).multiple(true).origin("3718931146098959616").done();
     b.alias("Page List");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageShouldContain() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4341dL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882973");
+    b.version(2);
+    b.property("text", 0x1afad254c1f4341eL).type(PrimitiveTypeId.STRING).origin("1944097450636882974").done();
+    b.alias("Page Should Contain");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageShouldContainElement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4345eL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883038");
+    b.version(2);
+    b.associate("component", 0x1afad254c1f4345fL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636883039").done();
+    b.alias("Page Should Contain Element");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageShouldNotContain() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldNotContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434aaL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883114");
+    b.version(2);
+    b.property("text", 0x1afad254c1f434abL).type(PrimitiveTypeId.STRING).origin("1944097450636883115").done();
+    b.alias("Page Should Not Contain");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageShouldNotContainElement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldNotContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434acL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883116");
+    b.version(2);
+    b.associate("component", 0x1afad254c1f434adL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636883117").done();
+    b.alias("Page Should Not Contain Element");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForStep() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977312");
+    b.version(2);
+    b.aggregate("input_text", 0x29b0fffc80c7b574L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL).optional(true).ordered(true).multiple(false).origin("3004182411413534068").done();
+    b.aggregate("click_element", 0x1afad254c1f432aaL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL).optional(true).ordered(true).multiple(false).origin("1944097450636882602").done();
+    b.aggregate("execute_javascript", 0x1afad254c1f43367L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432fbL).optional(true).ordered(true).multiple(false).origin("1944097450636882791").done();
+    b.aggregate("wait_for_condition", 0x1afad254c1f43418L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4336bL).optional(true).ordered(true).multiple(false).origin("1944097450636882968").done();
+    b.aggregate("page_should_contain", 0x1afad254c1f43458L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4341dL).optional(true).ordered(true).multiple(false).origin("1944097450636883032").done();
+    b.aggregate("page_should_contain_element", 0x1afad254c1f434a3L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4345eL).optional(true).ordered(true).multiple(false).origin("1944097450636883107").done();
+    b.aggregate("page_should_not_contain", 0x1afad254c1f4350eL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434aaL).optional(true).ordered(true).multiple(false).origin("1944097450636883214").done();
+    b.aggregate("page_should_not_contain_element", 0x1afad254c1f43516L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434acL).optional(true).ordered(true).multiple(false).origin("1944097450636883222").done();
+    b.aggregate("wait_element_is_enabled", 0x1afad254c1f4492dL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f448f8L).optional(true).ordered(true).multiple(false).origin("1944097450636888365").done();
+    b.aggregate("wait_element_not_visible", 0x1afad254c1f44937L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4486aL).optional(true).ordered(true).multiple(false).origin("1944097450636888375").done();
+    b.aggregate("wait_element_visible", 0x1afad254c1f44942L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f44869L).optional(true).ordered(true).multiple(false).origin("1944097450636888386").done();
+    b.alias("Step");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForValidData() {
@@ -463,6 +638,46 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("VERIFIER_ELEMENTS_ITEMS", 0x4ce181543f4fb2d9L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f4fb299L).optional(true).ordered(true).multiple(true).origin("5539851215481844441").done();
     b.alias("Verifier element list to references");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitForCondition() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitForCondition", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4336bL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882795");
+    b.version(2);
+    b.property("condition", 0x1afad254c1f4336cL).type(PrimitiveTypeId.STRING).origin("1944097450636882796").done();
+    b.property("timeout", 0x1afad254c1f4336eL).type(PrimitiveTypeId.INTEGER).origin("1944097450636882798").done();
+    b.alias("Wait For Condition");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilElementIsEnabled() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsEnabled", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f448f8L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888312");
+    b.version(2);
+    b.property("timeout", 0x1afad254c1f4494eL).type(PrimitiveTypeId.INTEGER).origin("1944097450636888398").done();
+    b.associate("component", 0x1afad254c1f448f9L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).origin("1944097450636888313").done();
+    b.alias("Wait Until Element Is Visible");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilElementIsNotVisible() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsNotVisible", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4486aL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888170");
+    b.version(2);
+    b.property("timeout", 0x1afad254c1f44950L).type(PrimitiveTypeId.INTEGER).origin("1944097450636888400").done();
+    b.associate("component", 0x1afad254c1f4486dL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).origin("1944097450636888173").done();
+    b.alias("Wait Until Element Is Not Visible");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilElementIsVisible() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsVisible", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f44869L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888169");
+    b.version(2);
+    b.property("timeout", 0x1afad254c1f44952L).type(PrimitiveTypeId.INTEGER).origin("1944097450636888402").done();
+    b.associate("component", 0x1afad254c1f4486bL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).origin("1944097450636888171").done();
+    b.alias("Wait Until Element Is Visible");
     return b.create();
   }
 }

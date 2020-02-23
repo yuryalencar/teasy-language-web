@@ -732,7 +732,7 @@
   </node>
   <node concept="1TIwiD" id="6dW_Ovx5v5L">
     <property role="EcuMT" value="7168771041841770865" />
-    <property role="3GE5qa" value="Teasy v2" />
+    <property role="3GE5qa" value="V2 CONFIG" />
     <property role="TrG5h" value="Configuration" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Configuration" />
@@ -758,10 +758,20 @@
       <property role="TrG5h" value="max_test_to_generate" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="6LGi2$_dIMT" role="1TKVEl">
+      <property role="IQ2nx" value="7812698795136183481" />
+      <property role="TrG5h" value="screen_width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6LGi2$_dIN0" role="1TKVEl">
+      <property role="IQ2nx" value="7812698795136183488" />
+      <property role="TrG5h" value="screen_height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="25R3W" id="6dW_Ovx5v5O">
     <property role="3F6X1D" value="7168771041841770868" />
-    <property role="3GE5qa" value="Teasy v2" />
+    <property role="3GE5qa" value="V2 CONFIG" />
     <property role="TrG5h" value="browsers" />
     <ref role="1H5jkz" node="6dW_Ovx5v5P" resolve="chrome" />
     <node concept="25R33" id="6dW_Ovx5v5P" role="25R1y">
@@ -775,7 +785,7 @@
   </node>
   <node concept="1TIwiD" id="6dW_Ovx68hF">
     <property role="EcuMT" value="7168771041841939563" />
-    <property role="3GE5qa" value="Teasy v2" />
+    <property role="3GE5qa" value="V2 COMPONENTS" />
     <property role="TrG5h" value="Component" />
     <property role="34LRSv" value="Component" />
     <property role="R4oN_" value="This artefact represents a component for webpage" />
@@ -802,22 +812,322 @@
     <node concept="25R33" id="6dW_Ovx68hM" role="25R1y">
       <property role="3tVfz5" value="7168771041841939570" />
       <property role="TrG5h" value="id" />
+      <property role="1L1pqM" value="id" />
     </node>
     <node concept="25R33" id="6dW_Ovx68hP" role="25R1y">
       <property role="3tVfz5" value="7168771041841939573" />
       <property role="TrG5h" value="xpath" />
+      <property role="1L1pqM" value="xpath" />
     </node>
     <node concept="25R33" id="6dW_Ovx68hL" role="25R1y">
       <property role="3tVfz5" value="7168771041841939569" />
       <property role="TrG5h" value="css" />
+      <property role="1L1pqM" value="css" />
     </node>
     <node concept="25R33" id="6dW_Ovx68hT" role="25R1y">
       <property role="3tVfz5" value="7168771041841939577" />
       <property role="TrG5h" value="name" />
+      <property role="1L1pqM" value="name" />
     </node>
     <node concept="25R33" id="6dW_Ovx68hY" role="25R1y">
       <property role="3tVfz5" value="7168771041841939582" />
       <property role="TrG5h" value="class" />
+      <property role="1L1pqM" value="class" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7QZy5t8ft0M">
+    <property role="EcuMT" value="9061110883748270130" />
+    <property role="3GE5qa" value="V2 COMPONENTS" />
+    <property role="TrG5h" value="Components" />
+    <property role="34LRSv" value="Components" />
+    <property role="R4oN_" value="All components of the system are registered here." />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7QZy5t8ft0N" role="1TKVEi">
+      <property role="IQ2ns" value="9061110883748270131" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="components" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AKZZM0JNqt">
+    <property role="EcuMT" value="3004182411412977309" />
+    <property role="3GE5qa" value="Teasy v2" />
+    <property role="TrG5h" value="Keyword" />
+    <property role="34LRSv" value="Keyword" />
+    <property role="R4oN_" value="Set of Step for represent a action in system." />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2AKZZM0JNqC" role="1TKVEi">
+      <property role="IQ2ns" value="3004182411412977320" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="step" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2AKZZM0JNqw" resolve="Step" />
+    </node>
+    <node concept="PrWs8" id="2AKZZM0JNqu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AKZZM0JNqx">
+    <property role="EcuMT" value="3004182411412977313" />
+    <property role="3GE5qa" value="Teasy v2" />
+    <property role="TrG5h" value="Keywords" />
+    <property role="34LRSv" value="Keywords" />
+    <property role="R4oN_" value="Set of Keywords for use in flows " />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2AKZZM0JNq$" role="1TKVEi">
+      <property role="IQ2ns" value="3004182411412977316" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="steps" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2AKZZM0JNqt" resolve="Keyword" />
+    </node>
+    <node concept="PrWs8" id="2AKZZM0JNqy" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AKZZM0LVlJ">
+    <property role="EcuMT" value="3004182411413534063" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="InputText" />
+    <property role="34LRSv" value="Input Text" />
+    <property role="R4oN_" value="Concept to represents a Input text in generation step." />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2AKZZM0LVlM" role="1TKVEl">
+      <property role="IQ2nx" value="3004182411413534066" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1FUO_j1V9sD" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636384041" />
+      <property role="TrG5h" value="clear" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="2AKZZM0LVlK" role="1TKVEi">
+      <property role="IQ2ns" value="3004182411413534064" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AKZZM0JNqw">
+    <property role="EcuMT" value="3004182411412977312" />
+    <property role="3GE5qa" value="Teasy v2" />
+    <property role="TrG5h" value="Step" />
+    <property role="34LRSv" value="Step" />
+    <property role="R4oN_" value="A Unique Step for use in actions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2AKZZM0LVlO" role="1TKVEi">
+      <property role="IQ2ns" value="3004182411413534068" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="input_text" />
+      <ref role="20lvS9" node="2AKZZM0LVlJ" resolve="InputText" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3aE" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636882602" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="click_element" />
+      <ref role="20lvS9" node="1FUO_j1X3aH" resolve="ClickElement" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3dB" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636882791" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="execute_javascript" />
+      <ref role="20lvS9" node="1FUO_j1X3bV" resolve="ExecuteJavascript" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3go" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636882968" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_for_condition" />
+      <ref role="20lvS9" node="1FUO_j1X3dF" resolve="WaitForCondition" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3ho" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="page_should_contain" />
+      <ref role="20lvS9" node="1FUO_j1X3gt" resolve="PageShouldContain" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3iz" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883107" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="page_should_contain_element" />
+      <ref role="20lvS9" node="1FUO_j1X3hu" resolve="PageShouldContainElement" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3ke" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883214" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="page_should_not_contain" />
+      <ref role="20lvS9" node="1FUO_j1X3iE" resolve="PageShouldNotContain" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X3km" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883222" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="page_should_not_contain_element" />
+      <ref role="20lvS9" node="1FUO_j1X3iG" resolve="PageShouldNotContainElement" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4$H" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888365" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_element_is_enabled" />
+      <ref role="20lvS9" node="1FUO_j1X4zS" resolve="WaitUntilElementIsEnabled" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4$R" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888375" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_element_not_visible" />
+      <ref role="20lvS9" node="1FUO_j1X4xE" resolve="WaitUntilElementIsNotVisible" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4_2" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888386" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_element_visible" />
+      <ref role="20lvS9" node="1FUO_j1X4xD" resolve="WaitUntilElementIsVisible" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3aH">
+    <property role="EcuMT" value="1944097450636882605" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="ClickElement" />
+    <property role="34LRSv" value="Click Element" />
+    <property role="R4oN_" value="Concept to represents a Click Element in generation step." />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1FUO_j1X3aK" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636882608" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3bV">
+    <property role="EcuMT" value="1944097450636882683" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="ExecuteJavascript" />
+    <property role="34LRSv" value="Execute JavaScript" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X3bW" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636882684" />
+      <property role="TrG5h" value="function" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3dF">
+    <property role="EcuMT" value="1944097450636882795" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitForCondition" />
+    <property role="34LRSv" value="Wait For Condition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X3dG" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636882796" />
+      <property role="TrG5h" value="condition" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1FUO_j1X3dI" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636882798" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3gt">
+    <property role="EcuMT" value="1944097450636882973" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="PageShouldContain" />
+    <property role="34LRSv" value="Page Should Contain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X3gu" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636882974" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3hu">
+    <property role="EcuMT" value="1944097450636883038" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="PageShouldContainElement" />
+    <property role="34LRSv" value="Page Should Contain Element" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1FUO_j1X3hv" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883039" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3iE">
+    <property role="EcuMT" value="1944097450636883114" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="PageShouldNotContain" />
+    <property role="34LRSv" value="Page Should Not Contain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X3iF" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636883115" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X3iG">
+    <property role="EcuMT" value="1944097450636883116" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="PageShouldNotContainElement" />
+    <property role="34LRSv" value="Page Should Not Contain Element" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1FUO_j1X3iH" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636883117" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X4xD">
+    <property role="EcuMT" value="1944097450636888169" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilElementIsVisible" />
+    <property role="34LRSv" value="Wait Until Element Is Visible" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X4_i" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636888402" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4xF" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888171" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X4xE">
+    <property role="EcuMT" value="1944097450636888170" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilElementIsNotVisible" />
+    <property role="34LRSv" value="Wait Until Element Is Not Visible" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X4_g" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636888400" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4xH" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888173" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1FUO_j1X4zS">
+    <property role="EcuMT" value="1944097450636888312" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilElementIsEnabled" />
+    <property role="34LRSv" value="Wait Until Element Is Visible" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1FUO_j1X4_e" role="1TKVEl">
+      <property role="IQ2nx" value="1944097450636888398" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="1FUO_j1X4zT" role="1TKVEi">
+      <property role="IQ2ns" value="1944097450636888313" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
     </node>
   </node>
 </model>

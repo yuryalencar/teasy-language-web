@@ -24,7 +24,7 @@ public class EnumerationDescriptor_browsers extends EnumerationDescriptorBase {
   @Nullable
   @Override
   public EnumerationDescriptor.MemberDescriptor getDefault() {
-    return null;
+    return myMember_chrome_0;
   }
 
   @NotNull

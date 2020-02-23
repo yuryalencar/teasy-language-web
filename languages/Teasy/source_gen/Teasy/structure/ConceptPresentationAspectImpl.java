@@ -22,6 +22,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_BlockActionItemList;
   private ConceptPresentation props_BlockActionListToImplement;
   private ConceptPresentation props_BlockActionListToReferences;
+  private ConceptPresentation props_ClickElement;
+  private ConceptPresentation props_Component;
+  private ConceptPresentation props_Components;
   private ConceptPresentation props_Configuration;
   private ConceptPresentation props_ConfigurationOld;
   private ConceptPresentation props_DataForAction;
@@ -30,16 +33,29 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_ElementToReceiveDataItemList;
   private ConceptPresentation props_ElementToReceiveDataListToImplement;
   private ConceptPresentation props_ElementToReceiveDataListToReferences;
+  private ConceptPresentation props_ExecuteJavascript;
   private ConceptPresentation props_Flow;
   private ConceptPresentation props_FlowListToImplement;
+  private ConceptPresentation props_InputText;
   private ConceptPresentation props_InvalidData;
+  private ConceptPresentation props_Keyword;
+  private ConceptPresentation props_Keywords;
   private ConceptPresentation props_Page;
   private ConceptPresentation props_PageListToImplement;
+  private ConceptPresentation props_PageShouldContain;
+  private ConceptPresentation props_PageShouldContainElement;
+  private ConceptPresentation props_PageShouldNotContain;
+  private ConceptPresentation props_PageShouldNotContainElement;
+  private ConceptPresentation props_Step;
   private ConceptPresentation props_ValidData;
   private ConceptPresentation props_VerifierElement;
   private ConceptPresentation props_VerifierElementItemList;
   private ConceptPresentation props_VerifierElementListToImplement;
   private ConceptPresentation props_VerifierElementListToReferences;
+  private ConceptPresentation props_WaitForCondition;
+  private ConceptPresentation props_WaitUntilElementIsEnabled;
+  private ConceptPresentation props_WaitUntilElementIsNotVisible;
+  private ConceptPresentation props_WaitUntilElementIsVisible;
 
   @Override
   @Nullable
@@ -150,6 +166,30 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_BlockActionListToReferences = cpb.create();
         }
         return props_BlockActionListToReferences;
+      case LanguageConceptSwitch.ClickElement:
+        if (props_ClickElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Concept to represents a Click Element in generation step.");
+          cpb.rawPresentation("Click Element");
+          props_ClickElement = cpb.create();
+        }
+        return props_ClickElement;
+      case LanguageConceptSwitch.Component:
+        if (props_Component == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("This artefact represents a component for webpage");
+          cpb.presentationByName();
+          props_Component = cpb.create();
+        }
+        return props_Component;
+      case LanguageConceptSwitch.Components:
+        if (props_Components == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("All components of the system are registered here.");
+          cpb.rawPresentation("Components");
+          props_Components = cpb.create();
+        }
+        return props_Components;
       case LanguageConceptSwitch.Configuration:
         if (props_Configuration == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -214,6 +254,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ElementToReceiveDataListToReferences = cpb.create();
         }
         return props_ElementToReceiveDataListToReferences;
+      case LanguageConceptSwitch.ExecuteJavascript:
+        if (props_ExecuteJavascript == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Execute JavaScript");
+          props_ExecuteJavascript = cpb.create();
+        }
+        return props_ExecuteJavascript;
       case LanguageConceptSwitch.Flow:
         if (props_Flow == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -230,6 +277,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_FlowListToImplement = cpb.create();
         }
         return props_FlowListToImplement;
+      case LanguageConceptSwitch.InputText:
+        if (props_InputText == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Concept to represents a Input text in generation step.");
+          cpb.rawPresentation("Input Text");
+          props_InputText = cpb.create();
+        }
+        return props_InputText;
       case LanguageConceptSwitch.InvalidData:
         if (props_InvalidData == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -238,6 +293,22 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_InvalidData = cpb.create();
         }
         return props_InvalidData;
+      case LanguageConceptSwitch.Keyword:
+        if (props_Keyword == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Set of Step for represent a action in system.");
+          cpb.presentationByName();
+          props_Keyword = cpb.create();
+        }
+        return props_Keyword;
+      case LanguageConceptSwitch.Keywords:
+        if (props_Keywords == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Set of Keywords for use in flows ");
+          cpb.presentationByName();
+          props_Keywords = cpb.create();
+        }
+        return props_Keywords;
       case LanguageConceptSwitch.Page:
         if (props_Page == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -254,6 +325,42 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PageListToImplement = cpb.create();
         }
         return props_PageListToImplement;
+      case LanguageConceptSwitch.PageShouldContain:
+        if (props_PageShouldContain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Page Should Contain");
+          props_PageShouldContain = cpb.create();
+        }
+        return props_PageShouldContain;
+      case LanguageConceptSwitch.PageShouldContainElement:
+        if (props_PageShouldContainElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Page Should Contain Element");
+          props_PageShouldContainElement = cpb.create();
+        }
+        return props_PageShouldContainElement;
+      case LanguageConceptSwitch.PageShouldNotContain:
+        if (props_PageShouldNotContain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Page Should Not Contain");
+          props_PageShouldNotContain = cpb.create();
+        }
+        return props_PageShouldNotContain;
+      case LanguageConceptSwitch.PageShouldNotContainElement:
+        if (props_PageShouldNotContainElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Page Should Not Contain Element");
+          props_PageShouldNotContainElement = cpb.create();
+        }
+        return props_PageShouldNotContainElement;
+      case LanguageConceptSwitch.Step:
+        if (props_Step == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("A Unique Step for use in actions");
+          cpb.rawPresentation("Step");
+          props_Step = cpb.create();
+        }
+        return props_Step;
       case LanguageConceptSwitch.ValidData:
         if (props_ValidData == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -294,6 +401,34 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_VerifierElementListToReferences = cpb.create();
         }
         return props_VerifierElementListToReferences;
+      case LanguageConceptSwitch.WaitForCondition:
+        if (props_WaitForCondition == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Wait For Condition");
+          props_WaitForCondition = cpb.create();
+        }
+        return props_WaitForCondition;
+      case LanguageConceptSwitch.WaitUntilElementIsEnabled:
+        if (props_WaitUntilElementIsEnabled == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Wait Until Element Is Visible");
+          props_WaitUntilElementIsEnabled = cpb.create();
+        }
+        return props_WaitUntilElementIsEnabled;
+      case LanguageConceptSwitch.WaitUntilElementIsNotVisible:
+        if (props_WaitUntilElementIsNotVisible == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Wait Until Element Is Not Visible");
+          props_WaitUntilElementIsNotVisible = cpb.create();
+        }
+        return props_WaitUntilElementIsNotVisible;
+      case LanguageConceptSwitch.WaitUntilElementIsVisible:
+        if (props_WaitUntilElementIsVisible == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Wait Until Element Is Visible");
+          props_WaitUntilElementIsVisible = cpb.create();
+        }
+        return props_WaitUntilElementIsVisible;
     }
     return null;
   }
