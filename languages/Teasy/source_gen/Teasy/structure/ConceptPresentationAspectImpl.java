@@ -56,6 +56,10 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_WaitUntilElementIsEnabled;
   private ConceptPresentation props_WaitUntilElementIsNotVisible;
   private ConceptPresentation props_WaitUntilElementIsVisible;
+  private ConceptPresentation props_WaitUntilPageContains;
+  private ConceptPresentation props_WaitUntilPageContainsElement;
+  private ConceptPresentation props_WaitUntilPageDoesNotContain;
+  private ConceptPresentation props_WaitUntilPageDoesNotContainElement;
 
   @Override
   @Nullable
@@ -429,6 +433,38 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_WaitUntilElementIsVisible = cpb.create();
         }
         return props_WaitUntilElementIsVisible;
+      case LanguageConceptSwitch.WaitUntilPageContains:
+        if (props_WaitUntilPageContains == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Wait page contain respective text");
+          cpb.rawPresentation("Wait Until Page Contains");
+          props_WaitUntilPageContains = cpb.create();
+        }
+        return props_WaitUntilPageContains;
+      case LanguageConceptSwitch.WaitUntilPageContainsElement:
+        if (props_WaitUntilPageContainsElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Wait page contain respective Element");
+          cpb.rawPresentation("Wait Until Page Contains Element");
+          props_WaitUntilPageContainsElement = cpb.create();
+        }
+        return props_WaitUntilPageContainsElement;
+      case LanguageConceptSwitch.WaitUntilPageDoesNotContain:
+        if (props_WaitUntilPageDoesNotContain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Wait page not contain respective text");
+          cpb.rawPresentation("Wait Until Page Does Not Contain");
+          props_WaitUntilPageDoesNotContain = cpb.create();
+        }
+        return props_WaitUntilPageDoesNotContain;
+      case LanguageConceptSwitch.WaitUntilPageDoesNotContainElement:
+        if (props_WaitUntilPageDoesNotContainElement == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("Wait page not contain a respective Element");
+          cpb.rawPresentation("Wait Until Page Does Not Contain Element");
+          props_WaitUntilPageDoesNotContainElement = cpb.create();
+        }
+        return props_WaitUntilPageDoesNotContainElement;
     }
     return null;
   }

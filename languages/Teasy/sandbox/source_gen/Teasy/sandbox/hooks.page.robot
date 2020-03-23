@@ -15,9 +15,9 @@ Resource              ../../config/config.robot
 *** Keywords *** 
 ### Hooks 
 Start Test 
-    Open Browser     sdasdas     chrome
-    Set Window Size     46     466
-    Set Selenium Implicit Wait     54
+    Open Browser     www.google.com     chrome
+    Set Window Size     1200     920
+    Set Selenium Implicit Wait     20
 
 Finish Test 
     Capture Page Screenshot 

@@ -56,6 +56,10 @@ public final class LanguageConceptSwitch {
   public static final int WaitUntilElementIsEnabled = 44;
   public static final int WaitUntilElementIsNotVisible = 45;
   public static final int WaitUntilElementIsVisible = 46;
+  public static final int WaitUntilPageContains = 47;
+  public static final int WaitUntilPageContainsElement = 48;
+  public static final int WaitUntilPageDoesNotContain = 49;
+  public static final int WaitUntilPageDoesNotContainElement = 50;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x67c1fa65c7ac493dL, 0xb11b664188147c91L);
@@ -106,6 +110,10 @@ public final class LanguageConceptSwitch {
     builder.put(0x1afad254c1f448f8L, WaitUntilElementIsEnabled);
     builder.put(0x1afad254c1f4486aL, WaitUntilElementIsNotVisible);
     builder.put(0x1afad254c1f44869L, WaitUntilElementIsVisible);
+    builder.put(0x4f2a0581122bf7e4L, WaitUntilPageContains);
+    builder.put(0x4f2a0581122bf8e8L, WaitUntilPageContainsElement);
+    builder.put(0x4f2a0581122bf96dL, WaitUntilPageDoesNotContain);
+    builder.put(0x4f2a0581122bf99fL, WaitUntilPageDoesNotContainElement);
     myIndex = builder.seal();
   }
 

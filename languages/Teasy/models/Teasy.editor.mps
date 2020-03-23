@@ -2078,6 +2078,9 @@
         <node concept="VechU" id="1FUO_j1VcBW" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZwp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="1FUO_j1V9uQ" role="3EZMnx">
         <property role="3F0ifm" value="COMPONENT:" />
@@ -2179,6 +2182,9 @@
         <node concept="VechU" id="1FUO_j1X3bN" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZw5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3bs" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X3aK" resolve="component" />
@@ -2212,6 +2218,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X3dn" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwa" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="1FUO_j1X3d3" role="3EZMnx">
@@ -2255,6 +2264,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X3fx" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="1FUO_j1X3eD" role="3EZMnx">
@@ -2321,6 +2333,9 @@
         <node concept="VechU" id="1FUO_j1X3hg" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZwu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3ha" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X3gu" resolve="text" />
@@ -2345,6 +2360,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X3iw" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3ib" role="3EZMnx">
@@ -2378,6 +2396,9 @@
         <node concept="VechU" id="1FUO_j1X3jG" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZwB" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3jH" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X3iF" resolve="text" />
@@ -2402,6 +2423,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X3jX" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3jY" role="3EZMnx">
@@ -2435,6 +2459,9 @@
         <node concept="VechU" id="1FUO_j1X4zA" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZvW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4yp" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X4xF" resolve="component" />
@@ -2462,6 +2489,9 @@
         <node concept="pVoyu" id="1FUO_j1X4Az" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZw1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4A5" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X4_i" resolve="timeout" />
@@ -2486,6 +2516,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X4zG" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4zn" role="3EZMnx">
@@ -2514,6 +2547,9 @@
         <node concept="pVoyu" id="1FUO_j1X4AK" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZx2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4AL" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X4_g" resolve="timeout" />
@@ -2539,6 +2575,9 @@
         </node>
         <node concept="VechU" id="1FUO_j1X4$r" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZwP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4$s" role="3EZMnx">
@@ -2567,6 +2606,9 @@
         <node concept="pVoyu" id="1FUO_j1X4B9" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="lj46D" id="4WE1o4iaZwU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4Ba" role="3EZMnx">
         <ref role="1NtTu8" to="57va:1FUO_j1X4_e" resolve="timeout" />
@@ -2578,6 +2620,243 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1FUO_j1X4$x" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4WE1o4iaZvP">
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <ref role="1XX52x" to="57va:4WE1o4iaZv$" resolve="WaitUntilPageContains" />
+    <node concept="3EZMnI" id="4WE1o4iaZx6" role="2wV5jI">
+      <node concept="3F0ifn" id="4WE1o4iaZx7" role="3EZMnx">
+        <property role="3F0ifm" value="WAIT UNTIL PAGE CONTAINS: " />
+        <node concept="pVoyu" id="4WE1o4iaZx8" role="3F10Kt" />
+        <node concept="Vb9p2" id="4WE1o4iaZx9" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZxa" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZxb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZyA" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZvR" resolve="text" />
+        <node concept="Vb9p2" id="4WE1o4iaZyQ" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZyR" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZxh" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZxi" role="3EZMnx">
+        <property role="3F0ifm" value="TIMEOUT: " />
+        <node concept="VechU" id="4WE1o4iaZxj" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZxl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZxm" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZvT" resolve="timeout" />
+        <node concept="Vb9p2" id="4WE1o4iaZxn" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZxo" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4WE1o4iaZxp" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4WE1o4iaZzY">
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <ref role="1XX52x" to="57va:4WE1o4iaZzC" resolve="WaitUntilPageContainsElement" />
+    <node concept="3EZMnI" id="4WE1o4iaZ$0" role="2wV5jI">
+      <node concept="3F0ifn" id="4WE1o4iaZ$1" role="3EZMnx">
+        <property role="3F0ifm" value="WAIT UNTIL PAGE CONTAINS ELEMENT: " />
+        <node concept="pVoyu" id="4WE1o4iaZ$2" role="3F10Kt" />
+        <node concept="Vb9p2" id="4WE1o4iaZ$3" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZ$4" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZ$5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4WE1o4iaZ$6" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZzG" resolve="component" />
+        <node concept="1sVBvm" id="4WE1o4iaZ$7" role="1sWHZn">
+          <node concept="3F0A7n" id="4WE1o4iaZ$8" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="4WE1o4iaZ$9" role="3F10Kt">
+              <property role="Vbekb" value="g1_kEg4/ITALIC" />
+            </node>
+            <node concept="VechU" id="4WE1o4iaZ$a" role="3F10Kt">
+              <property role="Vb096" value="g1_qRwE/darkGreen" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZ$b" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZ$c" role="3EZMnx">
+        <property role="3F0ifm" value="TIMEOUT: " />
+        <node concept="VechU" id="4WE1o4iaZ$d" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+        </node>
+        <node concept="pVoyu" id="4WE1o4iaZ$e" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZ$f" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZ$g" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZzE" resolve="timeout" />
+        <node concept="Vb9p2" id="4WE1o4iaZ$h" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZ$i" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4WE1o4iaZ$j" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4WE1o4iaZ_S">
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <ref role="1XX52x" to="57va:4WE1o4iaZ_H" resolve="WaitUntilPageDoesNotContain" />
+    <node concept="3EZMnI" id="4WE1o4iaZ_U" role="2wV5jI">
+      <node concept="3F0ifn" id="4WE1o4iaZ_V" role="3EZMnx">
+        <property role="3F0ifm" value="WAIT UNTIL PAGE DOES NOT CONTAIN: " />
+        <node concept="pVoyu" id="4WE1o4iaZ_W" role="3F10Kt" />
+        <node concept="Vb9p2" id="4WE1o4iaZ_X" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZ_Y" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZ_Z" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZA0" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZAs" resolve="text" />
+        <node concept="Vb9p2" id="4WE1o4iaZA1" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZA2" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZA3" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZA4" role="3EZMnx">
+        <property role="3F0ifm" value="TIMEOUT: " />
+        <node concept="VechU" id="4WE1o4iaZA5" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZA6" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZA7" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZ_J" resolve="timeout" />
+        <node concept="Vb9p2" id="4WE1o4iaZA8" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZA9" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4WE1o4iaZAa" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4WE1o4iaZAM">
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <ref role="1XX52x" to="57va:4WE1o4iaZAv" resolve="WaitUntilPageDoesNotContainElement" />
+    <node concept="3EZMnI" id="4WE1o4iaZAO" role="2wV5jI">
+      <node concept="3F0ifn" id="4WE1o4iaZAP" role="3EZMnx">
+        <property role="3F0ifm" value="WAIT UNTIL PAGE DOES NOT CONTAIN ELEMENT: " />
+        <node concept="pVoyu" id="4WE1o4iaZAQ" role="3F10Kt" />
+        <node concept="Vb9p2" id="4WE1o4iaZAR" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZAS" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZAT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4WE1o4iaZAU" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZAw" resolve="component" />
+        <node concept="1sVBvm" id="4WE1o4iaZAV" role="1sWHZn">
+          <node concept="3F0A7n" id="4WE1o4iaZAW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="4WE1o4iaZAX" role="3F10Kt">
+              <property role="Vbekb" value="g1_kEg4/ITALIC" />
+            </node>
+            <node concept="VechU" id="4WE1o4iaZAY" role="3F10Kt">
+              <property role="Vb096" value="g1_qRwE/darkGreen" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZAZ" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+      </node>
+      <node concept="3F0ifn" id="4WE1o4iaZB0" role="3EZMnx">
+        <property role="3F0ifm" value="TIMEOUT: " />
+        <node concept="VechU" id="4WE1o4iaZB1" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+        </node>
+        <node concept="pVoyu" id="4WE1o4iaZB2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4WE1o4iaZB3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4WE1o4iaZB4" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4WE1o4iaZAx" resolve="timeout" />
+        <node concept="Vb9p2" id="4WE1o4iaZB5" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+        <node concept="VechU" id="4WE1o4iaZB6" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4WE1o4iaZB7" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4WE1o4ihycl">
+    <property role="3GE5qa" value="Teasy v2" />
+    <ref role="1XX52x" to="57va:2AKZZM0JNqw" resolve="Step" />
+    <node concept="3EZMnI" id="4WE1o4iiarj" role="2wV5jI">
+      <node concept="3F1sOY" id="4WE1o4iiarq" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1FUO_j1X3aE" resolve="click_element" />
+      </node>
+      <node concept="3F1sOY" id="4WE1o4iiarw" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1FUO_j1X3dB" resolve="execute_javascript" />
+      </node>
+      <node concept="3F1sOY" id="4WE1o4iiarC" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:2AKZZM0LVlO" resolve="input_text" />
+      </node>
+      <node concept="3F1sOY" id="4WE1o4iiarM" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:1FUO_j1X3ho" resolve="page_should_contain" />
+      </node>
+      <node concept="2iRkQZ" id="4WE1o4iiarm" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -918,6 +918,7 @@
     <property role="TrG5h" value="Step" />
     <property role="34LRSv" value="Step" />
     <property role="R4oN_" value="A Unique Step for use in actions" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2AKZZM0LVlO" role="1TKVEi">
       <property role="IQ2ns" value="3004182411413534068" />
@@ -984,6 +985,30 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="wait_element_visible" />
       <ref role="20lvS9" node="1FUO_j1X4xD" resolve="WaitUntilElementIsVisible" />
+    </node>
+    <node concept="1TJgyj" id="4WE1o4iaZzr" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946203" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_page_contains" />
+      <ref role="20lvS9" node="4WE1o4iaZv$" resolve="WaitUntilPageContains" />
+    </node>
+    <node concept="1TJgyj" id="4WE1o4iaZ$C" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946280" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_page_contains_element" />
+      <ref role="20lvS9" node="4WE1o4iaZzC" resolve="WaitUntilPageContainsElement" />
+    </node>
+    <node concept="1TJgyj" id="4WE1o4iaZBs" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946460" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_page_not_contain" />
+      <ref role="20lvS9" node="4WE1o4iaZ_H" resolve="WaitUntilPageDoesNotContain" />
+    </node>
+    <node concept="1TJgyj" id="4WE1o4iaZBF" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946475" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="wait_page_not_contain_element" />
+      <ref role="20lvS9" node="4WE1o4iaZAv" resolve="WaitUntilPageDoesNotContainElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="1FUO_j1X3aH">
@@ -1128,6 +1153,80 @@
       <property role="IQ2ns" value="1944097450636888313" />
       <property role="20kJfa" value="component" />
       <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4WE1o4iaZv$">
+    <property role="EcuMT" value="5704377929931945956" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilPageContains" />
+    <property role="34LRSv" value="Wait Until Page Contains" />
+    <property role="R4oN_" value="Wait page contain respective text" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4WE1o4iaZvR" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931945975" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4WE1o4iaZvT" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931945977" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4WE1o4iaZzC">
+    <property role="EcuMT" value="5704377929931946216" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilPageContainsElement" />
+    <property role="34LRSv" value="Wait Until Page Contains Element" />
+    <property role="R4oN_" value="Wait page contain respective Element" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4WE1o4iaZzG" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946220" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+    <node concept="1TJgyi" id="4WE1o4iaZzE" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931946218" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4WE1o4iaZ_H">
+    <property role="EcuMT" value="5704377929931946349" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilPageDoesNotContain" />
+    <property role="34LRSv" value="Wait Until Page Does Not Contain" />
+    <property role="R4oN_" value="Wait page not contain respective text" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4WE1o4iaZ_J" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931946351" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4WE1o4iaZAs" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931946396" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4WE1o4iaZAv">
+    <property role="EcuMT" value="5704377929931946399" />
+    <property role="3GE5qa" value="V2 STEPS TYPES" />
+    <property role="TrG5h" value="WaitUntilPageDoesNotContainElement" />
+    <property role="34LRSv" value="Wait Until Page Does Not Contain Element" />
+    <property role="R4oN_" value="Wait page not contain a respective Element" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4WE1o4iaZAw" role="1TKVEi">
+      <property role="IQ2ns" value="5704377929931946400" />
+      <property role="20kJfa" value="component" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6dW_Ovx68hF" resolve="Component" />
+    </node>
+    <node concept="1TJgyi" id="4WE1o4iaZAx" role="1TKVEl">
+      <property role="IQ2nx" value="5704377929931946401" />
+      <property role="TrG5h" value="timeout" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>

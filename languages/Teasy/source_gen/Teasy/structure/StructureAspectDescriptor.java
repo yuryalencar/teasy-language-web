@@ -63,6 +63,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsEnabled = createDescriptorForWaitUntilElementIsEnabled();
   /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsNotVisible = createDescriptorForWaitUntilElementIsNotVisible();
   /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsVisible = createDescriptorForWaitUntilElementIsVisible();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilPageContains = createDescriptorForWaitUntilPageContains();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilPageContainsElement = createDescriptorForWaitUntilPageContainsElement();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilPageDoesNotContain = createDescriptorForWaitUntilPageDoesNotContain();
+  /*package*/ final ConceptDescriptor myConceptWaitUntilPageDoesNotContainElement = createDescriptorForWaitUntilPageDoesNotContainElement();
   /*package*/ final EnumerationDescriptor myEnumerationbrowsers = new EnumerationDescriptor_browsers();
   /*package*/ final EnumerationDescriptor myEnumerationidentifier = new EnumerationDescriptor_identifier();
   /*package*/ final EnumerationDescriptor myEnumerationselectors = new EnumerationDescriptor_selectors();
@@ -80,7 +84,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptExecuteJavascript, myConceptFlow, myConceptFlowListToImplement, myConceptInputText, myConceptInvalidData, myConceptKeyword, myConceptKeywords, myConceptPage, myConceptPageListToImplement, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible);
+    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptExecuteJavascript, myConceptFlow, myConceptFlowListToImplement, myConceptInputText, myConceptInvalidData, myConceptKeyword, myConceptKeywords, myConceptPage, myConceptPageListToImplement, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
   }
 
   @Override
@@ -181,6 +185,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptWaitUntilElementIsNotVisible;
       case LanguageConceptSwitch.WaitUntilElementIsVisible:
         return myConceptWaitUntilElementIsVisible;
+      case LanguageConceptSwitch.WaitUntilPageContains:
+        return myConceptWaitUntilPageContains;
+      case LanguageConceptSwitch.WaitUntilPageContainsElement:
+        return myConceptWaitUntilPageContainsElement;
+      case LanguageConceptSwitch.WaitUntilPageDoesNotContain:
+        return myConceptWaitUntilPageDoesNotContain;
+      case LanguageConceptSwitch.WaitUntilPageDoesNotContainElement:
+        return myConceptWaitUntilPageDoesNotContainElement;
       default:
         return null;
     }
@@ -576,7 +588,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForStep() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977312");
     b.version(2);
     b.aggregate("input_text", 0x29b0fffc80c7b574L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL).optional(true).ordered(true).multiple(false).origin("3004182411413534068").done();
@@ -590,6 +602,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("wait_element_is_enabled", 0x1afad254c1f4492dL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f448f8L).optional(true).ordered(true).multiple(false).origin("1944097450636888365").done();
     b.aggregate("wait_element_not_visible", 0x1afad254c1f44937L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4486aL).optional(true).ordered(true).multiple(false).origin("1944097450636888375").done();
     b.aggregate("wait_element_visible", 0x1afad254c1f44942L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f44869L).optional(true).ordered(true).multiple(false).origin("1944097450636888386").done();
+    b.aggregate("wait_page_contains", 0x4f2a0581122bf8dbL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf7e4L).optional(true).ordered(true).multiple(false).origin("5704377929931946203").done();
+    b.aggregate("wait_page_contains_element", 0x4f2a0581122bf928L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf8e8L).optional(true).ordered(true).multiple(false).origin("5704377929931946280").done();
+    b.aggregate("wait_page_not_contain", 0x4f2a0581122bf9dcL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf96dL).optional(true).ordered(true).multiple(false).origin("5704377929931946460").done();
+    b.aggregate("wait_page_not_contain_element", 0x4f2a0581122bf9ebL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf99fL).optional(true).ordered(true).multiple(false).origin("5704377929931946475").done();
     b.alias("Step");
     return b.create();
   }
@@ -678,6 +694,46 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("timeout", 0x1afad254c1f44952L).type(PrimitiveTypeId.INTEGER).origin("1944097450636888402").done();
     b.associate("component", 0x1afad254c1f4486bL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).origin("1944097450636888171").done();
     b.alias("Wait Until Element Is Visible");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilPageContains() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageContains", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf7e4L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931945956");
+    b.version(2);
+    b.property("text", 0x4f2a0581122bf7f7L).type(PrimitiveTypeId.STRING).origin("5704377929931945975").done();
+    b.property("timeout", 0x4f2a0581122bf7f9L).type(PrimitiveTypeId.INTEGER).origin("5704377929931945977").done();
+    b.alias("Wait Until Page Contains");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilPageContainsElement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageContainsElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf8e8L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946216");
+    b.version(2);
+    b.property("timeout", 0x4f2a0581122bf8eaL).type(PrimitiveTypeId.INTEGER).origin("5704377929931946218").done();
+    b.associate("component", 0x4f2a0581122bf8ecL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("5704377929931946220").done();
+    b.alias("Wait Until Page Contains Element");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilPageDoesNotContain() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageDoesNotContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf96dL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946349");
+    b.version(2);
+    b.property("timeout", 0x4f2a0581122bf96fL).type(PrimitiveTypeId.INTEGER).origin("5704377929931946351").done();
+    b.property("text", 0x4f2a0581122bf99cL).type(PrimitiveTypeId.STRING).origin("5704377929931946396").done();
+    b.alias("Wait Until Page Does Not Contain");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaitUntilPageDoesNotContainElement() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageDoesNotContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf99fL);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946399");
+    b.version(2);
+    b.property("timeout", 0x4f2a0581122bf9a1L).type(PrimitiveTypeId.INTEGER).origin("5704377929931946401").done();
+    b.associate("component", 0x4f2a0581122bf9a0L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("5704377929931946400").done();
+    b.alias("Wait Until Page Does Not Contain Element");
     return b.create();
   }
 }
