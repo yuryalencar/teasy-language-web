@@ -49,6 +49,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ActionListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -86,6 +87,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ActionListToReferences_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -261,6 +263,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ActorListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -298,6 +301,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ActorListToReferences_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -420,6 +424,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.BlockActionListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -457,6 +462,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.BlockActionListToReferences_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -642,6 +648,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.Components_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -763,6 +770,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.DataForAction_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -825,7 +833,6 @@
     <classNode dependClassName="Teasy.editor.PageShouldNotContainElement_Editor" />
     <classNode dependClassName="Teasy.editor.PageShouldNotContain_Editor" />
     <classNode dependClassName="Teasy.editor.Page_Editor" />
-    <classNode dependClassName="Teasy.editor.Step_Editor" />
     <classNode dependClassName="Teasy.editor.ValidData_Editor" />
     <classNode dependClassName="Teasy.editor.VerifierElementItemList_Editor" />
     <classNode dependClassName="Teasy.editor.VerifierElementListToImplement_Editor" />
@@ -901,6 +908,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ElementToReceiveDataListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -938,6 +946,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.ElementToReceiveDataListToReferences_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -976,6 +985,7 @@
   </dependency>
   <dependency className="Teasy.editor.ElementToReceiveData_EditorBuilder_a">
     <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Objects" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
@@ -1068,6 +1078,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.FlowListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1234,6 +1245,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.Keyword_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode" />
@@ -1264,6 +1276,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.PageListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1519,33 +1532,6 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.editor.runtime.descriptor.AbstractEditorBuilder" />
   </dependency>
-  <dependency className="Teasy.editor.Step_Editor">
-    <classNode dependClassName="Teasy.editor.Step_EditorBuilder_a" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
-  </dependency>
-  <dependency className="Teasy.editor.Step_EditorBuilder_a">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart" />
-    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo" />
-    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.CellActionType" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation" />
-    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
-    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.editor.runtime.descriptor.AbstractEditorBuilder" />
-  </dependency>
   <dependency className="Teasy.editor.ValidData_Editor">
     <classNode dependClassName="Teasy.editor.ValidData_EditorBuilder_a" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
@@ -1636,6 +1622,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.VerifierElementListToImplement_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -1673,6 +1660,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="Teasy.editor.VerifierElementListToReferences_EditorBuilder_a">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />

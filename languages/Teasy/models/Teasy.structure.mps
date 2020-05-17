@@ -43,6 +43,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -894,7 +895,7 @@
     <property role="TrG5h" value="InputText" />
     <property role="34LRSv" value="Input Text" />
     <property role="R4oN_" value="Concept to represents a Input text in generation step." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="2AKZZM0LVlM" role="1TKVEl">
       <property role="IQ2nx" value="3004182411413534066" />
       <property role="TrG5h" value="text" />
@@ -918,98 +919,8 @@
     <property role="TrG5h" value="Step" />
     <property role="34LRSv" value="Step" />
     <property role="R4oN_" value="A Unique Step for use in actions" />
-    <property role="19KtqR" value="true" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2AKZZM0LVlO" role="1TKVEi">
-      <property role="IQ2ns" value="3004182411413534068" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="input_text" />
-      <ref role="20lvS9" node="2AKZZM0LVlJ" resolve="InputText" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3aE" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636882602" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="click_element" />
-      <ref role="20lvS9" node="1FUO_j1X3aH" resolve="ClickElement" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3dB" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636882791" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="execute_javascript" />
-      <ref role="20lvS9" node="1FUO_j1X3bV" resolve="ExecuteJavascript" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3go" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636882968" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_for_condition" />
-      <ref role="20lvS9" node="1FUO_j1X3dF" resolve="WaitForCondition" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3ho" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636883032" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="page_should_contain" />
-      <ref role="20lvS9" node="1FUO_j1X3gt" resolve="PageShouldContain" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3iz" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636883107" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="page_should_contain_element" />
-      <ref role="20lvS9" node="1FUO_j1X3hu" resolve="PageShouldContainElement" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3ke" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636883214" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="page_should_not_contain" />
-      <ref role="20lvS9" node="1FUO_j1X3iE" resolve="PageShouldNotContain" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X3km" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636883222" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="page_should_not_contain_element" />
-      <ref role="20lvS9" node="1FUO_j1X3iG" resolve="PageShouldNotContainElement" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X4$H" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636888365" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_element_is_enabled" />
-      <ref role="20lvS9" node="1FUO_j1X4zS" resolve="WaitUntilElementIsEnabled" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X4$R" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636888375" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_element_not_visible" />
-      <ref role="20lvS9" node="1FUO_j1X4xE" resolve="WaitUntilElementIsNotVisible" />
-    </node>
-    <node concept="1TJgyj" id="1FUO_j1X4_2" role="1TKVEi">
-      <property role="IQ2ns" value="1944097450636888386" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_element_visible" />
-      <ref role="20lvS9" node="1FUO_j1X4xD" resolve="WaitUntilElementIsVisible" />
-    </node>
-    <node concept="1TJgyj" id="4WE1o4iaZzr" role="1TKVEi">
-      <property role="IQ2ns" value="5704377929931946203" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_page_contains" />
-      <ref role="20lvS9" node="4WE1o4iaZv$" resolve="WaitUntilPageContains" />
-    </node>
-    <node concept="1TJgyj" id="4WE1o4iaZ$C" role="1TKVEi">
-      <property role="IQ2ns" value="5704377929931946280" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_page_contains_element" />
-      <ref role="20lvS9" node="4WE1o4iaZzC" resolve="WaitUntilPageContainsElement" />
-    </node>
-    <node concept="1TJgyj" id="4WE1o4iaZBs" role="1TKVEi">
-      <property role="IQ2ns" value="5704377929931946460" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_page_not_contain" />
-      <ref role="20lvS9" node="4WE1o4iaZ_H" resolve="WaitUntilPageDoesNotContain" />
-    </node>
-    <node concept="1TJgyj" id="4WE1o4iaZBF" role="1TKVEi">
-      <property role="IQ2ns" value="5704377929931946475" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="wait_page_not_contain_element" />
-      <ref role="20lvS9" node="4WE1o4iaZAv" resolve="WaitUntilPageDoesNotContainElement" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1FUO_j1X3aH">
     <property role="EcuMT" value="1944097450636882605" />
@@ -1017,7 +928,7 @@
     <property role="TrG5h" value="ClickElement" />
     <property role="34LRSv" value="Click Element" />
     <property role="R4oN_" value="Concept to represents a Click Element in generation step." />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3aK" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636882608" />
       <property role="20kJfa" value="component" />
@@ -1030,7 +941,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="ExecuteJavascript" />
     <property role="34LRSv" value="Execute JavaScript" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3bW" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882684" />
       <property role="TrG5h" value="function" />
@@ -1042,7 +953,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="WaitForCondition" />
     <property role="34LRSv" value="Wait For Condition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3dG" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882796" />
       <property role="TrG5h" value="condition" />
@@ -1059,7 +970,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="PageShouldContain" />
     <property role="34LRSv" value="Page Should Contain" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3gu" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882974" />
       <property role="TrG5h" value="text" />
@@ -1071,7 +982,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="PageShouldContainElement" />
     <property role="34LRSv" value="Page Should Contain Element" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3hv" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636883039" />
       <property role="20kJfa" value="component" />
@@ -1084,7 +995,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="PageShouldNotContain" />
     <property role="34LRSv" value="Page Should Not Contain" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3iF" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636883115" />
       <property role="TrG5h" value="text" />
@@ -1096,7 +1007,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="PageShouldNotContainElement" />
     <property role="34LRSv" value="Page Should Not Contain Element" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3iH" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636883117" />
       <property role="20kJfa" value="component" />
@@ -1109,7 +1020,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="WaitUntilElementIsVisible" />
     <property role="34LRSv" value="Wait Until Element Is Visible" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_i" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888402" />
       <property role="TrG5h" value="timeout" />
@@ -1126,7 +1037,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="WaitUntilElementIsNotVisible" />
     <property role="34LRSv" value="Wait Until Element Is Not Visible" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_g" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888400" />
       <property role="TrG5h" value="timeout" />
@@ -1143,7 +1054,7 @@
     <property role="3GE5qa" value="V2 STEPS TYPES" />
     <property role="TrG5h" value="WaitUntilElementIsEnabled" />
     <property role="34LRSv" value="Wait Until Element Is Visible" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_e" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888398" />
       <property role="TrG5h" value="timeout" />
@@ -1161,7 +1072,7 @@
     <property role="TrG5h" value="WaitUntilPageContains" />
     <property role="34LRSv" value="Wait Until Page Contains" />
     <property role="R4oN_" value="Wait page contain respective text" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="4WE1o4iaZvR" role="1TKVEl">
       <property role="IQ2nx" value="5704377929931945975" />
       <property role="TrG5h" value="text" />
@@ -1179,7 +1090,7 @@
     <property role="TrG5h" value="WaitUntilPageContainsElement" />
     <property role="34LRSv" value="Wait Until Page Contains Element" />
     <property role="R4oN_" value="Wait page contain respective Element" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="4WE1o4iaZzG" role="1TKVEi">
       <property role="IQ2ns" value="5704377929931946220" />
       <property role="20kJfa" value="component" />
@@ -1198,7 +1109,7 @@
     <property role="TrG5h" value="WaitUntilPageDoesNotContain" />
     <property role="34LRSv" value="Wait Until Page Does Not Contain" />
     <property role="R4oN_" value="Wait page not contain respective text" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="4WE1o4iaZ_J" role="1TKVEl">
       <property role="IQ2nx" value="5704377929931946351" />
       <property role="TrG5h" value="timeout" />
@@ -1216,7 +1127,7 @@
     <property role="TrG5h" value="WaitUntilPageDoesNotContainElement" />
     <property role="34LRSv" value="Wait Until Page Does Not Contain Element" />
     <property role="R4oN_" value="Wait page not contain a respective Element" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="4WE1o4iaZAw" role="1TKVEi">
       <property role="IQ2ns" value="5704377929931946400" />
       <property role="20kJfa" value="component" />

@@ -18,14 +18,8 @@
         <property id="7812698795136183481" name="screen_width" index="19mEig" />
         <property id="7812698795136183488" name="screen_height" index="19mEjD" />
       </concept>
-      <concept id="3004182411412977312" name="Teasy.structure.Step" flags="ng" index="2D3W_s">
-        <child id="1944097450636883032" name="page_should_contain" index="3r3Ioc" />
-      </concept>
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
-      </concept>
-      <concept id="1944097450636882973" name="Teasy.structure.PageShouldContain" flags="ng" index="3r3Ip9">
-        <property id="1944097450636882974" name="text" index="3r3Ipa" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -52,11 +46,6 @@
     <property role="22qmoS" value="www.google.com" />
     <property role="19mEig" value="1200" />
     <property role="19mEjD" value="920" />
-  </node>
-  <node concept="2D3W_s" id="4WE1o4icmdQ">
-    <node concept="3r3Ip9" id="4WE1o4iiMIq" role="3r3Ioc">
-      <property role="3r3Ipa" value="dlkflgdf" />
-    </node>
   </node>
 </model>
 

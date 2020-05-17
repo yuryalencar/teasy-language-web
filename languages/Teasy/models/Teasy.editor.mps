@@ -2840,24 +2840,5 @@
       <node concept="l2Vlx" id="4WE1o4iaZB7" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="4WE1o4ihycl">
-    <property role="3GE5qa" value="Teasy v2" />
-    <ref role="1XX52x" to="57va:2AKZZM0JNqw" resolve="Step" />
-    <node concept="3EZMnI" id="4WE1o4iiarj" role="2wV5jI">
-      <node concept="3F1sOY" id="4WE1o4iiarq" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:1FUO_j1X3aE" resolve="click_element" />
-      </node>
-      <node concept="3F1sOY" id="4WE1o4iiarw" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:1FUO_j1X3dB" resolve="execute_javascript" />
-      </node>
-      <node concept="3F1sOY" id="4WE1o4iiarC" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:2AKZZM0LVlO" resolve="input_text" />
-      </node>
-      <node concept="3F1sOY" id="4WE1o4iiarM" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:1FUO_j1X3ho" resolve="page_should_contain" />
-      </node>
-      <node concept="2iRkQZ" id="4WE1o4iiarm" role="2iSdaV" />
-    </node>
-  </node>
 </model>
 

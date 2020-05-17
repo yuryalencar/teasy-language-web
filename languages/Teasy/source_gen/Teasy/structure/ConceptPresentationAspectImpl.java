@@ -361,7 +361,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
         if (props_Step == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.shortDesc("A Unique Step for use in actions");
-          cpb.rawPresentation("Step");
           props_Step = cpb.create();
         }
         return props_Step;

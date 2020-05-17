@@ -342,6 +342,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForClickElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "ClickElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882605");
     b.version(2);
     b.associate("component", 0x1afad254c1f432b0L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636882608").done();
@@ -462,6 +463,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForExecuteJavascript() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "ExecuteJavascript", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432fbL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882683");
     b.version(2);
     b.property("function", 0x1afad254c1f432fcL).type(PrimitiveTypeId.STRING).origin("1944097450636882684").done();
@@ -493,6 +495,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForInputText() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "InputText", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411413534063");
     b.version(2);
     b.property("text", 0x29b0fffc80c7b572L).type(PrimitiveTypeId.STRING).origin("3004182411413534066").done();
@@ -553,6 +556,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPageShouldContain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4341dL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882973");
     b.version(2);
     b.property("text", 0x1afad254c1f4341eL).type(PrimitiveTypeId.STRING).origin("1944097450636882974").done();
@@ -562,6 +566,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPageShouldContainElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4345eL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883038");
     b.version(2);
     b.associate("component", 0x1afad254c1f4345fL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636883039").done();
@@ -571,6 +576,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPageShouldNotContain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldNotContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434aaL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883114");
     b.version(2);
     b.property("text", 0x1afad254c1f434abL).type(PrimitiveTypeId.STRING).origin("1944097450636883115").done();
@@ -580,6 +586,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForPageShouldNotContainElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldNotContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434acL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636883116");
     b.version(2);
     b.associate("component", 0x1afad254c1f434adL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636883117").done();
@@ -588,24 +595,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForStep() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
-    b.class_(false, false, true);
+    b.class_(false, true, false);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977312");
     b.version(2);
-    b.aggregate("input_text", 0x29b0fffc80c7b574L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL).optional(true).ordered(true).multiple(false).origin("3004182411413534068").done();
-    b.aggregate("click_element", 0x1afad254c1f432aaL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL).optional(true).ordered(true).multiple(false).origin("1944097450636882602").done();
-    b.aggregate("execute_javascript", 0x1afad254c1f43367L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432fbL).optional(true).ordered(true).multiple(false).origin("1944097450636882791").done();
-    b.aggregate("wait_for_condition", 0x1afad254c1f43418L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4336bL).optional(true).ordered(true).multiple(false).origin("1944097450636882968").done();
-    b.aggregate("page_should_contain", 0x1afad254c1f43458L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4341dL).optional(true).ordered(true).multiple(false).origin("1944097450636883032").done();
-    b.aggregate("page_should_contain_element", 0x1afad254c1f434a3L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4345eL).optional(true).ordered(true).multiple(false).origin("1944097450636883107").done();
-    b.aggregate("page_should_not_contain", 0x1afad254c1f4350eL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434aaL).optional(true).ordered(true).multiple(false).origin("1944097450636883214").done();
-    b.aggregate("page_should_not_contain_element", 0x1afad254c1f43516L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f434acL).optional(true).ordered(true).multiple(false).origin("1944097450636883222").done();
-    b.aggregate("wait_element_is_enabled", 0x1afad254c1f4492dL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f448f8L).optional(true).ordered(true).multiple(false).origin("1944097450636888365").done();
-    b.aggregate("wait_element_not_visible", 0x1afad254c1f44937L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4486aL).optional(true).ordered(true).multiple(false).origin("1944097450636888375").done();
-    b.aggregate("wait_element_visible", 0x1afad254c1f44942L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f44869L).optional(true).ordered(true).multiple(false).origin("1944097450636888386").done();
-    b.aggregate("wait_page_contains", 0x4f2a0581122bf8dbL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf7e4L).optional(true).ordered(true).multiple(false).origin("5704377929931946203").done();
-    b.aggregate("wait_page_contains_element", 0x4f2a0581122bf928L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf8e8L).optional(true).ordered(true).multiple(false).origin("5704377929931946280").done();
-    b.aggregate("wait_page_not_contain", 0x4f2a0581122bf9dcL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf96dL).optional(true).ordered(true).multiple(false).origin("5704377929931946460").done();
-    b.aggregate("wait_page_not_contain_element", 0x4f2a0581122bf9ebL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf99fL).optional(true).ordered(true).multiple(false).origin("5704377929931946475").done();
     b.alias("Step");
     return b.create();
   }
@@ -659,6 +651,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitForCondition() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitForCondition", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4336bL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636882795");
     b.version(2);
     b.property("condition", 0x1afad254c1f4336cL).type(PrimitiveTypeId.STRING).origin("1944097450636882796").done();
@@ -669,6 +662,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilElementIsEnabled() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsEnabled", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f448f8L);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888312");
     b.version(2);
     b.property("timeout", 0x1afad254c1f4494eL).type(PrimitiveTypeId.INTEGER).origin("1944097450636888398").done();
@@ -679,6 +673,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilElementIsNotVisible() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsNotVisible", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4486aL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888170");
     b.version(2);
     b.property("timeout", 0x1afad254c1f44950L).type(PrimitiveTypeId.INTEGER).origin("1944097450636888400").done();
@@ -689,6 +684,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilElementIsVisible() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilElementIsVisible", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f44869L);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/1944097450636888169");
     b.version(2);
     b.property("timeout", 0x1afad254c1f44952L).type(PrimitiveTypeId.INTEGER).origin("1944097450636888402").done();
@@ -699,6 +695,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilPageContains() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageContains", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf7e4L);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931945956");
     b.version(2);
     b.property("text", 0x4f2a0581122bf7f7L).type(PrimitiveTypeId.STRING).origin("5704377929931945975").done();
@@ -709,6 +706,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilPageContainsElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageContainsElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf8e8L);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946216");
     b.version(2);
     b.property("timeout", 0x4f2a0581122bf8eaL).type(PrimitiveTypeId.INTEGER).origin("5704377929931946218").done();
@@ -719,6 +717,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilPageDoesNotContain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageDoesNotContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf96dL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946349");
     b.version(2);
     b.property("timeout", 0x4f2a0581122bf96fL).type(PrimitiveTypeId.INTEGER).origin("5704377929931946351").done();
@@ -729,6 +728,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForWaitUntilPageDoesNotContainElement() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "WaitUntilPageDoesNotContainElement", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf99fL);
     b.class_(false, false, false);
+    b.super_("Teasy.structure.Step", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a0L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5704377929931946399");
     b.version(2);
     b.property("timeout", 0x4f2a0581122bf9a1L).type(PrimitiveTypeId.INTEGER).origin("5704377929931946401").done();
