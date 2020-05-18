@@ -39,9 +39,9 @@ public final class LanguageConceptSwitch {
   public static final int InputText = 27;
   public static final int InvalidData = 28;
   public static final int Keyword = 29;
-  public static final int Keywords = 30;
-  public static final int Page = 31;
-  public static final int PageListToImplement = 32;
+  public static final int Page = 30;
+  public static final int PageListToImplement = 31;
+  public static final int PageOld = 32;
   public static final int PageShouldContain = 33;
   public static final int PageShouldContainElement = 34;
   public static final int PageShouldNotContain = 35;
@@ -93,9 +93,9 @@ public final class LanguageConceptSwitch {
     builder.put(0x29b0fffc80c7b56fL, InputText);
     builder.put(0x5862803877ab78a5L, InvalidData);
     builder.put(0x29b0fffc80bf369dL, Keyword);
-    builder.put(0x29b0fffc80bf36a1L, Keywords);
-    builder.put(0xb2a36ad4ddb4bfcL, Page);
+    builder.put(0x29b0fffc80bf36a1L, Page);
     builder.put(0x339c4c2c735d64ffL, PageListToImplement);
+    builder.put(0xb2a36ad4ddb4bfcL, PageOld);
     builder.put(0x1afad254c1f4341dL, PageShouldContain);
     builder.put(0x1afad254c1f4345eL, PageShouldContainElement);
     builder.put(0x1afad254c1f434aaL, PageShouldNotContain);

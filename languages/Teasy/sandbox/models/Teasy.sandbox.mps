@@ -18,8 +18,20 @@
         <property id="7812698795136183481" name="screen_width" index="19mEig" />
         <property id="7812698795136183488" name="screen_height" index="19mEjD" />
       </concept>
+      <concept id="3004182411412977313" name="Teasy.structure.Page" flags="ng" index="2D3W_t">
+        <child id="3004182411412977316" name="steps" index="2D3W_o" />
+      </concept>
+      <concept id="3004182411412977309" name="Teasy.structure.Keyword" flags="ng" index="2D3W_x">
+        <child id="3004182411412977320" name="step" index="2D3W_k" />
+      </concept>
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
+      </concept>
+      <concept id="1944097450636882683" name="Teasy.structure.ExecuteJavascript" flags="ng" index="3r3I2J">
+        <property id="1944097450636882684" name="function" index="3r3I2C" />
+      </concept>
+      <concept id="1944097450636882605" name="Teasy.structure.ClickElement" flags="ng" index="3r3I3T">
+        <reference id="1944097450636882608" name="component" index="3r3I3$" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -46,6 +58,27 @@
     <property role="22qmoS" value="www.google.com" />
     <property role="19mEig" value="1200" />
     <property role="19mEjD" value="920" />
+  </node>
+  <node concept="2D3W_t" id="4cASACx7OS2">
+    <property role="TrG5h" value="Login" />
+    <node concept="2D3W_x" id="4cASACx8Y3u" role="2D3W_o">
+      <property role="TrG5h" value="example" />
+      <node concept="3r3I3T" id="4cASACx8Y3_" role="2D3W_k">
+        <ref role="3r3I3$" node="1ld6DQXTx1A" resolve="CampoDeSenha" />
+      </node>
+      <node concept="3r3I3T" id="4cASACx8Y4b" role="2D3W_k">
+        <ref role="3r3I3$" node="1ld6DQXTx1w" resolve="LoginButton" />
+      </node>
+    </node>
+    <node concept="2D3W_x" id="4cASACx8Y4f" role="2D3W_o">
+      <property role="TrG5h" value="fpdak" />
+      <node concept="3r3I3T" id="4cASACx8Y4p" role="2D3W_k">
+        <ref role="3r3I3$" node="1ld6DQXTx1A" resolve="CampoDeSenha" />
+      </node>
+      <node concept="3r3I2J" id="4cASACx8Y4t" role="2D3W_k">
+        <property role="3r3I2C" value="rpofekapovkp" />
+      </node>
+    </node>
   </node>
 </model>
 

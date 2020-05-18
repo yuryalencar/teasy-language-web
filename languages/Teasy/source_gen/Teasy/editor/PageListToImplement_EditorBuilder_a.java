@@ -107,7 +107,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.PAGES$$yi0;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Page$hz;
+      return CONCEPTS.PageOld$hz;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -183,6 +183,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Page$hz = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL, "Teasy.structure.Page");
+    /*package*/ static final SConcept PageOld$hz = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL, "Teasy.structure.PageOld");
   }
 }

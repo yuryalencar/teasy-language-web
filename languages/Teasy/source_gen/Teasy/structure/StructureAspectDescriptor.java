@@ -46,9 +46,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptInputText = createDescriptorForInputText();
   /*package*/ final ConceptDescriptor myConceptInvalidData = createDescriptorForInvalidData();
   /*package*/ final ConceptDescriptor myConceptKeyword = createDescriptorForKeyword();
-  /*package*/ final ConceptDescriptor myConceptKeywords = createDescriptorForKeywords();
   /*package*/ final ConceptDescriptor myConceptPage = createDescriptorForPage();
   /*package*/ final ConceptDescriptor myConceptPageListToImplement = createDescriptorForPageListToImplement();
+  /*package*/ final ConceptDescriptor myConceptPageOld = createDescriptorForPageOld();
   /*package*/ final ConceptDescriptor myConceptPageShouldContain = createDescriptorForPageShouldContain();
   /*package*/ final ConceptDescriptor myConceptPageShouldContainElement = createDescriptorForPageShouldContainElement();
   /*package*/ final ConceptDescriptor myConceptPageShouldNotContain = createDescriptorForPageShouldNotContain();
@@ -84,7 +84,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptExecuteJavascript, myConceptFlow, myConceptFlowListToImplement, myConceptInputText, myConceptInvalidData, myConceptKeyword, myConceptKeywords, myConceptPage, myConceptPageListToImplement, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
+    return Arrays.asList(myConceptAction, myConceptActionItemList, myConceptActionListToImplement, myConceptActionListToReferences, myConceptActiveActionElement, myConceptActor, myConceptActorItemList, myConceptActorListToImplement, myConceptActorListToReferences, myConceptBlockAction, myConceptBlockActionItemList, myConceptBlockActionListToImplement, myConceptBlockActionListToReferences, myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptConfigurationOld, myConceptDataForAction, myConceptDefaultElement, myConceptElementToReceiveData, myConceptElementToReceiveDataItemList, myConceptElementToReceiveDataListToImplement, myConceptElementToReceiveDataListToReferences, myConceptExecuteJavascript, myConceptFlow, myConceptFlowListToImplement, myConceptInputText, myConceptInvalidData, myConceptKeyword, myConceptPage, myConceptPageListToImplement, myConceptPageOld, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptValidData, myConceptVerifierElement, myConceptVerifierElementItemList, myConceptVerifierElementListToImplement, myConceptVerifierElementListToReferences, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
   }
 
   @Override
@@ -151,12 +151,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptInvalidData;
       case LanguageConceptSwitch.Keyword:
         return myConceptKeyword;
-      case LanguageConceptSwitch.Keywords:
-        return myConceptKeywords;
       case LanguageConceptSwitch.Page:
         return myConceptPage;
       case LanguageConceptSwitch.PageListToImplement:
         return myConceptPageListToImplement;
+      case LanguageConceptSwitch.PageOld:
+        return myConceptPageOld;
       case LanguageConceptSwitch.PageShouldContain:
         return myConceptPageShouldContain;
       case LanguageConceptSwitch.PageShouldContainElement:
@@ -523,25 +523,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Keyword");
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForKeywords() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Keywords", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a1L);
+  private static ConceptDescriptor createDescriptorForPage() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Page", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a1L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/3004182411412977313");
     b.version(2);
     b.aggregate("steps", 0x29b0fffc80bf36a4L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf369dL).optional(false).ordered(true).multiple(true).origin("3004182411412977316").done();
-    b.alias("Keywords");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForPage() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Page", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL);
-    b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514428");
-    b.version(2);
-    b.aggregate("ACTIONS", 0xb2a36ad4ddb5363L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f327511L).optional(true).ordered(true).multiple(false).origin("804515601402516323").done();
-    b.aggregate("BLOCK_ACTION", 0xb2a36ad4ddb5366L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L).optional(true).ordered(true).multiple(false).origin("804515601402516326").done();
-    b.alias("Page File");
+    b.alias("Page");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPageListToImplement() {
@@ -551,6 +540,17 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.aggregate("PAGES", 0x339c4c2c735d6500L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL).optional(true).ordered(true).multiple(true).origin("3718931146098959616").done();
     b.alias("Page List");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageOld() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageOld", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0xb2a36ad4ddb4bfcL);
+    b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/804515601402514428");
+    b.version(2);
+    b.aggregate("ACTIONS", 0xb2a36ad4ddb5363L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f327511L).optional(true).ordered(true).multiple(false).origin("804515601402516323").done();
+    b.aggregate("BLOCK_ACTION", 0xb2a36ad4ddb5366L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4ce181543f3db375L).optional(true).ordered(true).multiple(false).origin("804515601402516326").done();
+    b.alias("Page File");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPageShouldContain() {
