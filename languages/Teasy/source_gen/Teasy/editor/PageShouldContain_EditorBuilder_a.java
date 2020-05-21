@@ -80,7 +80,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       final SProperty property = PROPS.text$hH90;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no text>");
+      editorCell.setDefaultText("Insert Text (ex: Home)");
       editorCell.setCellId("property_text");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);

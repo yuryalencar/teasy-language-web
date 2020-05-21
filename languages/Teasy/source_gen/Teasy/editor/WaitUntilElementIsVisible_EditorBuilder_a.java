@@ -66,9 +66,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefCell_0());
     editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createProperty_1());
-    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createConstant_2());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -99,7 +98,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     };
 
-    provider.setNoTargetText("<no component>");
+    provider.setNoTargetText("Choose Component");
     EditorCell editorCell = provider.createCell();
 
     if (editorCell.getSRole() == null) {
@@ -146,7 +145,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         final SProperty property = PROPS.name$tAp1;
         getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
         EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, true, false), myNode);
-        editorCell.setDefaultText("<no name>");
+        editorCell.setDefaultText("Choose Component");
         editorCell.setCellId("property_name");
         Style style = new StyleImpl();
         style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
@@ -171,14 +170,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-    editorCell.setCellId("Constant_qa3mqz_c0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "TIMEOUT: ");
-    editorCell.setCellId("Constant_qa3mqz_d0");
+    editorCell.setCellId("Constant_qa3mqz_c0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.DARK_BLUE));
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -193,7 +186,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       final SProperty property = PROPS.timeout$ATFZ;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no timeout>");
+      editorCell.setDefaultText("Max Time to Wait in Seconds (ex: 2)");
       editorCell.setCellId("property_timeout");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
@@ -217,9 +210,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_3() {
+  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-    editorCell.setCellId("Constant_qa3mqz_f0");
+    editorCell.setCellId("Constant_qa3mqz_e0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     editorCell.getStyle().putAll(style);

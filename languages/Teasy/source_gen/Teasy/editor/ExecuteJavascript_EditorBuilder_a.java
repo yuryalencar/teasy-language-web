@@ -93,7 +93,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       final SProperty property = PROPS.function$hmR0;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no function>");
+      editorCell.setDefaultText("Write a Javascript code");
       editorCell.setCellId("property_function");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);

@@ -575,6 +575,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1V9ve" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:2AKZZM0LVlK" resolve="component" />
         <node concept="Vb9p2" id="1FUO_j1VcCo" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -585,6 +586,7 @@
         <node concept="1sVBvm" id="1FUO_j1V9vg" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1V9vp" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1VcCE" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -611,6 +613,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1V9vN" role="3EZMnx">
+        <property role="1$x2rV" value="Insert text to insert (ex: admin@root.com)" />
         <ref role="1NtTu8" to="57va:2AKZZM0LVlM" resolve="text" />
         <node concept="Vb9p2" id="1FUO_j1VcCs" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -635,6 +638,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1V9wp" role="3EZMnx">
+        <property role="1$x2rV" value="true for clear false for not clear" />
         <ref role="1NtTu8" to="57va:1FUO_j1V9sD" resolve="clear" />
         <node concept="Vb9p2" id="1FUO_j1VcCA" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -673,10 +677,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3bs" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3aK" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X3bu" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X3bA" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X3bR" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -734,6 +740,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3db" role="3EZMnx">
+        <property role="1$x2rV" value="Write a Javascript code" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3bW" resolve="function" />
         <node concept="Vb9p2" id="1FUO_j1X3dz" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -789,6 +796,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3eL" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a condition (ex: return document.title == &quot;New Title&quot;)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3dG" resolve="condition" />
         <node concept="Vb9p2" id="1FUO_j1X3gk" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -813,6 +821,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3fe" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3dI" resolve="timeout" />
         <node concept="Vb9p2" id="1FUO_j1X3gg" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -851,6 +860,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3ha" role="3EZMnx">
+        <property role="1$x2rV" value="Insert Text (ex: Home)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3gu" resolve="text" />
         <node concept="Vb9p2" id="1FUO_j1X3hk" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -888,10 +898,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3ib" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3hv" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X3id" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X3io" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X3ir" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -932,6 +944,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X3jH" role="3EZMnx">
+        <property role="1$x2rV" value="Insert Text (ex: Login)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3iF" resolve="text" />
         <node concept="Vb9p2" id="1FUO_j1X3jI" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -969,10 +982,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X3jY" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X3iH" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X3jZ" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X3k0" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X3k1" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1013,10 +1028,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4yp" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4xF" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X4yr" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X4yz" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X4zO" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1026,9 +1043,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="1FUO_j1X4Aj" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="1FUO_j1X4_F" role="3EZMnx">
         <property role="3F0ifm" value="TIMEOUT: " />
@@ -1043,6 +1057,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4A5" role="3EZMnx">
+        <property role="1$x2rV" value="Max Time to Wait in Seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4_i" resolve="timeout" />
         <node concept="Vb9p2" id="1FUO_j1X4AB" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1080,10 +1095,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4zn" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4xH" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X4zp" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X4zx" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X4zK" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1093,9 +1110,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="1FUO_j1X4AH" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="1FUO_j1X4AI" role="3EZMnx">
         <property role="3F0ifm" value="TIMEOUT: " />
@@ -1110,6 +1124,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4AL" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4_g" resolve="timeout" />
         <node concept="Vb9p2" id="1FUO_j1X4AM" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1148,10 +1163,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1FUO_j1X4$s" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4zT" resolve="component" />
         <node concept="1sVBvm" id="1FUO_j1X4$t" role="1sWHZn">
           <node concept="3F0A7n" id="1FUO_j1X4$u" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="1FUO_j1X4$v" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1161,9 +1178,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="1FUO_j1X4B6" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="1FUO_j1X4B7" role="3EZMnx">
         <property role="3F0ifm" value="TIMEOUT: " />
@@ -1178,6 +1192,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="1FUO_j1X4Ba" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:1FUO_j1X4_e" resolve="timeout" />
         <node concept="Vb9p2" id="1FUO_j1X4Bb" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1216,6 +1231,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZyA" role="3EZMnx">
+        <property role="1$x2rV" value="Insert Text to Wait (ex: Home)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZvR" resolve="text" />
         <node concept="Vb9p2" id="4WE1o4iaZyQ" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1237,6 +1253,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZxm" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZvT" resolve="timeout" />
         <node concept="Vb9p2" id="4WE1o4iaZxn" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1275,10 +1292,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="4WE1o4iaZ$6" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZzG" resolve="component" />
         <node concept="1sVBvm" id="4WE1o4iaZ$7" role="1sWHZn">
           <node concept="3F0A7n" id="4WE1o4iaZ$8" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="4WE1o4iaZ$9" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1288,9 +1307,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="4WE1o4iaZ$b" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="4WE1o4iaZ$c" role="3EZMnx">
         <property role="3F0ifm" value="TIMEOUT: " />
@@ -1305,6 +1321,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZ$g" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZzE" resolve="timeout" />
         <node concept="Vb9p2" id="4WE1o4iaZ$h" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1343,6 +1360,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZA0" role="3EZMnx">
+        <property role="1$x2rV" value="Insert text to wait (ex: Login)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZAs" resolve="text" />
         <node concept="Vb9p2" id="4WE1o4iaZA1" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1364,6 +1382,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZA7" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZ_J" resolve="timeout" />
         <node concept="Vb9p2" id="4WE1o4iaZA8" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1402,10 +1421,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="4WE1o4iaZAU" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Component" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZAw" resolve="component" />
         <node concept="1sVBvm" id="4WE1o4iaZAV" role="1sWHZn">
           <node concept="3F0A7n" id="4WE1o4iaZAW" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Component" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="4WE1o4iaZAX" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1415,9 +1436,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="4WE1o4iaZAZ" role="3EZMnx">
-        <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="4WE1o4iaZB0" role="3EZMnx">
         <property role="3F0ifm" value="TIMEOUT: " />
@@ -1432,6 +1450,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4WE1o4iaZB4" role="3EZMnx">
+        <property role="1$x2rV" value="Max time to wait in seconds (ex: 2)" />
         <ref role="1NtTu8" to="57va:4WE1o4iaZAx" resolve="timeout" />
         <node concept="Vb9p2" id="4WE1o4iaZB5" role="3F10Kt">
           <property role="Vbekb" value="g1_kEg4/ITALIC" />
