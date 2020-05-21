@@ -16,6 +16,7 @@
       </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -34,6 +35,7 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -460,31 +462,61 @@
         <node concept="2iRfu4" id="4cASACx5E1P" role="2iSdaV" />
         <node concept="3F0ifn" id="4cASACx5E1v" role="3EZMnx">
           <property role="3F0ifm" value="ACTION:" />
-          <node concept="pVoyu" id="4cASACx5E23" role="3F10Kt" />
-          <node concept="Vb9p2" id="4cASACx5E24" role="3F10Kt">
+          <node concept="pVoyu" id="4cASACxkAyX" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4cASACxkAyY" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
-          <node concept="VechU" id="4cASACx5E25" role="3F10Kt">
+          <node concept="VechU" id="4cASACxkAyZ" role="3F10Kt">
             <property role="Vb096" value="g1_qVrt/darkMagenta" />
-          </node>
-          <node concept="lj46D" id="4cASACx5E26" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+            <node concept="1iSF2X" id="4cASACxkAz0" role="VblUZ">
+              <property role="1iTho6" value="216C06" />
+            </node>
           </node>
         </node>
         <node concept="3F0A7n" id="4cASACx5E1Z" role="3EZMnx">
+          <property role="1$x2rV" value="Insert Action (ex: LoginWithAdminUser)" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <node concept="Vb9p2" id="4cASACx5E2b" role="3F10Kt">
-            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          <node concept="Vb9p2" id="4cASACxkAz5" role="3F10Kt">
+            <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
           </node>
-          <node concept="VechU" id="4cASACx5E2c" role="3F10Kt">
-            <property role="Vb096" value="g1_eI4o/darkBlue" />
+          <node concept="VechU" id="4cASACxkAz6" role="3F10Kt">
+            <property role="Vb096" value="g1_qRwE/darkGreen" />
+            <node concept="1iSF2X" id="4cASACxkAz7" role="VblUZ">
+              <property role="1iTho6" value="2AA198" />
+            </node>
           </node>
+        </node>
+        <node concept="3F0ifn" id="4cASACxmBYk" role="3EZMnx">
+          <property role="3F0ifm" value="$&lt;" />
         </node>
       </node>
       <node concept="3F2HdR" id="4cASACx4$MO" role="3EZMnx">
         <ref role="1NtTu8" to="57va:2AKZZM0JNqC" resolve="step" />
         <node concept="2iRkQZ" id="4cASACx4$MQ" role="2czzBx" />
+        <node concept="3F0ifn" id="4cASACxmBYw" role="2czzBI">
+          <property role="3F0ifm" value="Insert Steps" />
+          <node concept="Veino" id="4cASACxo8Db" role="3F10Kt">
+            <property role="Vb096" value="fLwANPn/red" />
+            <node concept="1iSF2X" id="4cASACxo8Dd" role="VblUZ">
+              <property role="1iTho6" value="e88d7d" />
+            </node>
+          </node>
+          <node concept="VechU" id="4cASACxo8Du" role="3F10Kt">
+            <node concept="1iSF2X" id="4cASACxo8Dz" role="VblUZ">
+              <property role="1iTho6" value="7c1200" />
+            </node>
+          </node>
+          <node concept="Vb9p2" id="4cASACxo8DF" role="3F10Kt">
+            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          </node>
+        </node>
       </node>
+      <node concept="3F0ifn" id="4cASACxn80Y" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;$" />
+      </node>
+      <node concept="3F0ifn" id="4cASACxnC_w" role="3EZMnx" />
       <node concept="2iRkQZ" id="4cASACx4$ME" role="2iSdaV" />
     </node>
   </node>
@@ -1408,44 +1440,37 @@
         <node concept="VPM3Z" id="4cASACx6J6o" role="3F10Kt" />
         <node concept="3F0ifn" id="4cASACx6J6q" role="3EZMnx">
           <property role="3F0ifm" value="PAGE NAME:" />
-          <node concept="pVoyu" id="4cASACx6J6D" role="3F10Kt" />
-          <node concept="Vb9p2" id="4cASACx6J6E" role="3F10Kt">
+          <node concept="pVoyu" id="4cASACxkAyJ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4cASACxkAyK" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
-          <node concept="VechU" id="4cASACx6J6F" role="3F10Kt">
+          <node concept="VechU" id="4cASACxkAyL" role="3F10Kt">
             <property role="Vb096" value="g1_qVrt/darkMagenta" />
-          </node>
-          <node concept="lj46D" id="4cASACx6J6G" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+            <node concept="1iSF2X" id="4cASACxkAyM" role="VblUZ">
+              <property role="1iTho6" value="216C06" />
+            </node>
           </node>
         </node>
         <node concept="3F0A7n" id="4cASACx6J6_" role="3EZMnx">
+          <property role="1$x2rV" value="Insert a page name (ex: LoginPage)" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <node concept="Vb9p2" id="4cASACx6J6N" role="3F10Kt">
-            <property role="Vbekb" value="g1_kEg4/ITALIC" />
+          <node concept="Vb9p2" id="4cASACxkAyR" role="3F10Kt">
+            <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
           </node>
-          <node concept="VechU" id="4cASACx6J6O" role="3F10Kt">
-            <property role="Vb096" value="fLwANPu/blue" />
+          <node concept="VechU" id="4cASACxkAyS" role="3F10Kt">
+            <property role="Vb096" value="g1_qRwE/darkGreen" />
+            <node concept="1iSF2X" id="4cASACxkAyT" role="VblUZ">
+              <property role="1iTho6" value="2AA198" />
+            </node>
           </node>
         </node>
         <node concept="2iRfu4" id="4cASACx6J6r" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="4cASACx7OSj" role="3EZMnx" />
-      <node concept="3F0ifn" id="4cASACx7OSy" role="3EZMnx">
-        <property role="3F0ifm" value="########### PAGE ACTIONS ###########" />
-        <node concept="pVoyu" id="4cASACx7OSO" role="3F10Kt" />
-        <node concept="Vb9p2" id="4cASACx7OSP" role="3F10Kt">
-          <property role="Vbekb" value="g1_k_vY/BOLD" />
-        </node>
-        <node concept="VechU" id="4cASACx7OSQ" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5A/lightGray" />
-        </node>
-        <node concept="lj46D" id="4cASACx7OSR" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="3F2HdR" id="4cASACx6J6d" role="3EZMnx">
-        <ref role="1NtTu8" to="57va:2AKZZM0JNq$" resolve="steps" />
+        <ref role="1NtTu8" to="57va:2AKZZM0JNq$" resolve="keyword" />
         <node concept="2iRkQZ" id="4cASACx6J6f" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="4cASACx6J62" role="2iSdaV" />

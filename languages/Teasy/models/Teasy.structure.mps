@@ -208,7 +208,7 @@
     <node concept="1TJgyj" id="2AKZZM0JNq$" role="1TKVEi">
       <property role="IQ2ns" value="3004182411412977316" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="steps" />
+      <property role="20kJfa" value="keyword" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2AKZZM0JNqt" resolve="Keyword" />
     </node>

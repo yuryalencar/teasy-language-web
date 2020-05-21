@@ -484,8 +484,8 @@
       <node id="3004182411412977313" at="235,33,236,71" concept="1" />
       <node id="3004182411412977313" at="236,71,237,92" concept="1" />
       <node id="3004182411412977313" at="237,92,238,17" concept="1" />
-      <node id="3004182411412977316" at="238,17,239,198" concept="1" />
-      <node id="3004182411412977313" at="239,198,240,20" concept="1" />
+      <node id="3004182411412977316" at="238,17,239,200" concept="1" />
+      <node id="3004182411412977313" at="239,200,240,20" concept="1" />
       <node id="3004182411412977313" at="240,20,241,22" concept="6" />
       <node id="3004182411412977313" at="233,0,243,0" concept="8" trace="createDescriptorForPage#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3004182411412977313" at="86,38,87,29" />
