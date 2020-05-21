@@ -457,39 +457,42 @@
   <node concept="24kQdi" id="2AKZZM0LVlS">
     <property role="3GE5qa" value="core" />
     <ref role="1XX52x" to="57va:2AKZZM0JNqt" resolve="Keyword" />
-    <node concept="3EZMnI" id="4cASACx4$MB" role="2wV5jI">
-      <node concept="3EZMnI" id="4cASACx5E1O" role="3EZMnx">
-        <node concept="2iRfu4" id="4cASACx5E1P" role="2iSdaV" />
-        <node concept="3F0ifn" id="4cASACx5E1v" role="3EZMnx">
-          <property role="3F0ifm" value="ACTION:" />
-          <node concept="pVoyu" id="4cASACxkAyX" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="Vb9p2" id="4cASACxkAyY" role="3F10Kt">
-            <property role="Vbekb" value="g1_k_vY/BOLD" />
-          </node>
-          <node concept="VechU" id="4cASACxkAyZ" role="3F10Kt">
-            <property role="Vb096" value="g1_qVrt/darkMagenta" />
-            <node concept="1iSF2X" id="4cASACxkAz0" role="VblUZ">
-              <property role="1iTho6" value="216C06" />
-            </node>
+    <node concept="3EZMnI" id="4cASACxraji" role="2wV5jI">
+      <node concept="3F0ifn" id="4cASACx5E1v" role="3EZMnx">
+        <property role="3F0ifm" value="ACTION:" />
+        <node concept="pVoyu" id="4cASACxkAyX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4cASACxkAyY" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4cASACxkAyZ" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          <node concept="1iSF2X" id="4cASACxkAz0" role="VblUZ">
+            <property role="1iTho6" value="216C06" />
           </node>
         </node>
-        <node concept="3F0A7n" id="4cASACx5E1Z" role="3EZMnx">
-          <property role="1$x2rV" value="Insert Action (ex: LoginWithAdminUser)" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <node concept="Vb9p2" id="4cASACxkAz5" role="3F10Kt">
-            <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
-          </node>
-          <node concept="VechU" id="4cASACxkAz6" role="3F10Kt">
-            <property role="Vb096" value="g1_qRwE/darkGreen" />
-            <node concept="1iSF2X" id="4cASACxkAz7" role="VblUZ">
-              <property role="1iTho6" value="2AA198" />
-            </node>
+        <node concept="lj46D" id="4cASACxralf" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4cASACx5E1Z" role="3EZMnx">
+        <property role="1$x2rV" value="Insert Action (ex: LoginWithAdminUser)" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="Vb9p2" id="4cASACxkAz5" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+        </node>
+        <node concept="VechU" id="4cASACxkAz6" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxkAz7" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
           </node>
         </node>
-        <node concept="3F0ifn" id="4cASACxmBYk" role="3EZMnx">
-          <property role="3F0ifm" value="$&lt;" />
+      </node>
+      <node concept="3F0ifn" id="4cASACxmBYk" role="3EZMnx">
+        <property role="3F0ifm" value="$&lt;" />
+        <node concept="ljvvj" id="4cASACxrak0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F2HdR" id="4cASACx4$MO" role="3EZMnx">
@@ -512,12 +515,29 @@
             <property role="Vbekb" value="g1_kEg4/ITALIC" />
           </node>
         </node>
+        <node concept="lj46D" id="4cASACxrall" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4cASACxrakO" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="4cASACxrald" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4cASACxraln" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="4cASACxn80Y" role="3EZMnx">
         <property role="3F0ifm" value="&gt;$" />
+        <node concept="pVoyu" id="4cASACxrakM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4cASACxralq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="3F0ifn" id="4cASACxnC_w" role="3EZMnx" />
-      <node concept="2iRkQZ" id="4cASACx4$ME" role="2iSdaV" />
+      <node concept="l2Vlx" id="4cASACxrajj" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="1FUO_j1V9uo">
@@ -1494,10 +1514,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="4cASACx8Y54" role="3EZMnx">
+        <property role="1$x2rV" value="Choose Page Action" />
         <ref role="1NtTu8" to="57va:4cASACx8Y4C" resolve="action" />
         <node concept="1sVBvm" id="4cASACx8Y56" role="1sWHZn">
           <node concept="3F0A7n" id="4cASACx8Y5e" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="Choose Page Action" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <node concept="Vb9p2" id="4cASACx8Y5p" role="3F10Kt">
               <property role="Vbekb" value="g1_kEg4/ITALIC" />
@@ -1517,29 +1539,35 @@
     <node concept="3EZMnI" id="4cASACx8Y5R" role="2wV5jI">
       <node concept="3F0ifn" id="4cASACx8Y60" role="3EZMnx">
         <property role="3F0ifm" value="FLOW NAME:" />
-        <node concept="pVoyu" id="4cASACx8Y6$" role="3F10Kt" />
-        <node concept="Vb9p2" id="4cASACx8Y6_" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxpE5c" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4cASACxpE5d" role="3F10Kt">
           <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
-        <node concept="VechU" id="4cASACx8Y6A" role="3F10Kt">
+        <node concept="VechU" id="4cASACxpE5e" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
-        </node>
-        <node concept="lj46D" id="4cASACx8Y6B" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+          <node concept="1iSF2X" id="4cASACxpE5f" role="VblUZ">
+            <property role="1iTho6" value="216C06" />
+          </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="4cASACx8Y67" role="3EZMnx">
+      <node concept="3F0A7n" id="4cASACxpE4R" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a flow name (ex: Test login with admin user)" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="Vb9p2" id="4cASACx8Y6G" role="3F10Kt">
-          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        <node concept="Vb9p2" id="4cASACxqEf0" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
         </node>
-        <node concept="VechU" id="4cASACx8Y6H" role="3F10Kt">
+        <node concept="VechU" id="4cASACxqEf1" role="3F10Kt">
           <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxqEf2" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
+          </node>
         </node>
-        <node concept="ljvvj" id="4cASACx8Y6b" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="4cASACx8Y6d" role="3F10Kt">
+      </node>
+      <node concept="3F0ifn" id="4cASACxpE4m" role="3EZMnx">
+        <property role="3F0ifm" value="$&lt;" />
+        <node concept="ljvvj" id="4cASACxpE5a" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -1553,6 +1581,18 @@
         <node concept="lj46D" id="4cASACxcmqv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="ljvvj" id="4cASACxpE56" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4cASACxpE5_" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;$" />
+      </node>
+      <node concept="3F0ifn" id="4cASACxrEqD" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="4cASACxrEqZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4cASACx8Y5U" role="2iSdaV" />
     </node>
@@ -1563,13 +1603,41 @@
     <node concept="3EZMnI" id="4cASACxdu5S" role="2wV5jI">
       <node concept="3F0ifn" id="4cASACxdu63" role="3EZMnx">
         <property role="3F0ifm" value="FILENAME:" />
-        <node concept="lj46D" id="4cASACxdu6m" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxtaN7" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4cASACxtaN8" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4cASACxtaN9" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          <node concept="1iSF2X" id="4cASACxtaNa" role="VblUZ">
+            <property role="1iTho6" value="216C06" />
+          </node>
+        </node>
+        <node concept="lj46D" id="4cASACxtaNb" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="4cASACxdu69" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a name for file (ex: AmazingTests)" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="ljvvj" id="4cASACxdu6r" role="3F10Kt">
+        <node concept="Vb9p2" id="4cASACxtaNh" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+        </node>
+        <node concept="VechU" id="4cASACxtaNi" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxtaNj" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4cASACxtaMO" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="4cASACxtaNr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4cASACxtaO5" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -1581,6 +1649,9 @@
         </node>
         <node concept="2iRkQZ" id="4cASACxdu6G" role="2iSdaV" />
         <node concept="lj46D" id="4cASACxdu6Q" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="4cASACxtaN1" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>

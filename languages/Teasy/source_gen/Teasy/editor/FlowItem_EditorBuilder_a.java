@@ -95,7 +95,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     };
 
-    provider.setNoTargetText("<no action>");
+    provider.setNoTargetText("Choose Page Action");
     EditorCell editorCell = provider.createCell();
 
     if (editorCell.getSRole() == null) {
@@ -142,7 +142,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         final SProperty property = PROPS.name$tAp1;
         getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
         EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, true, false), myNode);
-        editorCell.setDefaultText("<no name>");
+        editorCell.setDefaultText("Choose Page Action");
         editorCell.setCellId("property_name");
         Style style = new StyleImpl();
         style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
