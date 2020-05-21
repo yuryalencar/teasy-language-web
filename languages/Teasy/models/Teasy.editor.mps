@@ -78,72 +78,106 @@
     <node concept="3EZMnI" id="7QZy5t8fsYi" role="2wV5jI">
       <node concept="3F0ifn" id="7QZy5t8fsYp" role="3EZMnx">
         <property role="3F0ifm" value="INSERT NAME COMPONENT:" />
-        <node concept="lj46D" id="7QZy5t8fsYs" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxjAr2" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="VechU" id="7QZy5t8hmbL" role="3F10Kt">
-          <property role="Vb096" value="g1_eI4o/darkBlue" />
+        <node concept="lj46D" id="4cASACxjAr3" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
-        <node concept="pVoyu" id="7QZy5t8iFUh" role="3F10Kt">
+        <node concept="Vb9p2" id="4cASACxjAr4" role="3F10Kt" />
+        <node concept="VechU" id="4cASACxjAr5" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+          <node concept="1iSF2X" id="4cASACxjAr6" role="VblUZ">
+            <property role="1iTho6" value="972D35" />
+          </node>
+        </node>
+        <node concept="pVoyu" id="4cASACxjAr7" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="7QZy5t8fsYy" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a component name (ex: LoginButton)" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="ljvvj" id="7QZy5t8fsYB" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="Vb9p2" id="4cASACxjArA" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
         </node>
-        <node concept="Vb9p2" id="7QZy5t8hmc4" role="3F10Kt">
-          <property role="Vbekb" value="g1_kEg4/ITALIC" />
-        </node>
-        <node concept="VechU" id="7QZy5t8hmcc" role="3F10Kt">
+        <node concept="VechU" id="4cASACxjArB" role="3F10Kt">
           <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxjArC" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="7QZy5t8fsYP" role="3EZMnx">
         <property role="3F0ifm" value="INSERT SELECTOR:" />
-        <node concept="lj46D" id="7QZy5t8fsYX" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxjAre" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="VechU" id="7QZy5t8hmbS" role="3F10Kt">
+        <node concept="lj46D" id="4cASACxjArf" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4cASACxjArg" role="3F10Kt" />
+        <node concept="VechU" id="4cASACxjArh" role="3F10Kt">
           <property role="Vb096" value="g1_eI4o/darkBlue" />
+          <node concept="1iSF2X" id="4cASACxjAri" role="VblUZ">
+            <property role="1iTho6" value="972D35" />
+          </node>
+        </node>
+        <node concept="pVoyu" id="4cASACxjArj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="7QZy5t8fsZg" role="3EZMnx">
+        <property role="1$x2rV" value="Insert a selector to find this element (ex:css)" />
         <ref role="1NtTu8" to="57va:6dW_Ovx68hI" resolve="selector" />
-        <node concept="ljvvj" id="7QZy5t8fsZZ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="Vb9p2" id="4cASACxjArG" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
         </node>
-        <node concept="Vb9p2" id="7QZy5t8i126" role="3F10Kt">
-          <property role="Vbekb" value="g1_kEg4/ITALIC" />
-        </node>
-        <node concept="VechU" id="7QZy5t8i127" role="3F10Kt">
+        <node concept="VechU" id="4cASACxjArH" role="3F10Kt">
           <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxjArI" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="7QZy5t8ft0d" role="3EZMnx">
         <property role="3F0ifm" value="INSERT SELECTOR VALUE:" />
-        <node concept="lj46D" id="7QZy5t8ft0K" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxjArq" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="VechU" id="7QZy5t8hmbY" role="3F10Kt">
+        <node concept="lj46D" id="4cASACxjArr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4cASACxjArs" role="3F10Kt" />
+        <node concept="VechU" id="4cASACxjArt" role="3F10Kt">
           <property role="Vb096" value="g1_eI4o/darkBlue" />
+          <node concept="1iSF2X" id="4cASACxjAru" role="VblUZ">
+            <property role="1iTho6" value="972D35" />
+          </node>
+        </node>
+        <node concept="pVoyu" id="4cASACxjArv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="7QZy5t8ft0$" role="3EZMnx">
+        <property role="1$x2rV" value="Insert value to find (ex: button[name^=login])" />
         <ref role="1NtTu8" to="57va:6dW_Ovx68i4" resolve="selector_value" />
-        <node concept="ljvvj" id="7QZy5t8ft0P" role="3F10Kt">
+        <node concept="Vb9p2" id="4cASACxjArM" role="3F10Kt">
+          <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+        </node>
+        <node concept="VechU" id="4cASACxjArN" role="3F10Kt">
+          <property role="Vb096" value="g1_qRwE/darkGreen" />
+          <node concept="1iSF2X" id="4cASACxjArO" role="VblUZ">
+            <property role="1iTho6" value="2AA198" />
+          </node>
+        </node>
+        <node concept="ljvvj" id="4cASACxjAw_" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="Vb9p2" id="7QZy5t8i12b" role="3F10Kt">
-          <property role="Vbekb" value="g1_kEg4/ITALIC" />
-        </node>
-        <node concept="VechU" id="7QZy5t8i12c" role="3F10Kt">
-          <property role="Vb096" value="g1_qRwE/darkGreen" />
-        </node>
       </node>
-      <node concept="3F0ifn" id="7QZy5t8ft17" role="3EZMnx">
-        <node concept="lj46D" id="7QZy5t8ft1p" role="3F10Kt">
+      <node concept="3F0ifn" id="4cASACxjAxg" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="lj46D" id="4cASACxjAxQ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -157,14 +191,17 @@
     <node concept="3EZMnI" id="7QZy5t8ft2t" role="2wV5jI">
       <node concept="3F0ifn" id="7QZy5t8iFTP" role="3EZMnx">
         <property role="3F0ifm" value="SYSTEM COMPONENTS" />
-        <node concept="pVoyu" id="7QZy5t8iFUf" role="3F10Kt">
+        <node concept="pVoyu" id="4cASACxjAxS" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="Vb9p2" id="7QZy5t8iFYS" role="3F10Kt">
+        <node concept="Vb9p2" id="4cASACxjAxT" role="3F10Kt">
           <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
-        <node concept="VechU" id="7QZy5t8iFZ0" role="3F10Kt">
+        <node concept="VechU" id="4cASACxjAxU" role="3F10Kt">
           <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          <node concept="1iSF2X" id="4cASACxjAxV" role="VblUZ">
+            <property role="1iTho6" value="216C06" />
+          </node>
         </node>
       </node>
       <node concept="3F0ifn" id="7QZy5t8iFXA" role="3EZMnx">

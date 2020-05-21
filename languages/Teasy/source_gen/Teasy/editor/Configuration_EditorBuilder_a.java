@@ -240,7 +240,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       final SProperty property = PROPS.url_root_page$w01Y;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("Inser a url (ex:https://github.com/yuryalencar/Teasy)");
+      editorCell.setDefaultText("Insert a url (ex:https://github.com/yuryalencar/Teasy)");
       editorCell.setCellId("property_url_root_page");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
