@@ -380,7 +380,7 @@
     <property role="EcuMT" value="1944097450636888312" />
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="WaitUntilElementIsEnabled" />
-    <property role="34LRSv" value="Wait Until Element Is Visible" />
+    <property role="34LRSv" value="Wait Until Element Is Enabled" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_e" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888398" />

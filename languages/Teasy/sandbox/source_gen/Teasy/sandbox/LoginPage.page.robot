@@ -7,6 +7,8 @@ Resource            ./commons/hooks.page.robot
 
 *** Keywords ***
   LoginWithAdminUser
-        Input Text                                    ${LoginInputPassword}            passwordAdmin     clear=True
+        Input Text                 ${LoginInputPassword}            passwordAdmin     clear=True
+        Click Element              ${LoginButton}
   LoginWithNotAdminUser
-        Input Text                                    ${LoginInputPassword}            passwordDefault     clear=True
+        Input Text                 ${LoginInputPassword}            passwordDefault     clear=False
+        Click Element              ${LoginButton}

@@ -76,6 +76,16 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_4_1(final PropertyMacroContext _context) {
     String componentName = "";
     {
+      final SNode clickElement = _context.getNode();
+      if (SNodeOperations.isInstanceOf(clickElement, CONCEPTS.ClickElement$i8)) {
+        return SPropertyOperations.getString(SLinkOperations.getTarget(clickElement, LINKS.component$hkWY), PROPS.name$tAp1);
+      }
+    }
+    return componentName;
+  }
+  public static Object propertyMacro_GetValue_4_2(final PropertyMacroContext _context) {
+    String componentName = "";
+    {
       final SNode inputText = _context.getNode();
       if (SNodeOperations.isInstanceOf(inputText, CONCEPTS.InputText$4u)) {
         return SPropertyOperations.getString(SLinkOperations.getTarget(inputText, LINKS.component$cAh0), PROPS.name$tAp1);
@@ -83,7 +93,7 @@ public class QueriesGenerated extends QueryProviderBase {
     }
     return componentName;
   }
-  public static Object propertyMacro_GetValue_4_2(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_3(final PropertyMacroContext _context) {
     String textToInsert = "";
     {
       final SNode inputText = _context.getNode();
@@ -93,7 +103,7 @@ public class QueriesGenerated extends QueryProviderBase {
     }
     return textToInsert;
   }
-  public static Object propertyMacro_GetValue_4_3(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_4(final PropertyMacroContext _context) {
     String clear = "True";
     {
       final SNode inputText = _context.getNode();
@@ -106,11 +116,11 @@ public class QueriesGenerated extends QueryProviderBase {
     }
     return clear;
   }
-  public static Object propertyMacro_GetValue_4_4(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetValue_4_5(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1);
   }
   public static boolean ifMacro_Condition_4_0(final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getNode(), CONCEPTS.WaitUntilPageContainsElement$M1);
+    return SNodeOperations.isInstanceOf(_context.getNode(), CONCEPTS.ClickElement$i8);
   }
   public static boolean ifMacro_Condition_4_1(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), CONCEPTS.InputText$4u);
@@ -175,6 +185,7 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("7812698795137456508", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "HEIGHT"));
     pvqMethods.put("7812698795137326150", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "[TIME]"));
     pvqMethods.put("4179187130014079323", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "KEYWORD NAME"));
+    pvqMethods.put("4179187130015170447", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "RADAR_DASHBOARD_GRID"));
     pvqMethods.put("4179187130014728606", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "COMPONENT_NAME"));
     pvqMethods.put("4179187130015020170", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "TEXT_TO INSERT"));
     pvqMethods.put("4179187130015026680", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "CLEAR_FIELD"));
@@ -232,6 +243,8 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_4_3(ctx);
         case 16:
           return QueriesGenerated.propertyMacro_GetValue_4_4(ctx);
+        case 17:
+          return QueriesGenerated.propertyMacro_GetValue_4_5(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -285,11 +298,12 @@ public class QueriesGenerated extends QueryProviderBase {
   }
 
   private static final class CONCEPTS {
+    /*package*/ static final SConcept ClickElement$i8 = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL, "Teasy.structure.ClickElement");
     /*package*/ static final SConcept InputText$4u = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL, "Teasy.structure.InputText");
-    /*package*/ static final SConcept WaitUntilPageContainsElement$M1 = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4f2a0581122bf8e8L, "Teasy.structure.WaitUntilPageContainsElement");
   }
 
   private static final class LINKS {
+    /*package*/ static final SReferenceLink component$hkWY = MetaAdapterFactory.getReferenceLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f432adL, 0x1afad254c1f432b0L, "component");
     /*package*/ static final SReferenceLink component$cAh0 = MetaAdapterFactory.getReferenceLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80c7b56fL, 0x29b0fffc80c7b570L, "component");
     /*package*/ static final SContainmentLink components$a9k0 = MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x7dbf8857483dd032L, 0x7dbf8857483dd033L, "components");
     /*package*/ static final SContainmentLink step$40vG = MetaAdapterFactory.getContainmentLink(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf369dL, 0x29b0fffc80bf36a8L, "step");
