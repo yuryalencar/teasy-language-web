@@ -15,9 +15,9 @@ Resource              ../../config/config.robot
 *** Keywords *** 
 ### Hooks 
 Start Test 
-    Open Browser     www.google.com     chrome
-    Set Window Size     1200     920
-    Set Selenium Implicit Wait     20
+    Open Browser     https://github.com/yuryalencar/Teasy     chrome
+    Set Window Size     1080     720
+    Set Selenium Implicit Wait     2
 
 Finish Test 
     Capture Page Screenshot 
