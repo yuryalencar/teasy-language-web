@@ -455,7 +455,7 @@
   <node concept="356sEV" id="6LGi2$_dFsC">
     <property role="TrG5h" value="hooks.pages.commons" />
     <property role="3Le9LX" value=".robot" />
-    <property role="3GE5qa" value="config" />
+    <property role="3GE5qa" value="pages.commons" />
     <node concept="356WMU" id="6LGi2$_i5Ie" role="356KY_">
       <node concept="356sEK" id="6LGi2$_i5If" role="383Ya9">
         <node concept="356sEF" id="6LGi2$_i5Ig" role="356sEH">
@@ -727,7 +727,7 @@
   <node concept="356sEV" id="3BZt8PInS7j">
     <property role="TrG5h" value="page_name" />
     <property role="3Le9LX" value=".pages.robot" />
-    <property role="3GE5qa" value="page" />
+    <property role="3GE5qa" value="pages" />
     <node concept="356WMU" id="3BZt8PInSq3" role="356KY_">
       <node concept="356sEK" id="3BZt8PInSq4" role="383Ya9">
         <node concept="2EixSi" id="3BZt8PInSq7" role="2EinRH" />
@@ -759,10 +759,16 @@
           <property role="TrG5h" value="...                 application page." />
         </node>
       </node>
+      <node concept="356sEK" id="42wD6wx_DRX" role="383Ya9">
+        <node concept="2EixSi" id="42wD6wx_DRY" role="2EinRH" />
+        <node concept="356sEF" id="42wD6wx_DRZ" role="356sEH">
+          <property role="TrG5h" value="Resource            ./commons/hooks.page.robot" />
+        </node>
+      </node>
       <node concept="356sEK" id="3BZt8PInSqy" role="383Ya9">
         <node concept="2EixSi" id="3BZt8PInSq_" role="2EinRH" />
         <node concept="356sEF" id="3BZt8PInSqA" role="356sEH">
-          <property role="TrG5h" value="Resource            ./commons/hooks.page.robot" />
+          <property role="TrG5h" value="Resource            ../components/components.robot" />
         </node>
       </node>
       <node concept="356sEK" id="3BZt8PInSqC" role="383Ya9">
@@ -2480,6 +2486,7 @@
   <node concept="356sEV" id="42wD6wxx5W0">
     <property role="TrG5h" value="flows" />
     <property role="3Le9LX" value=".tests.robot" />
+    <property role="3GE5qa" value="tests" />
     <node concept="356WMU" id="42wD6wxx6A1" role="356KY_">
       <node concept="356sEK" id="42wD6wxx6A2" role="383Ya9">
         <node concept="2EixSi" id="42wD6wxx6A5" role="2EinRH" />

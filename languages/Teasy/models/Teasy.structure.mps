@@ -116,7 +116,7 @@
     <property role="3GE5qa" value="components" />
     <property role="TrG5h" value="Component" />
     <property role="34LRSv" value="Component" />
-    <property role="R4oN_" value="This artefact represents a component for webpage" />
+    <property role="R4oN_" value="Web Page Component (Ex: Input, Button, and more)" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6dW_Ovx68hI" role="1TKVEl">
       <property role="IQ2nx" value="7168771041841939566" />
@@ -168,7 +168,7 @@
     <property role="3GE5qa" value="components" />
     <property role="TrG5h" value="Components" />
     <property role="34LRSv" value="Components" />
-    <property role="R4oN_" value="All components of the system are registered here." />
+    <property role="R4oN_" value="All components of the Web Page." />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7QZy5t8ft0N" role="1TKVEi">
@@ -184,7 +184,7 @@
     <property role="3GE5qa" value="core" />
     <property role="TrG5h" value="Keyword" />
     <property role="34LRSv" value="Keyword" />
-    <property role="R4oN_" value="Set of Step for represent a action in system." />
+    <property role="R4oN_" value="Actions in respective Web Page." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2AKZZM0JNqC" role="1TKVEi">
       <property role="IQ2ns" value="3004182411412977320" />
@@ -202,7 +202,7 @@
     <property role="3GE5qa" value="core" />
     <property role="TrG5h" value="Page" />
     <property role="34LRSv" value="Page" />
-    <property role="R4oN_" value="Set of Keywords for use in flows " />
+    <property role="R4oN_" value="Web Page of Application " />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2AKZZM0JNq$" role="1TKVEi">
@@ -221,7 +221,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="InputText" />
     <property role="34LRSv" value="Input Text" />
-    <property role="R4oN_" value="Concept to represents a Input text in generation step." />
+    <property role="R4oN_" value="Insertion of text in input element in Web Page.." />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="2AKZZM0LVlM" role="1TKVEl">
       <property role="IQ2nx" value="3004182411413534066" />
@@ -245,7 +245,7 @@
     <property role="3GE5qa" value="core" />
     <property role="TrG5h" value="Step" />
     <property role="34LRSv" value="Step" />
-    <property role="R4oN_" value="A Unique Step for use in actions" />
+    <property role="R4oN_" value="An action in Web Page" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -254,7 +254,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="ClickElement" />
     <property role="34LRSv" value="Click Element" />
-    <property role="R4oN_" value="Concept to represents a Click Element in generation step." />
+    <property role="R4oN_" value="Click for a element in Web Page." />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3aK" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636882608" />
@@ -268,6 +268,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="ExecuteJavascript" />
     <property role="34LRSv" value="Execute JavaScript" />
+    <property role="R4oN_" value="A short code in Javascript for execute in Web Page." />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3bW" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882684" />
@@ -280,6 +281,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="WaitForCondition" />
     <property role="34LRSv" value="Wait For Condition" />
+    <property role="R4oN_" value="To Wait a respective Javascript condition" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3dG" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882796" />
@@ -297,6 +299,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="PageShouldContain" />
     <property role="34LRSv" value="Page Should Contain" />
+    <property role="R4oN_" value="To Verify if page contains a text" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3gu" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636882974" />
@@ -309,6 +312,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="PageShouldContainElement" />
     <property role="34LRSv" value="Page Should Contain Element" />
+    <property role="R4oN_" value="To verify if web page contains a element" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3hv" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636883039" />
@@ -322,6 +326,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="PageShouldNotContain" />
     <property role="34LRSv" value="Page Should Not Contain" />
+    <property role="R4oN_" value="For verify if Web Page not contains a text" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X3iF" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636883115" />
@@ -334,6 +339,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="PageShouldNotContainElement" />
     <property role="34LRSv" value="Page Should Not Contain Element" />
+    <property role="R4oN_" value="To verify if Web Page not contains a element" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyj" id="1FUO_j1X3iH" role="1TKVEi">
       <property role="IQ2ns" value="1944097450636883117" />
@@ -347,6 +353,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="WaitUntilElementIsVisible" />
     <property role="34LRSv" value="Wait Until Element Is Visible" />
+    <property role="R4oN_" value="To wait element is visible" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_i" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888402" />
@@ -364,6 +371,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="WaitUntilElementIsNotVisible" />
     <property role="34LRSv" value="Wait Until Element Is Not Visible" />
+    <property role="R4oN_" value="To wait element is not visible" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_g" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888400" />
@@ -381,6 +389,7 @@
     <property role="3GE5qa" value="steps_types" />
     <property role="TrG5h" value="WaitUntilElementIsEnabled" />
     <property role="34LRSv" value="Wait Until Element Is Enabled" />
+    <property role="R4oN_" value="To wait a enable element" />
     <ref role="1TJDcQ" node="2AKZZM0JNqw" resolve="Step" />
     <node concept="1TJgyi" id="1FUO_j1X4_e" role="1TKVEl">
       <property role="IQ2nx" value="1944097450636888398" />
@@ -470,8 +479,8 @@
   <node concept="1TIwiD" id="4cASACx8Y4x">
     <property role="EcuMT" value="4838803795106586913" />
     <property role="TrG5h" value="FlowItem" />
-    <property role="34LRSv" value="Flow Item" />
-    <property role="R4oN_" value="Flow item presents the execution a action in SUT" />
+    <property role="34LRSv" value="Action To Execute" />
+    <property role="R4oN_" value="Action to run in your test" />
     <property role="3GE5qa" value="flows" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cASACx8Y4C" role="1TKVEi">
@@ -485,8 +494,8 @@
     <property role="EcuMT" value="4838803795106586973" />
     <property role="TrG5h" value="Flow" />
     <property role="34LRSv" value="Flow" />
-    <property role="R4oN_" value="Flow presents a set actions of the SUT" />
     <property role="3GE5qa" value="flows" />
+    <property role="R4oN_" value="Sequence of actions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4cASACx8Y5y" role="1TKVEi">
       <property role="IQ2ns" value="4838803795106586978" />
@@ -503,7 +512,7 @@
     <property role="EcuMT" value="4838803795107766633" />
     <property role="TrG5h" value="Flows" />
     <property role="34LRSv" value="Flows" />
-    <property role="R4oN_" value="A set flows in SUT" />
+    <property role="R4oN_" value="A set flows to execute in SUT" />
     <property role="3GE5qa" value="flows" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
