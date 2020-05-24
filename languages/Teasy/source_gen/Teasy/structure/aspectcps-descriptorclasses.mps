@@ -1875,7 +1875,7 @@
                       <node concept="liA8E" id="am" role="2OqNvi">
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.rawPresentation(java.lang.String)" resolve="rawPresentation" />
                         <node concept="Xl_RD" id="an" role="37wK5m">
-                          <property role="Xl_RC" value="Wait Until Element Is Visible" />
+                          <property role="Xl_RC" value="Wait Until Element Is Enabled" />
                           <node concept="cd27G" id="ap" role="lGtFl">
                             <node concept="3u3nmq" id="aq" role="cd27D">
                               <property role="3u3nmv" value="1944097450636888312" />
@@ -10053,7 +10053,7 @@
             <node concept="liA8E" id="UM" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.alias(java.lang.String)" resolve="alias" />
               <node concept="Xl_RD" id="UN" role="37wK5m">
-                <property role="Xl_RC" value="Wait Until Element Is Visible" />
+                <property role="Xl_RC" value="Wait Until Element Is Enabled" />
               </node>
             </node>
           </node>

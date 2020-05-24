@@ -8,6 +8,7 @@
   <registry>
     <language id="67c1fa65-c7ac-493d-b11b-664188147c91" name="Teasy">
       <concept id="7168771041841939563" name="Teasy.structure.Component" flags="ng" index="22p1cG">
+        <property id="7168771041841939566" name="selector" index="22p1cD" />
         <property id="7168771041841939588" name="selector_value" index="22p1f3" />
       </concept>
       <concept id="7168771041841770865" name="Teasy.structure.Configuration" flags="ng" index="22qmoQ">
@@ -66,11 +67,21 @@
       <property role="TrG5h" value="LoginInputPassword" />
       <property role="22p1f3" value="input-password" />
     </node>
+    <node concept="22p1cG" id="42wD6wxyZjr" role="Pw_x$">
+      <property role="TrG5h" value="LoginEmail" />
+      <property role="22p1cD" value="6dW_Ovx68hT/name" />
+      <property role="22p1f3" value="email" />
+    </node>
   </node>
   <node concept="2D3W_t" id="3BZt8PImQAE">
     <property role="TrG5h" value="LoginPage" />
     <node concept="2D3W_x" id="3BZt8PImQAF" role="2D3W_o">
       <property role="TrG5h" value="LoginWithAdminUser" />
+      <node concept="2DtOEj" id="42wD6wxyZjz" role="2D3W_k">
+        <property role="2DtOEe" value="yuryalencar@gmail.com" />
+        <property role="3r5$lX" value="true" />
+        <ref role="2DtOEc" node="42wD6wxyZjr" resolve="LoginEmail" />
+      </node>
       <node concept="2DtOEj" id="3BZt8PImQAH" role="2D3W_k">
         <property role="2DtOEe" value="passwordAdmin" />
         <property role="3r5$lX" value="true" />
@@ -95,8 +106,17 @@
     <property role="TrG5h" value="LoginTests" />
     <node concept="1y1gcR" id="3BZt8PInRhJ" role="1y4Kc0">
       <property role="TrG5h" value="Login With Administrator" />
-      <node concept="1y1gdb" id="3BZt8PInRhK" role="1y1gc8">
+      <node concept="1y1gdb" id="42wD6wxyZjC" role="1y1gc8">
         <ref role="1y1gd2" node="3BZt8PImQAF" resolve="LoginWithAdminUser" />
+      </node>
+      <node concept="1y1gdb" id="42wD6wxyZjE" role="1y1gc8">
+        <ref role="1y1gd2" node="3BZt8PImQAK" resolve="LoginWithNotAdminUser" />
+      </node>
+      <node concept="1y1gdb" id="42wD6wxyZjH" role="1y1gc8">
+        <ref role="1y1gd2" node="3BZt8PImQAF" resolve="LoginWithAdminUser" />
+      </node>
+      <node concept="1y1gdb" id="42wD6wxyZjL" role="1y1gc8">
+        <ref role="1y1gd2" node="3BZt8PImQAK" resolve="LoginWithNotAdminUser" />
       </node>
     </node>
     <node concept="1y1gcR" id="3BZt8PInRhL" role="1y4Kc0">

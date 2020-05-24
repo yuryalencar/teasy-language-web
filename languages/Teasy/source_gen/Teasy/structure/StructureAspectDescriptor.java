@@ -307,7 +307,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("timeout", 0x1afad254c1f4494eL).type(PrimitiveTypeId.INTEGER).origin("1944097450636888398").done();
     b.associate("component", 0x1afad254c1f448f9L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(true).origin("1944097450636888313").done();
-    b.alias("Wait Until Element Is Visible");
+    b.alias("Wait Until Element Is Enabled");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForWaitUntilElementIsNotVisible() {

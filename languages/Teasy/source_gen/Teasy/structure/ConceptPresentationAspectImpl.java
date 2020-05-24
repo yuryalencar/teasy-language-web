@@ -171,7 +171,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.WaitUntilElementIsEnabled:
         if (props_WaitUntilElementIsEnabled == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Wait Until Element Is Visible");
+          cpb.rawPresentation("Wait Until Element Is Enabled");
           props_WaitUntilElementIsEnabled = cpb.create();
         }
         return props_WaitUntilElementIsEnabled;

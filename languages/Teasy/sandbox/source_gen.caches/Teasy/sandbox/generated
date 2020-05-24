@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="aln5cdvlvk4l3oukokehglt85m28sak">
-  <files names="LoginPage.page.robot:components.robot:config.robot:hooks.page.robot" />
+<product version="3" modelHash="-20sy8ih4sfogk889k5db73272iwkvzv">
+  <files names="LoginPage.pages.robot:LoginTests.tests.robot:components.robot:config.robot:hooks.pages.commons.robot" />
 </product>
 

@@ -7,4 +7,3 @@ Documentation       Components
 *** Variables ***
 ${LoginButton}     id:btn-login
 ${LoginInputPassword}     id:input-password
-${LoginEmail}     name:email
