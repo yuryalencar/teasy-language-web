@@ -20,10 +20,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_InputText;
   private ConceptPresentation props_Keyword;
   private ConceptPresentation props_Page;
+  private ConceptPresentation props_PageRegisterConfig;
   private ConceptPresentation props_PageShouldContain;
   private ConceptPresentation props_PageShouldContainElement;
   private ConceptPresentation props_PageShouldNotContain;
   private ConceptPresentation props_PageShouldNotContainElement;
+  private ConceptPresentation props_PageToRegister;
   private ConceptPresentation props_Step;
   private ConceptPresentation props_WaitForCondition;
   private ConceptPresentation props_WaitUntilElementIsEnabled;
@@ -42,7 +44,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ClickElement:
         if (props_ClickElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Concept to represents a Click Element in generation step.");
+          cpb.shortDesc("Click for a element in Web Page.");
           cpb.rawPresentation("Click Element");
           props_ClickElement = cpb.create();
         }
@@ -50,7 +52,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Component:
         if (props_Component == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("This artefact represents a component for webpage");
+          cpb.shortDesc("Web Page Component (Ex: Input, Button, and more)");
           cpb.presentationByName();
           props_Component = cpb.create();
         }
@@ -58,7 +60,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Components:
         if (props_Components == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("All components of the system are registered here.");
+          cpb.shortDesc("All components of the Web Page.");
           cpb.rawPresentation("Components");
           props_Components = cpb.create();
         }
@@ -74,6 +76,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.ExecuteJavascript:
         if (props_ExecuteJavascript == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("A short code in Javascript for execute in Web Page.");
           cpb.rawPresentation("Execute JavaScript");
           props_ExecuteJavascript = cpb.create();
         }
@@ -81,7 +84,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Flow:
         if (props_Flow == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Flow presents a set actions of the SUT");
+          cpb.shortDesc("Sequence of actions");
           cpb.presentationByName();
           props_Flow = cpb.create();
         }
@@ -89,15 +92,15 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.FlowItem:
         if (props_FlowItem == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Flow item presents the execution a action in SUT");
-          cpb.rawPresentation("Flow Item");
+          cpb.shortDesc("Action to run in your test");
+          cpb.rawPresentation("Action To Execute");
           props_FlowItem = cpb.create();
         }
         return props_FlowItem;
       case LanguageConceptSwitch.Flows:
         if (props_Flows == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("A set flows in SUT");
+          cpb.shortDesc("A set flows to execute in SUT");
           cpb.presentationByName();
           props_Flows = cpb.create();
         }
@@ -105,7 +108,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.InputText:
         if (props_InputText == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Concept to represents a Input text in generation step.");
+          cpb.shortDesc("Insertion of text in input element in Web Page..");
           cpb.rawPresentation("Input Text");
           props_InputText = cpb.create();
         }
@@ -113,7 +116,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Keyword:
         if (props_Keyword == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Set of Step for represent a action in system.");
+          cpb.shortDesc("Actions in respective Web Page.");
           cpb.presentationByName();
           props_Keyword = cpb.create();
         }
@@ -121,14 +124,23 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.Page:
         if (props_Page == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("Set of Keywords for use in flows ");
+          cpb.shortDesc("Web Page of Application ");
           cpb.presentationByName();
           props_Page = cpb.create();
         }
         return props_Page;
+      case LanguageConceptSwitch.PageRegisterConfig:
+        if (props_PageRegisterConfig == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To register your page to run tests");
+          cpb.rawPresentation("PageRegisterConfig");
+          props_PageRegisterConfig = cpb.create();
+        }
+        return props_PageRegisterConfig;
       case LanguageConceptSwitch.PageShouldContain:
         if (props_PageShouldContain == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To Verify if page contains a text");
           cpb.rawPresentation("Page Should Contain");
           props_PageShouldContain = cpb.create();
         }
@@ -136,6 +148,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PageShouldContainElement:
         if (props_PageShouldContainElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To verify if web page contains a element");
           cpb.rawPresentation("Page Should Contain Element");
           props_PageShouldContainElement = cpb.create();
         }
@@ -143,6 +156,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PageShouldNotContain:
         if (props_PageShouldNotContain == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("For verify if Web Page not contains a text");
           cpb.rawPresentation("Page Should Not Contain");
           props_PageShouldNotContain = cpb.create();
         }
@@ -150,20 +164,30 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.PageShouldNotContainElement:
         if (props_PageShouldNotContainElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To verify if Web Page not contains a element");
           cpb.rawPresentation("Page Should Not Contain Element");
           props_PageShouldNotContainElement = cpb.create();
         }
         return props_PageShouldNotContainElement;
+      case LanguageConceptSwitch.PageToRegister:
+        if (props_PageToRegister == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To register your page to run tests");
+          cpb.rawPresentation("PageRegister");
+          props_PageToRegister = cpb.create();
+        }
+        return props_PageToRegister;
       case LanguageConceptSwitch.Step:
         if (props_Step == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("A Unique Step for use in actions");
+          cpb.shortDesc("An action in Web Page");
           props_Step = cpb.create();
         }
         return props_Step;
       case LanguageConceptSwitch.WaitForCondition:
         if (props_WaitForCondition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To Wait a respective Javascript condition");
           cpb.rawPresentation("Wait For Condition");
           props_WaitForCondition = cpb.create();
         }
@@ -171,6 +195,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.WaitUntilElementIsEnabled:
         if (props_WaitUntilElementIsEnabled == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To wait a enable element");
           cpb.rawPresentation("Wait Until Element Is Enabled");
           props_WaitUntilElementIsEnabled = cpb.create();
         }
@@ -178,6 +203,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.WaitUntilElementIsNotVisible:
         if (props_WaitUntilElementIsNotVisible == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To wait element is not visible");
           cpb.rawPresentation("Wait Until Element Is Not Visible");
           props_WaitUntilElementIsNotVisible = cpb.create();
         }
@@ -185,6 +211,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.WaitUntilElementIsVisible:
         if (props_WaitUntilElementIsVisible == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("To wait element is visible");
           cpb.rawPresentation("Wait Until Element Is Visible");
           props_WaitUntilElementIsVisible = cpb.create();
         }

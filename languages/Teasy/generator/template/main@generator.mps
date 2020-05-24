@@ -170,6 +170,10 @@
       <ref role="30HIoZ" to="57va:4cASACxdu5D" resolve="Flows" />
       <ref role="3lhOvi" node="42wD6wxx5W0" resolve="flows" />
     </node>
+    <node concept="3lhOvk" id="4GGafXU5l5b" role="3lj3bC">
+      <ref role="30HIoZ" to="57va:4GGafXU4Rfl" resolve="PageRegisterConfig" />
+      <ref role="3lhOvi" node="4GGafXU4RiI" resolve="page_register" />
+    </node>
   </node>
   <node concept="356sEV" id="7QZy5t8k44w">
     <property role="TrG5h" value="components" />
@@ -762,7 +766,7 @@
       <node concept="356sEK" id="42wD6wx_DRX" role="383Ya9">
         <node concept="2EixSi" id="42wD6wx_DRY" role="2EinRH" />
         <node concept="356sEF" id="42wD6wx_DRZ" role="356sEH">
-          <property role="TrG5h" value="Resource            ./commons/hooks.page.robot" />
+          <property role="TrG5h" value=" " />
         </node>
       </node>
       <node concept="356sEK" id="3BZt8PInSqy" role="383Ya9">
@@ -2518,12 +2522,6 @@
           <property role="TrG5h" value=" " />
         </node>
       </node>
-      <node concept="356sEK" id="42wD6wxx6Qe" role="383Ya9">
-        <node concept="2EixSi" id="42wD6wxx6Qf" role="2EinRH" />
-        <node concept="356sEF" id="42wD6wxx6Qg" role="356sEH">
-          <property role="TrG5h" value="Resource            ../components/components.robot" />
-        </node>
-      </node>
       <node concept="356sEK" id="42wD6wxyACK" role="383Ya9">
         <node concept="2EixSi" id="42wD6wxyACL" role="2EinRH" />
         <node concept="356sEF" id="42wD6wxyACM" role="356sEH">
@@ -2533,7 +2531,7 @@
       <node concept="356sEK" id="42wD6wxx6AY" role="383Ya9">
         <node concept="2EixSi" id="42wD6wxx6B1" role="2EinRH" />
         <node concept="356sEF" id="42wD6wxx6B2" role="356sEH">
-          <property role="TrG5h" value="Resource            ../pages/*.robot" />
+          <property role="TrG5h" value="Resource            ../config/page_register.config.robot" />
         </node>
       </node>
       <node concept="356sEK" id="42wD6wxx6B4" role="383Ya9">
@@ -2670,6 +2668,93 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="356sEV" id="4GGafXU4RiI">
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="page_register" />
+    <property role="3Le9LX" value=".config.robot" />
+    <node concept="356WMU" id="4GGafXU4RiM" role="356KY_">
+      <node concept="356sEK" id="4GGafXU4RiN" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4RiQ" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4RiR" role="356sEH">
+          <property role="TrG5h" value="*** Settings ***" />
+        </node>
+      </node>
+      <node concept="356sEK" id="4GGafXU4RiT" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4RiW" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4RiX" role="356sEH">
+          <property role="TrG5h" value="Documentation       File to use in page imports" />
+        </node>
+      </node>
+      <node concept="356sEK" id="4GGafXU4RiZ" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4Rj2" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4Rj3" role="356sEH">
+          <property role="TrG5h" value="..." />
+        </node>
+      </node>
+      <node concept="356sEK" id="4GGafXU4Rj5" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4Rj8" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4Rj9" role="356sEH">
+          <property role="TrG5h" value="...                 All Pages of use tests should in this file." />
+        </node>
+      </node>
+      <node concept="356sEK" id="4GGafXU4Rjb" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4Rje" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4Rjf" role="356sEH">
+          <property role="TrG5h" value=" " />
+        </node>
+      </node>
+      <node concept="356sEK" id="4GGafXU4Rjh" role="383Ya9">
+        <node concept="2EixSi" id="4GGafXU4Rjk" role="2EinRH" />
+        <node concept="356sEF" id="4GGafXU4Rjl" role="356sEH">
+          <property role="TrG5h" value="Resource            ../pages/" />
+        </node>
+        <node concept="356sEF" id="4GGafXU4Rk5" role="356sEH">
+          <property role="TrG5h" value="PAGE_NAME" />
+          <node concept="17Uvod" id="4GGafXU4RwA" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="4GGafXU4RwB" role="3zH0cK">
+              <node concept="3clFbS" id="4GGafXU4RwC" role="2VODD2">
+                <node concept="3clFbF" id="4GGafXU4R_f" role="3cqZAp">
+                  <node concept="2OqwBi" id="4GGafXU4Sqs" role="3clFbG">
+                    <node concept="2OqwBi" id="4GGafXU4RLw" role="2Oq$k0">
+                      <node concept="30H73N" id="4GGafXU4R_e" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4GGafXU4RX0" role="2OqNvi">
+                        <ref role="3Tt5mk" to="57va:4GGafXU4Rfq" resolve="page_name" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="4GGafXU4S_j" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="356sEF" id="4GGafXU4Rk6" role="356sEH">
+          <property role="TrG5h" value=".pages.robot" />
+        </node>
+        <node concept="1WS0z7" id="4GGafXU4Rkb" role="lGtFl">
+          <node concept="3JmXsc" id="4GGafXU4Rke" role="3Jn$fo">
+            <node concept="3clFbS" id="4GGafXU4Rkf" role="2VODD2">
+              <node concept="3clFbF" id="4GGafXU4Rkl" role="3cqZAp">
+                <node concept="2OqwBi" id="4GGafXU4Rkg" role="3clFbG">
+                  <node concept="3Tsc0h" id="4GGafXU4Rkj" role="2OqNvi">
+                    <ref role="3TtcxE" to="57va:4GGafXU4Rfm" resolve="pages" />
+                  </node>
+                  <node concept="30H73N" id="4GGafXU4Rkk" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="n94m4" id="4GGafXU4RiK" role="lGtFl">
+      <ref role="n9lRv" to="57va:4GGafXU4Rfl" resolve="PageRegisterConfig" />
     </node>
   </node>
 </model>

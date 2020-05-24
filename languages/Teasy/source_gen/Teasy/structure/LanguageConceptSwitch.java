@@ -20,19 +20,21 @@ public final class LanguageConceptSwitch {
   public static final int InputText = 8;
   public static final int Keyword = 9;
   public static final int Page = 10;
-  public static final int PageShouldContain = 11;
-  public static final int PageShouldContainElement = 12;
-  public static final int PageShouldNotContain = 13;
-  public static final int PageShouldNotContainElement = 14;
-  public static final int Step = 15;
-  public static final int WaitForCondition = 16;
-  public static final int WaitUntilElementIsEnabled = 17;
-  public static final int WaitUntilElementIsNotVisible = 18;
-  public static final int WaitUntilElementIsVisible = 19;
-  public static final int WaitUntilPageContains = 20;
-  public static final int WaitUntilPageContainsElement = 21;
-  public static final int WaitUntilPageDoesNotContain = 22;
-  public static final int WaitUntilPageDoesNotContainElement = 23;
+  public static final int PageRegisterConfig = 11;
+  public static final int PageShouldContain = 12;
+  public static final int PageShouldContainElement = 13;
+  public static final int PageShouldNotContain = 14;
+  public static final int PageShouldNotContainElement = 15;
+  public static final int PageToRegister = 16;
+  public static final int Step = 17;
+  public static final int WaitForCondition = 18;
+  public static final int WaitUntilElementIsEnabled = 19;
+  public static final int WaitUntilElementIsNotVisible = 20;
+  public static final int WaitUntilElementIsVisible = 21;
+  public static final int WaitUntilPageContains = 22;
+  public static final int WaitUntilPageContainsElement = 23;
+  public static final int WaitUntilPageDoesNotContain = 24;
+  public static final int WaitUntilPageDoesNotContainElement = 25;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x67c1fa65c7ac493dL, 0xb11b664188147c91L);
@@ -47,10 +49,12 @@ public final class LanguageConceptSwitch {
     builder.put(0x29b0fffc80c7b56fL, InputText);
     builder.put(0x29b0fffc80bf369dL, Keyword);
     builder.put(0x29b0fffc80bf36a1L, Page);
+    builder.put(0x4b2c28ff7a1373d5L, PageRegisterConfig);
     builder.put(0x1afad254c1f4341dL, PageShouldContain);
     builder.put(0x1afad254c1f4345eL, PageShouldContainElement);
     builder.put(0x1afad254c1f434aaL, PageShouldNotContain);
     builder.put(0x1afad254c1f434acL, PageShouldNotContainElement);
+    builder.put(0x4b2c28ff7a1373d8L, PageToRegister);
     builder.put(0x29b0fffc80bf36a0L, Step);
     builder.put(0x1afad254c1f4336bL, WaitForCondition);
     builder.put(0x1afad254c1f448f8L, WaitUntilElementIsEnabled);

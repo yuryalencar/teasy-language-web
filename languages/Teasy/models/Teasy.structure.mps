@@ -527,5 +527,34 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4GGafXU4Rfl">
+    <property role="EcuMT" value="5416749529549730773" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="PageRegisterConfig" />
+    <property role="34LRSv" value="PageRegisterConfig" />
+    <property role="R4oN_" value="To register your page to run tests" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4GGafXU4Rfm" role="1TKVEi">
+      <property role="IQ2ns" value="5416749529549730774" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20kJfa" value="pages" />
+      <ref role="20lvS9" node="4GGafXU4Rfo" resolve="PageToRegister" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4GGafXU4Rfo">
+    <property role="EcuMT" value="5416749529549730776" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="PageToRegister" />
+    <property role="34LRSv" value="PageRegister" />
+    <property role="R4oN_" value="To register your page to run tests" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4GGafXU4Rfq" role="1TKVEi">
+      <property role="IQ2ns" value="5416749529549730778" />
+      <property role="20kJfa" value="page_name" />
+      <ref role="20lvS9" node="2AKZZM0JNqx" resolve="Page" />
+    </node>
+  </node>
 </model>
 

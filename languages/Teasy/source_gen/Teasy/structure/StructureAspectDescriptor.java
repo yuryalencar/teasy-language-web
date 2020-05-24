@@ -27,10 +27,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptInputText = createDescriptorForInputText();
   /*package*/ final ConceptDescriptor myConceptKeyword = createDescriptorForKeyword();
   /*package*/ final ConceptDescriptor myConceptPage = createDescriptorForPage();
+  /*package*/ final ConceptDescriptor myConceptPageRegisterConfig = createDescriptorForPageRegisterConfig();
   /*package*/ final ConceptDescriptor myConceptPageShouldContain = createDescriptorForPageShouldContain();
   /*package*/ final ConceptDescriptor myConceptPageShouldContainElement = createDescriptorForPageShouldContainElement();
   /*package*/ final ConceptDescriptor myConceptPageShouldNotContain = createDescriptorForPageShouldNotContain();
   /*package*/ final ConceptDescriptor myConceptPageShouldNotContainElement = createDescriptorForPageShouldNotContainElement();
+  /*package*/ final ConceptDescriptor myConceptPageToRegister = createDescriptorForPageToRegister();
   /*package*/ final ConceptDescriptor myConceptStep = createDescriptorForStep();
   /*package*/ final ConceptDescriptor myConceptWaitForCondition = createDescriptorForWaitForCondition();
   /*package*/ final ConceptDescriptor myConceptWaitUntilElementIsEnabled = createDescriptorForWaitUntilElementIsEnabled();
@@ -56,7 +58,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptExecuteJavascript, myConceptFlow, myConceptFlowItem, myConceptFlows, myConceptInputText, myConceptKeyword, myConceptPage, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptStep, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
+    return Arrays.asList(myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptExecuteJavascript, myConceptFlow, myConceptFlowItem, myConceptFlows, myConceptInputText, myConceptKeyword, myConceptPage, myConceptPageRegisterConfig, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptPageToRegister, myConceptStep, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
   }
 
   @Override
@@ -85,6 +87,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptKeyword;
       case LanguageConceptSwitch.Page:
         return myConceptPage;
+      case LanguageConceptSwitch.PageRegisterConfig:
+        return myConceptPageRegisterConfig;
       case LanguageConceptSwitch.PageShouldContain:
         return myConceptPageShouldContain;
       case LanguageConceptSwitch.PageShouldContainElement:
@@ -93,6 +97,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPageShouldNotContain;
       case LanguageConceptSwitch.PageShouldNotContainElement:
         return myConceptPageShouldNotContainElement;
+      case LanguageConceptSwitch.PageToRegister:
+        return myConceptPageToRegister;
       case LanguageConceptSwitch.Step:
         return myConceptStep;
       case LanguageConceptSwitch.WaitForCondition:
@@ -195,7 +201,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/4838803795106586913");
     b.version(2);
     b.associate("action", 0x4326e26a2123e128L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf369dL).optional(false).origin("4838803795106586920").done();
-    b.alias("Flow Item");
+    b.alias("Action To Execute");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForFlows() {
@@ -240,6 +246,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.alias("Page");
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForPageRegisterConfig() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageRegisterConfig", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4b2c28ff7a1373d5L);
+    b.class_(false, false, true);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5416749529549730773");
+    b.version(2);
+    b.aggregate("pages", 0x4b2c28ff7a1373d6L).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4b2c28ff7a1373d8L).optional(false).ordered(true).multiple(true).origin("5416749529549730774").done();
+    b.alias("PageRegisterConfig");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForPageShouldContain() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageShouldContain", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x1afad254c1f4341dL);
     b.class_(false, false, false);
@@ -278,6 +293,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.associate("component", 0x1afad254c1f434adL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e118846bL).optional(false).origin("1944097450636883117").done();
     b.alias("Page Should Not Contain Element");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForPageToRegister() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "PageToRegister", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4b2c28ff7a1373d8L);
+    b.class_(false, false, false);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/5416749529549730776");
+    b.version(2);
+    b.associate("page_name", 0x4b2c28ff7a1373daL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a1L).optional(true).origin("5416749529549730778").done();
+    b.alias("PageRegister");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForStep() {

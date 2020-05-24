@@ -1668,5 +1668,90 @@
       <node concept="l2Vlx" id="4cASACxdu5V" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4GGafXU4Rf$">
+    <property role="3GE5qa" value="config" />
+    <ref role="1XX52x" to="57va:4GGafXU4Rfo" resolve="PageToRegister" />
+    <node concept="3EZMnI" id="4GGafXU4RfA" role="2wV5jI">
+      <node concept="3F0ifn" id="4GGafXU4RfH" role="3EZMnx">
+        <property role="3F0ifm" value="PAGE TO REGISTER:" />
+        <node concept="pVoyu" id="4GGafXU4Rg0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="4GGafXU4Rg1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4GGafXU4Rg2" role="3F10Kt" />
+        <node concept="VechU" id="4GGafXU4Rg3" role="3F10Kt">
+          <property role="Vb096" value="g1_eI4o/darkBlue" />
+          <node concept="1iSF2X" id="4GGafXU4Rg4" role="VblUZ">
+            <property role="1iTho6" value="972D35" />
+          </node>
+        </node>
+        <node concept="pVoyu" id="4GGafXU4Rg5" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="4GGafXU4RfN" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4GGafXU4Rfq" resolve="page_name" />
+        <node concept="1sVBvm" id="4GGafXU4RfP" role="1sWHZn">
+          <node concept="3F0A7n" id="4GGafXU4RfX" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="Vb9p2" id="4GGafXU4Rgc" role="3F10Kt">
+              <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+            </node>
+            <node concept="VechU" id="4GGafXU4Rgd" role="3F10Kt">
+              <property role="Vb096" value="g1_qRwE/darkGreen" />
+              <node concept="1iSF2X" id="4GGafXU4Rge" role="VblUZ">
+                <property role="1iTho6" value="2AA198" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4GGafXU4RfD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4GGafXU4Rgq">
+    <property role="3GE5qa" value="config" />
+    <ref role="1XX52x" to="57va:4GGafXU4Rfl" resolve="PageRegisterConfig" />
+    <node concept="3EZMnI" id="4GGafXU4Rgs" role="2wV5jI">
+      <node concept="3F0ifn" id="4GGafXU4Rgz" role="3EZMnx">
+        <property role="3F0ifm" value="REGISTER PAGES:" />
+        <node concept="pVoyu" id="4GGafXU4RgA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="4GGafXU4RgB" role="3F10Kt">
+          <property role="Vbekb" value="g1_k_vY/BOLD" />
+        </node>
+        <node concept="VechU" id="4GGafXU4RgC" role="3F10Kt">
+          <property role="Vb096" value="g1_qVrt/darkMagenta" />
+          <node concept="1iSF2X" id="4GGafXU4RgD" role="VblUZ">
+            <property role="1iTho6" value="216C06" />
+          </node>
+        </node>
+        <node concept="ljvvj" id="4GGafXU4Rhi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4GGafXU4Rhw" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="4GGafXU4RhT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="4GGafXU4Rid" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4GGafXU4Rit" role="3EZMnx">
+        <ref role="1NtTu8" to="57va:4GGafXU4Rfm" resolve="pages" />
+        <node concept="l2Vlx" id="4GGafXU4Riw" role="2czzBx" />
+        <node concept="lj46D" id="4GGafXU4RiG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="4GGafXU4Rgv" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

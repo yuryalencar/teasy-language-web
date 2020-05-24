@@ -29,11 +29,20 @@
         <property id="1944097450636384041" name="clear" index="3r5$lX" />
         <reference id="3004182411413534064" name="component" index="2DtOEc" />
       </concept>
+      <concept id="5416749529549730776" name="Teasy.structure.PageToRegister" flags="ng" index="LfPGB">
+        <reference id="5416749529549730778" name="page_name" index="LfPG_" />
+      </concept>
+      <concept id="5416749529549730773" name="Teasy.structure.PageRegisterConfig" flags="ng" index="LfPGE">
+        <child id="5416749529549730774" name="pages" index="LfPGD" />
+      </concept>
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
       </concept>
       <concept id="1944097450636882605" name="Teasy.structure.ClickElement" flags="ng" index="3r3I3T">
         <reference id="1944097450636882608" name="component" index="3r3I3$" />
+      </concept>
+      <concept id="1944097450636883038" name="Teasy.structure.PageShouldContainElement" flags="ng" index="3r3Ioa">
+        <reference id="1944097450636883039" name="component" index="3r3Iob" />
       </concept>
       <concept id="4838803795106586973" name="Teasy.structure.Flow" flags="ng" index="1y1gcR">
         <child id="4838803795106586978" name="flow_item" index="1y1gc8" />
@@ -46,84 +55,92 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
   <node concept="22qmoQ" id="3BZt8PImQAz">
-    <property role="22qmr5" value="2" />
+    <property role="22qmr5" value="5" />
     <property role="22qmr1" value="300" />
-    <property role="22qmoS" value="https://github.com/yuryalencar/Teasy" />
+    <property role="22qmoS" value="https://trello.com/login" />
     <property role="19mEig" value="1080" />
     <property role="19mEjD" value="720" />
+    <property role="3GE5qa" value="config" />
   </node>
   <node concept="Pw_x_" id="3BZt8PImQA$">
-    <node concept="22p1cG" id="3BZt8PImQA_" role="Pw_x$">
+    <property role="3GE5qa" value="components" />
+    <node concept="22p1cG" id="4GGafXU4J_l" role="Pw_x$">
+      <property role="TrG5h" value="LoginEmailInput" />
+      <property role="22p1f3" value="user" />
+    </node>
+    <node concept="22p1cG" id="4GGafXU4J_n" role="Pw_x$">
+      <property role="TrG5h" value="LoginPasswordInput" />
+      <property role="22p1f3" value="password" />
+    </node>
+    <node concept="22p1cG" id="4GGafXU4J_q" role="Pw_x$">
       <property role="TrG5h" value="LoginButton" />
-      <property role="22p1f3" value="btn-login" />
+      <property role="22p1f3" value="login" />
     </node>
-    <node concept="22p1cG" id="3BZt8PImQAB" role="Pw_x$">
-      <property role="TrG5h" value="LoginInputPassword" />
-      <property role="22p1f3" value="input-password" />
-    </node>
-    <node concept="22p1cG" id="42wD6wxyZjr" role="Pw_x$">
-      <property role="TrG5h" value="LoginEmail" />
-      <property role="22p1cD" value="6dW_Ovx68hT/name" />
-      <property role="22p1f3" value="email" />
+    <node concept="22p1cG" id="4GGafXU4J_Z" role="Pw_x$">
+      <property role="TrG5h" value="HomeAllBoardsDiv" />
+      <property role="22p1cD" value="6dW_Ovx68hY/class" />
+      <property role="22p1f3" value="content-all-boards" />
     </node>
   </node>
   <node concept="2D3W_t" id="3BZt8PImQAE">
-    <property role="TrG5h" value="LoginPage" />
-    <node concept="2D3W_x" id="3BZt8PImQAF" role="2D3W_o">
-      <property role="TrG5h" value="LoginWithAdminUser" />
-      <node concept="2DtOEj" id="42wD6wxyZjz" role="2D3W_k">
-        <property role="2DtOEe" value="yuryalencar@gmail.com" />
+    <property role="TrG5h" value="LoginTrelloPage" />
+    <property role="3GE5qa" value="pages" />
+    <node concept="2D3W_x" id="4GGafXU4J_F" role="2D3W_o">
+      <property role="TrG5h" value="LoginWithYuryUser" />
+      <node concept="2DtOEj" id="4GGafXU4J_J" role="2D3W_k">
+        <property role="2DtOEe" value="example@gmail.com" />
         <property role="3r5$lX" value="true" />
-        <ref role="2DtOEc" node="42wD6wxyZjr" resolve="LoginEmail" />
+        <ref role="2DtOEc" node="4GGafXU4J_l" resolve="LoginEmailInput" />
       </node>
-      <node concept="2DtOEj" id="3BZt8PImQAH" role="2D3W_k">
-        <property role="2DtOEe" value="passwordAdmin" />
+      <node concept="2DtOEj" id="4GGafXU4J_P" role="2D3W_k">
+        <property role="2DtOEe" value="example" />
         <property role="3r5$lX" value="true" />
-        <ref role="2DtOEc" node="3BZt8PImQAB" resolve="LoginInputPassword" />
+        <ref role="2DtOEc" node="4GGafXU4J_n" resolve="LoginPasswordInput" />
       </node>
-      <node concept="3r3I3T" id="3BZt8PImQAT" role="2D3W_k">
-        <ref role="3r3I3$" node="3BZt8PImQA_" resolve="LoginButton" />
-      </node>
-    </node>
-    <node concept="2D3W_x" id="3BZt8PImQAK" role="2D3W_o">
-      <property role="TrG5h" value="LoginWithNotAdminUser" />
-      <node concept="2DtOEj" id="3BZt8PInRh$" role="2D3W_k">
-        <property role="2DtOEe" value="passwordDefault" />
-        <ref role="2DtOEc" node="3BZt8PImQAB" resolve="LoginInputPassword" />
-      </node>
-      <node concept="3r3I3T" id="3BZt8PInRhE" role="2D3W_k">
-        <ref role="3r3I3$" node="3BZt8PImQA_" resolve="LoginButton" />
+      <node concept="3r3I3T" id="4GGafXU4JYR" role="2D3W_k">
+        <ref role="3r3I3$" node="4GGafXU4J_q" resolve="LoginButton" />
       </node>
     </node>
   </node>
   <node concept="1y4Kc3" id="3BZt8PInRhI">
-    <property role="TrG5h" value="LoginTests" />
-    <node concept="1y1gcR" id="3BZt8PInRhJ" role="1y4Kc0">
-      <property role="TrG5h" value="Login With Administrator" />
-      <node concept="1y1gdb" id="42wD6wxyZjC" role="1y1gc8">
-        <ref role="1y1gd2" node="3BZt8PImQAF" resolve="LoginWithAdminUser" />
+    <property role="TrG5h" value="LoginTrelloTests" />
+    <property role="3GE5qa" value="tests" />
+    <node concept="1y1gcR" id="4GGafXU4J_z" role="1y4Kc0">
+      <property role="TrG5h" value="LoginWithSuccess" />
+      <node concept="1y1gdb" id="4GGafXU4J_$" role="1y1gc8">
+        <ref role="1y1gd2" node="4GGafXU4J_F" resolve="LoginWithYuryUser" />
       </node>
-      <node concept="1y1gdb" id="42wD6wxyZjE" role="1y1gc8">
-        <ref role="1y1gd2" node="3BZt8PImQAK" resolve="LoginWithNotAdminUser" />
-      </node>
-      <node concept="1y1gdb" id="42wD6wxyZjH" role="1y1gc8">
-        <ref role="1y1gd2" node="3BZt8PImQAF" resolve="LoginWithAdminUser" />
-      </node>
-      <node concept="1y1gdb" id="42wD6wxyZjL" role="1y1gc8">
-        <ref role="1y1gd2" node="3BZt8PImQAK" resolve="LoginWithNotAdminUser" />
+      <node concept="1y1gdb" id="4GGafXU4JA4" role="1y1gc8">
+        <ref role="1y1gd2" node="4GGafXU4J_U" resolve="VerifyLogin" />
       </node>
     </node>
-    <node concept="1y1gcR" id="3BZt8PInRhL" role="1y4Kc0">
-      <property role="TrG5h" value="Login With Default User" />
-      <node concept="1y1gdb" id="3BZt8PInRhM" role="1y1gc8">
-        <ref role="1y1gd2" node="3BZt8PImQAK" resolve="LoginWithNotAdminUser" />
+  </node>
+  <node concept="2D3W_t" id="4GGafXU4J_T">
+    <property role="TrG5h" value="HomeTrelloPage" />
+    <property role="3GE5qa" value="pages" />
+    <node concept="2D3W_x" id="4GGafXU4J_U" role="2D3W_o">
+      <property role="TrG5h" value="VerifyLogin" />
+      <node concept="3r3Ioa" id="4GGafXU4J_W" role="2D3W_k">
+        <ref role="3r3Iob" node="4GGafXU4J_Z" resolve="HomeAllBoardsDiv" />
       </node>
+    </node>
+  </node>
+  <node concept="LfPGE" id="4GGafXU5HVn">
+    <property role="3GE5qa" value="config" />
+    <node concept="LfPGB" id="4GGafXU5HVo" role="LfPGD">
+      <ref role="LfPG_" node="4GGafXU4J_T" resolve="HomeTrelloPage" />
+    </node>
+    <node concept="LfPGB" id="4GGafXU5HVp" role="LfPGD">
+      <ref role="LfPG_" node="3BZt8PImQAE" resolve="LoginTrelloPage" />
     </node>
   </node>
 </model>
