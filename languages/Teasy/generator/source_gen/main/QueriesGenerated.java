@@ -341,6 +341,12 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Object propertyMacro_GetValue_6_0(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.page_name$DzFZ), PROPS.name$tAp1);
   }
+  public static Object propertyMacro_GetValue_7_0(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.page_name$DzFZ), PROPS.name$tAp1);
+  }
+  public static Object propertyMacro_GetValue_7_1(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$tAp1);
+  }
   public static boolean ifMacro_Condition_4_0(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), CONCEPTS.ClickElement$i8);
   }
@@ -386,6 +392,12 @@ public class QueriesGenerated extends QueryProviderBase {
   public static boolean ifMacro_Condition_4_14(final IfMacroContext _context) {
     return SNodeOperations.isInstanceOf(_context.getNode(), CONCEPTS.WaitUntilPageDoesNotContainElement$X5);
   }
+  public static boolean ifMacro_Condition_7_0(final IfMacroContext _context) {
+    return !((SNodeOperations.getNextSibling(_context.getNode()) == null));
+  }
+  public static boolean ifMacro_Condition_7_1(final IfMacroContext _context) {
+    return !((SNodeOperations.getNextSibling(_context.getNode()) == null));
+  }
   public static Iterable<SNode> sourceNodesQuery_1_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.components$a9k0);
   }
@@ -404,6 +416,12 @@ public class QueriesGenerated extends QueryProviderBase {
   public static Iterable<SNode> sourceNodesQuery_6_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), LINKS.pages$DzE0);
   }
+  public static Iterable<SNode> sourceNodesQuery_7_0(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), LINKS.page_name$DzFZ), LINKS.keyword$40jY);
+  }
+  public static Iterable<SNode> sourceNodesQuery_7_1(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), LINKS.pages$DzE0);
+  }
   private final Map<String, SourceNodesQuery> snsqMethods = new HashMap<String, SourceNodesQuery>();
   {
     int i = 0;
@@ -413,6 +431,8 @@ public class QueriesGenerated extends QueryProviderBase {
     snsqMethods.put("4656902781847259677", new SNsQ(i++));
     snsqMethods.put("4656902781847257501", new SNsQ(i++));
     snsqMethods.put("5416749529549731086", new SNsQ(i++));
+    snsqMethods.put("834019817157588582", new SNsQ(i++));
+    snsqMethods.put("834019817157583310", new SNsQ(i++));
   }
   @NotNull
   @Override
@@ -443,6 +463,10 @@ public class QueriesGenerated extends QueryProviderBase {
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_5_1(ctx));
         case 5:
           return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_6_0(ctx));
+        case 6:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_7_0(ctx));
+        case 7:
+          return IterableUtil.asCollection(QueriesGenerated.sourceNodesQuery_7_1(ctx));
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -494,6 +518,8 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("4656902781847261207", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "KEYWORD_TO_EXECUTE"));
     pvqMethods.put("4656902781846970122", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "flows"));
     pvqMethods.put("5416749529549731878", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "PAGE_NAME"));
+    pvqMethods.put("834019817157543335", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "PAGE_NAME"));
+    pvqMethods.put("834019817157593752", new PVQ(i++, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "KEYWORD_NAME"));
   }
   @NotNull
   @Override
@@ -599,6 +625,10 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.propertyMacro_GetValue_5_2(ctx);
         case 42:
           return QueriesGenerated.propertyMacro_GetValue_6_0(ctx);
+        case 43:
+          return QueriesGenerated.propertyMacro_GetValue_7_0(ctx);
+        case 44:
+          return QueriesGenerated.propertyMacro_GetValue_7_1(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -622,6 +652,8 @@ public class QueriesGenerated extends QueryProviderBase {
     imcMethods.put("4656902781847823881", new IfMC(i++));
     imcMethods.put("4656902781847823933", new IfMC(i++));
     imcMethods.put("4656902781847823989", new IfMC(i++));
+    imcMethods.put("834019817157809199", new IfMC(i++));
+    imcMethods.put("834019817157924371", new IfMC(i++));
   }
   @NotNull
   @Override
@@ -670,6 +702,10 @@ public class QueriesGenerated extends QueryProviderBase {
           return QueriesGenerated.ifMacro_Condition_4_13(ctx);
         case 14:
           return QueriesGenerated.ifMacro_Condition_4_14(ctx);
+        case 15:
+          return QueriesGenerated.ifMacro_Condition_7_0(ctx);
+        case 16:
+          return QueriesGenerated.ifMacro_Condition_7_1(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no condition method for if macro %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }

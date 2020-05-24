@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce6a11c-c26e-4d4c-9196-4ef8ffcc050f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/HomeTrelloPage.pages.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/page_register.config.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageRegisterConfig_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageToRegister_Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageToRegister_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/fsm.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$CONCEPTS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IfMC.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IfMC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$LINKS.class" afterDir="false" />
@@ -35,29 +22,13 @@
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/template/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/template/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginPage.page.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginPage.pages.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginTests.tests.robot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/components.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/components.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.page.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/config.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/config.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.pages.commons.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.pages.commons.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginPage.pages.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTests.tests.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloTests.tests.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/components.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/components.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/config.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/config.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/hooks.pages.commons.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/hooks.pages.commons.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +41,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="21bd0c42-bf90-4e40-8e84-dfadcab04616/r:1d86b0d6-43fc-4e2e-8736-611ae2e5f76c(TempModule21bd0c42-bf90-4e40-8e84-dfadcab04616/ConsoleModel_58365709033407)">
+            <model ref="6b57cb89-3f42-48c4-9983-f4a0187cb162/r:1361c403-613e-446b-b437-b987d73977ca(TempModule6b57cb89-3f42-48c4-9983-f4a0187cb162/ConsoleModel_75085211030695)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -90,11 +61,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4GGafXU3NDY">
-                <node concept="3balQm" id="4GGafXU3NDZ" role="aymYE" />
-                <node concept="2Clz$F" id="4GGafXU3NE0" role="aymYO" />
-                <node concept="2_V_lH" id="4GGafXU3NE1" role="1PhJh3">
-                  <ref role="2_V_lI" node="4GGafXU3NE0" resolve="CommandHolder" />
+              <node concept="aymSD" id="Ij29FpjSOQ">
+                <node concept="3balQm" id="Ij29FpjSOR" role="aymYE" />
+                <node concept="2Clz$F" id="Ij29FpjSOS" role="aymYO" />
+                <node concept="2_V_lH" id="Ij29FpjSOT" role="1PhJh3">
+                  <ref role="2_V_lI" node="Ij29FpjSOS" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -230,6 +201,32 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -242,6 +239,30 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c462d32c-c5d1-40a1-b229-3f32c86acd58(main@generator) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/generator/template/main@generator.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +294,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,41 +304,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4179187130013804970" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -378,9 +371,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589675744961" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590334669403">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590351388901">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590334669403" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590351388901" />
   </component>
 </project>

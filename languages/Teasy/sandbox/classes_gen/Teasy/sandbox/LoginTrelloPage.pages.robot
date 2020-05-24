@@ -8,6 +8,6 @@ Resource            ../components/components.robot
 
 *** Keywords ***
 LoginWithYuryUser
-      Input Text                                    ${LoginEmailInput}            example@gmail.com     clear=True
-      Input Text                                    ${LoginPasswordInput}            example     clear=True
+      Input Text                                    ${LoginEmailInput}            yuryalencar19@gmail.com     clear=True
+      Input Text                                    ${LoginPasswordInput}            JabutiAzul:)1997     clear=True
       Click Element                                 ${LoginButton}

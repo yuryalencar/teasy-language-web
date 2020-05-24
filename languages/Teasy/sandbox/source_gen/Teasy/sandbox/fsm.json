@@ -1,0 +1,23 @@
+[
+   {
+      "name":"HomeTrelloPage",
+      "actions":[
+         {
+            "keyword":"VerifyLogin",
+            "next_page":null
+         }
+
+      ]
+   }
+   ,
+   {
+      "name":"LoginTrelloPage",
+      "actions":[
+         {
+            "keyword":"LoginWithYuryUser",
+            "next_page":null
+         }
+
+      ]
+   }
+]

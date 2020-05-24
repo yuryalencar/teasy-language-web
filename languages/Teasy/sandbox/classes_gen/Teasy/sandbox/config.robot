@@ -1,5 +1,5 @@
 *** Variables ***
-${BASE_URL}     https://github.com/yuryalencar/Teasy
+${BASE_URL}     https://trello.com/login
 ${BROWSER}     chrome
-${TIME_TO_WAIT}     2
+${TIME_TO_WAIT}     5
 ${MAX_TEST_TO_GEN}     300

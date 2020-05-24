@@ -15,9 +15,9 @@ Resource              ../../config/config.robot
 *** Keywords *** 
 ### Hooks 
 Start Test 
-    Open Browser     https://github.com/yuryalencar/Teasy     chrome
+    Open Browser     https://trello.com/login     chrome
     Set Window Size     1080     720
-    Set Selenium Implicit Wait     2
+    Set Selenium Implicit Wait     5
 
 Finish Test 
     Capture Page Screenshot 
