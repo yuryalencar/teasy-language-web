@@ -15,18 +15,10 @@ public class PageShouldContainElement_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("PAGE SHOULD CONTAIN ELEMENT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Page Should Contain Element    ${");
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.component$$h4H), PROPS.name$MnvL));
+    tgs.append("}");
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

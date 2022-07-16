@@ -8,6 +8,6 @@ Resource            ../components/components.robot
 
 *** Keywords ***
 VerifyLogin 
-    PAGE SHOULD CONTAIN ELEMENT:  HomeAllBoardsDiv
-      
+    Page Should Contain Element    ${HomeAllBoardsDiv}
+
 

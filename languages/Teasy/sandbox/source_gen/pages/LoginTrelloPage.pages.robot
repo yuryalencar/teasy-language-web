@@ -13,5 +13,6 @@ LoginWithYuryUser
     Click Element    ${LoginButton}
     Execute Javascript    return document.querySelector("input[id='test']")
     Page Should Contain    My Text Example
+    Page Should Contain Element    ${HomeAllBoardsDiv}
 
 

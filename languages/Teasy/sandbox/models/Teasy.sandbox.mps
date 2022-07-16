@@ -121,6 +121,9 @@
       <node concept="3r3Ip9" id="3PbGDxUf2Iy" role="2D3W_k">
         <property role="3r3Ipa" value="My Text Example" />
       </node>
+      <node concept="3r3Ioa" id="3PbGDxUf_5a" role="2D3W_k">
+        <ref role="3r3Iob" node="4GGafXU4J_Z" resolve="HomeAllBoardsDiv" />
+      </node>
     </node>
   </node>
   <node concept="1y4Kc3" id="3BZt8PInRhI">
