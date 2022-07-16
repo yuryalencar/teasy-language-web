@@ -1432,9 +1432,6 @@
             <ref role="3cqZAo" node="4HtHGBKP4Rz" resolve="returnValueAuxVar_2" />
           </node>
         </node>
-        <node concept="lc7rE" id="4HtHGBKP4RY" role="3cqZAp">
-          <node concept="l8MVK" id="4HtHGBKP4RZ" role="lcghm" />
-        </node>
       </node>
     </node>
   </node>
@@ -1580,6 +1577,7 @@
               </node>
             </node>
           </node>
+          <node concept="l8MVK" id="3PbGDxUoQTV" role="lcghm" />
         </node>
       </node>
     </node>
@@ -1761,6 +1759,169 @@
           </node>
         </node>
         <node concept="11pn5k" id="4HtHGBKP4Gg" role="3cqZAp" />
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="3PbGDxUkSzT">
+    <property role="3GE5qa" value="config" />
+    <ref role="WuzLi" to="57va:3PbGDxUkSzS" resolve="Hooks" />
+    <node concept="11bSqf" id="3PbGDxUkSzU" role="11c4hB">
+      <node concept="3clFbS" id="3PbGDxUkSzV" role="2VODD2">
+        <node concept="lc7rE" id="3PbGDxUkSTb" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUkSTc" role="lcghm">
+            <property role="lacIc" value="*** Settings ***" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUkSTd" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUkSTe" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUkSTf" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUkSTg" role="lcghm">
+            <property role="lacIc" value="\nDocumentation       Global Hooks" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUkSTh" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUkSTi" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUkSTj" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUkSTk" role="lcghm">
+            <property role="lacIc" value="..." />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUkSTl" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUkSTm" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUkSTn" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUkSTo" role="lcghm">
+            <property role="lacIc" value="...                   In order to carry out the hooks of our tests," />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUkSTp" role="lcghm" />
+          <node concept="l8MVK" id="3PbGDxUkSTq" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUkSTr" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8_D" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8_E" role="lcghm">
+            <property role="lacIc" value="...                   we can use hooks to open the browser" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8_F" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUo8_G" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8As" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8At" role="lcghm">
+            <property role="lacIc" value="...                   on the home page and close the browser at the end of the tests." />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Au" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUo8Av" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8Bj" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8Bk" role="lcghm">
+            <property role="lacIc" value="..." />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Bl" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUo8Bm" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8Ce" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8Cf" role="lcghm">
+            <property role="lacIc" value="...                   For that we import the commons steps here to use" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Cg" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUo8Ch" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8Dd" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8De" role="lcghm">
+            <property role="lacIc" value="...                   the global variables that it has. Centralizing the information." />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Df" role="lcghm" />
+          <node concept="l8MVK" id="3PbGDxUo8Nk" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUo8Dg" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8M0" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8NE" role="lcghm">
+            <property role="lacIc" value="Library               SeleniumLibrary" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Pc" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8Qs" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8Rv" role="lcghm">
+            <property role="lacIc" value="Resource              ../../config/config.robot" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Sk" role="lcghm" />
+          <node concept="l8MVK" id="3PbGDxUok2Q" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUkSTs" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUkSTt" role="lcghm">
+            <property role="lacIc" value="*** Keywords ***" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUkSTu" role="lcghm" />
+          <node concept="2BGw6n" id="3PbGDxUkSTv" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8Up" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8Vv" role="lcghm">
+            <property role="lacIc" value="Start Test" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo8Wz" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo9Ib" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo9Ic" role="lcghm">
+            <property role="lacIc" value="    Open Browser                  ${BASE_URL}        ${BROWSER}" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9Id" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo9MT" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo9MU" role="lcghm">
+            <property role="lacIc" value="    Set Window Size               ${SCREEN_WIDTH}    ${SCREEN_HEIGHT}" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9MV" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo8XT" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo8ZC" role="lcghm">
+            <property role="lacIc" value="    Set Selenium Implicit Wait    ${TIME_TO_WAIT}" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9HR" role="lcghm" />
+          <node concept="l8MVK" id="3PbGDxUo9S4" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo9T_" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo9TA" role="lcghm">
+            <property role="lacIc" value="Finish Test" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9TB" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo9TC" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo9TD" role="lcghm">
+            <property role="lacIc" value="    Capture Page Screenshot" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9TE" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="3PbGDxUo9TF" role="3cqZAp">
+          <node concept="la8eA" id="3PbGDxUo9TG" role="lcghm">
+            <property role="lacIc" value="    Close Browser" />
+          </node>
+          <node concept="l8MVK" id="3PbGDxUo9TH" role="lcghm" />
+        </node>
+      </node>
+    </node>
+    <node concept="29tfMY" id="3PbGDxUmvIl" role="29tGrW">
+      <node concept="3clFbS" id="3PbGDxUmvIm" role="2VODD2">
+        <node concept="3clFbF" id="3PbGDxUmvN0" role="3cqZAp">
+          <node concept="Xl_RD" id="3PbGDxUmvMZ" role="3clFbG">
+            <property role="Xl_RC" value="hooks" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1KnnTt" id="3PbGDxUmwaK" role="1Knhgg">
+      <node concept="3clFbS" id="3PbGDxUmwaL" role="2VODD2">
+        <node concept="3clFbF" id="3PbGDxUmwbb" role="3cqZAp">
+          <node concept="Xl_RD" id="3PbGDxUmwba" role="3clFbG">
+            <property role="Xl_RC" value="pages/commons" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="9MYSb" id="3PbGDxUmwJK" role="33IsuW">
+      <node concept="3clFbS" id="3PbGDxUmwJL" role="2VODD2">
+        <node concept="3clFbF" id="3PbGDxUmwKh" role="3cqZAp">
+          <node concept="Xl_RD" id="3PbGDxUmwKg" role="3clFbG">
+            <property role="Xl_RC" value="pages.commons.robot" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

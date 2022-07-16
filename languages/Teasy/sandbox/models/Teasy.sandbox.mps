@@ -38,6 +38,7 @@
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
       </concept>
+      <concept id="4416820227523971320" name="Teasy.structure.Hooks" flags="ng" index="1763Dw" />
       <concept id="1944097450636888169" name="Teasy.structure.WaitUntilElementIsVisible" flags="ng" index="3r3DCX">
         <property id="1944097450636888402" name="timeout" index="3r3DG6" />
         <reference id="1944097450636888171" name="component" index="3r3DCZ" />
@@ -173,6 +174,12 @@
         <property role="3r3I4U" value="3" />
       </node>
     </node>
+    <node concept="2D3W_x" id="3PbGDxUppN5" role="2D3W_o">
+      <property role="TrG5h" value="exemplo" />
+      <node concept="3r3I3T" id="3PbGDxUppNn" role="2D3W_k">
+        <ref role="3r3I3$" node="4GGafXU4J_q" resolve="LoginButton" />
+      </node>
+    </node>
   </node>
   <node concept="1y4Kc3" id="3BZt8PInRhI">
     <property role="TrG5h" value="LoginTrelloTests" />
@@ -239,6 +246,9 @@
     <node concept="LfPGB" id="4GGafXU5HVp" role="LfPGD">
       <ref role="LfPG_" node="3BZt8PImQAE" resolve="LoginTrelloPage" />
     </node>
+  </node>
+  <node concept="1763Dw" id="3PbGDxUnA1_">
+    <property role="3GE5qa" value="pages" />
   </node>
 </model>
 

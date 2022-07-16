@@ -47,6 +47,7 @@ public class Configuration_TextGen extends TextGenDescriptorBase {
     tgs.newLine();
     tgs.append("${SCREEN_HEIGHT}      ");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.screen_height$7FA$)));
+    tgs.newLine();
   }
 
   private static final class PROPS {

@@ -556,5 +556,14 @@
       <ref role="20lvS9" node="2AKZZM0JNqx" resolve="Page" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3PbGDxUkSzS">
+    <property role="EcuMT" value="4416820227523971320" />
+    <property role="3GE5qa" value="config" />
+    <property role="TrG5h" value="Hooks" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Hooks" />
+    <property role="R4oN_" value="Hooks configure your start and end tests" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
 </model>
 

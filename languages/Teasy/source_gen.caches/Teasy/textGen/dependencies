@@ -107,6 +107,12 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
+  <dependency className="Teasy.textGen.Hooks_TextGen">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
+    <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
+  </dependency>
   <dependency className="Teasy.textGen.InputText_TextGen">
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Override" />
@@ -215,6 +221,7 @@
     <classNode dependClassName="Teasy.textGen.FlowItem_TextGen" />
     <classNode dependClassName="Teasy.textGen.Flow_TextGen" />
     <classNode dependClassName="Teasy.textGen.Flows_TextGen" />
+    <classNode dependClassName="Teasy.textGen.Hooks_TextGen" />
     <classNode dependClassName="Teasy.textGen.InputText_TextGen" />
     <classNode dependClassName="Teasy.textGen.Keyword_TextGen" />
     <classNode dependClassName="Teasy.textGen.PageRegisterConfig_TextGen" />

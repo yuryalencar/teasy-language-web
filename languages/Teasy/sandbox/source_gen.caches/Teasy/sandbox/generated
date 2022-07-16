@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="45dwbygnd5a6ycf3otrtckqo8wxptii">
+<product version="3" modelHash="-8o79dz8sipad4rgpgs93rg21t2htpew">
   <files dir="components" names="components.robot" />
   <files dir="config" names="config.robot:page_register.config.robot" />
   <files dir="pages" names="HomeTrelloPage.pages.robot:LoginTrelloPage.pages.robot" />
+  <files dir="pages/commons" names="hooks.pages.commons.robot" />
   <files dir="tests" names="LoginTrelloTests.tests.robot" />
 </product>
 

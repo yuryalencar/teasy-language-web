@@ -17,4 +17,3 @@ VerifyLogin
     Wait Until Page Does Not Contain Element    ${HomeAllBoardsDiv}    timeout=3
     Wait Until Page Does Not Contain    test string 2    timeout=2
 
-

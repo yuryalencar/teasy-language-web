@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="15,0,79,0" name="Teasy.editor.EditorAspectDescriptorImpl" />
+      <unit at="15,0,81,0" name="Teasy.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/1944097450636384152">
@@ -2511,6 +2511,64 @@
       <unit id="3004182411413534072" at="230,0,234,0" name="Teasy.editor.Keyword_EditorBuilder_a$CONCEPTS" />
       <unit id="3004182411413534072" at="137,0,215,0" name="Teasy.editor.Keyword_EditorBuilder_a$stepListHandler_qxeu01_d0" />
       <unit id="3004182411413534072" at="46,0,239,0" name="Teasy.editor.Keyword_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/4416820227524254130">
+    <file name="Hooks_Editor.java">
+      <node id="4416820227524254130" at="11,79,12,71" concept="6" />
+      <node id="4416820227524254130" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="4416820227524254130" at="11,79,12,71" />
+      <scope id="4416820227524254130" at="11,0,14,0">
+        <var name="editorContext" id="4416820227524254130" />
+        <var name="node" id="4416820227524254130" />
+      </scope>
+      <unit id="4416820227524254130" at="10,0,15,0" name="Teasy.editor.Hooks_Editor" />
+    </file>
+    <file name="Hooks_EditorBuilder_a.java">
+      <node id="4416820227524254130" at="24,85,25,19" concept="9" />
+      <node id="4416820227524254130" at="25,19,26,18" concept="1" />
+      <node id="4416820227524254130" at="31,26,32,18" concept="6" />
+      <node id="4416820227524254130" at="35,39,36,32" concept="6" />
+      <node id="4416820227524254130" at="39,43,40,122" concept="5" />
+      <node id="4416820227524254130" at="40,122,41,48" concept="1" />
+      <node id="4416820227524254130" at="41,48,42,28" concept="1" />
+      <node id="4416820227524254130" at="42,28,43,31" concept="1" />
+      <node id="4416820227524254143" at="43,31,44,49" concept="1" />
+      <node id="4416820227524254130" at="44,49,45,22" concept="6" />
+      <node id="4416820227524254143" at="47,41,48,110" concept="5" />
+      <node id="4416820227524254143" at="48,110,49,47" concept="1" />
+      <node id="4416820227524254143" at="49,47,50,34" concept="5" />
+      <node id="4416820227524254172" at="50,34,51,63" concept="1" />
+      <node id="4416820227524254173" at="51,63,52,57" concept="1" />
+      <node id="4416820227524254174" at="52,57,53,106" concept="1" />
+      <node id="4416820227524254143" at="53,106,54,40" concept="1" />
+      <node id="4416820227524254143" at="54,40,55,34" concept="1" />
+      <node id="4416820227524254143" at="55,34,56,22" concept="6" />
+      <node id="4416820227524254130" at="21,0,23,0" concept="2" trace="myNode" />
+      <node id="4416820227524254130" at="35,0,38,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4416820227524254130" at="24,0,28,0" concept="0" trace="Hooks_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4416820227524254130" at="29,0,34,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4416820227524254130" at="39,0,47,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4416820227524254143" at="47,0,58,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="4416820227524254130" at="31,26,32,18" />
+      <scope id="4416820227524254130" at="35,39,36,32" />
+      <scope id="4416820227524254130" at="24,85,26,18" />
+      <scope id="4416820227524254130" at="35,0,38,0" />
+      <scope id="4416820227524254130" at="24,0,28,0">
+        <var name="context" id="4416820227524254130" />
+        <var name="node" id="4416820227524254130" />
+      </scope>
+      <scope id="4416820227524254130" at="29,0,34,0" />
+      <scope id="4416820227524254130" at="39,43,45,22">
+        <var name="editorCell" id="4416820227524254130" />
+      </scope>
+      <scope id="4416820227524254130" at="39,0,47,0" />
+      <scope id="4416820227524254143" at="47,41,56,22">
+        <var name="editorCell" id="4416820227524254143" />
+        <var name="style" id="4416820227524254143" />
+      </scope>
+      <scope id="4416820227524254143" at="47,0,58,0" />
+      <unit id="4416820227524254130" at="20,0,59,0" name="Teasy.editor.Hooks_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:dd8db697-1dd1-49da-b29a-4f6e8aa2eac3(Teasy.editor)/4838803795106001277">

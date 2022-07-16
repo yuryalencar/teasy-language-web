@@ -24,6 +24,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptFlow = createDescriptorForFlow();
   /*package*/ final ConceptDescriptor myConceptFlowItem = createDescriptorForFlowItem();
   /*package*/ final ConceptDescriptor myConceptFlows = createDescriptorForFlows();
+  /*package*/ final ConceptDescriptor myConceptHooks = createDescriptorForHooks();
   /*package*/ final ConceptDescriptor myConceptInputText = createDescriptorForInputText();
   /*package*/ final ConceptDescriptor myConceptKeyword = createDescriptorForKeyword();
   /*package*/ final ConceptDescriptor myConceptPage = createDescriptorForPage();
@@ -58,7 +59,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptExecuteJavascript, myConceptFlow, myConceptFlowItem, myConceptFlows, myConceptInputText, myConceptKeyword, myConceptPage, myConceptPageRegisterConfig, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptPageToRegister, myConceptStep, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
+    return Arrays.asList(myConceptClickElement, myConceptComponent, myConceptComponents, myConceptConfiguration, myConceptExecuteJavascript, myConceptFlow, myConceptFlowItem, myConceptFlows, myConceptHooks, myConceptInputText, myConceptKeyword, myConceptPage, myConceptPageRegisterConfig, myConceptPageShouldContain, myConceptPageShouldContainElement, myConceptPageShouldNotContain, myConceptPageShouldNotContainElement, myConceptPageToRegister, myConceptStep, myConceptWaitForCondition, myConceptWaitUntilElementIsEnabled, myConceptWaitUntilElementIsNotVisible, myConceptWaitUntilElementIsVisible, myConceptWaitUntilPageContains, myConceptWaitUntilPageContainsElement, myConceptWaitUntilPageDoesNotContain, myConceptWaitUntilPageDoesNotContainElement);
   }
 
   @Override
@@ -81,6 +82,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptFlowItem;
       case LanguageConceptSwitch.Flows:
         return myConceptFlows;
+      case LanguageConceptSwitch.Hooks:
+        return myConceptHooks;
       case LanguageConceptSwitch.InputText:
         return myConceptInputText;
       case LanguageConceptSwitch.Keyword:
@@ -214,6 +217,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.aggregate("flow", 0x4326e26a2135e16aL).target(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4326e26a2123e15dL).optional(false).ordered(true).multiple(true).origin("4838803795107766634").done();
     b.alias("Flows");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForHooks() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Teasy", "Hooks", 0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x3d4bb2987a5388f8L);
+    b.class_(false, false, true);
+    b.origin("r:fa4deac7-a8d4-4bef-9b2d-db266658ed18(Teasy.structure)/4416820227523971320");
+    b.version(3);
+    b.alias("Hooks");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForInputText() {

@@ -41,6 +41,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new FlowItem_TextGen();
       case LanguageConceptSwitch.Flows:
         return new Flows_TextGen();
+      case LanguageConceptSwitch.Hooks:
+        return new Hooks_TextGen();
       case LanguageConceptSwitch.InputText:
         return new InputText_TextGen();
       case LanguageConceptSwitch.Keyword:
@@ -112,6 +114,12 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         outline.registerTextUnit((ext == null ? fname : (fname + '.' + ext)), getPath_Components(root), root);
         continue;
       }
+      if (root.getConcept().equals(CONCEPTS.Hooks$0)) {
+        String fname = getFileName_Hooks(root);
+        String ext = getFileExtension_Hooks(root);
+        outline.registerTextUnit((ext == null ? fname : (fname + '.' + ext)), getPath_Hooks(root), root);
+        continue;
+      }
     }
   }
   private static String getFileName_PageRegisterConfig(SNode node) {
@@ -129,6 +137,9 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   private static String getFileName_Components(SNode node) {
     return "components";
   }
+  private static String getFileName_Hooks(SNode node) {
+    return "hooks";
+  }
   private static String getFileExtension_PageRegisterConfig(SNode node) {
     return "config.robot";
   }
@@ -143,6 +154,9 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   }
   private static String getFileExtension_Components(SNode node) {
     return "robot";
+  }
+  private static String getFileExtension_Hooks(SNode node) {
+    return "pages.commons.robot";
   }
   private static String getPath_PageRegisterConfig(SNode node) {
     return "config";
@@ -159,6 +173,9 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
   private static String getPath_Components(SNode node) {
     return "components";
   }
+  private static String getPath_Hooks(SNode node) {
+    return "pages/commons";
+  }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PageRegisterConfig$JT = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x4b2c28ff7a1373d5L, "Teasy.structure.PageRegisterConfig");
@@ -166,6 +183,7 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
     /*package*/ static final SConcept Page$vB = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x29b0fffc80bf36a1L, "Teasy.structure.Page");
     /*package*/ static final SConcept Configuration$Za = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x637c9747e115f171L, "Teasy.structure.Configuration");
     /*package*/ static final SConcept Components$e_ = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x7dbf8857483dd032L, "Teasy.structure.Components");
+    /*package*/ static final SConcept Hooks$0 = MetaAdapterFactory.getConcept(0x67c1fa65c7ac493dL, 0xb11b664188147c91L, 0x3d4bb2987a5388f8L, "Teasy.structure.Hooks");
   }
 
   private static final class PROPS {

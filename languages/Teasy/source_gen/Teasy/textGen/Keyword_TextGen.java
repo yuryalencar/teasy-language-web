@@ -49,7 +49,6 @@ public class Keyword_TextGen extends TextGenDescriptorBase {
         tgs.decreaseIndent();
       }
     }
-    tgs.newLine();
   }
 
   private static final class PROPS {

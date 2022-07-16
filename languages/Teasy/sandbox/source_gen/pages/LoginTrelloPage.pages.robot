@@ -18,4 +18,6 @@ LoginWithYuryUser
     Page Should Not Contain Element    ${LoginButton}
     Wait For Condition    return document.title==='fdsad'    timeout=3
 
+exemplo 
+    Click Element    ${LoginButton}
 
