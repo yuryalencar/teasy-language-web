@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarksTool">
     <option name="myTreeState">
       <TreeState />
@@ -7,9 +10,276 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce6a11c-c26e-4d4c-9196-4ef8ffcc050f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/fsm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/generator/template/Teasy.generator.robot@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/ClickElement_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Component_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Components_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Configuration_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/ExecuteJavascript_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/FlowItem_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Flow_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Flows_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/InputText_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Keyword_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageRegisterConfig_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageShouldContainElement_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageShouldContain_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageShouldNotContainElement_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageShouldNotContain_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/PageToRegister_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/Page_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitForCondition_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilElementIsEnabled_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilElementIsNotVisible_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilElementIsVisible_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilPageContainsElement_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilPageContains_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilPageDoesNotContainElement_TextGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/WaitUntilPageDoesNotContain_TextGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/Teasy.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/Teasy.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/constraints/ConstraintsAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/constraints/ConstraintsAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ClickElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_InspectorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Component_InspectorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$componentsListHandler_dr39ej_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a$componentsListHandler_dr39ej_c0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Components_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Configuration_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/FlowItem_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$Inline_Builder3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_a2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_a2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_a3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_a3a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a$flow_itemListHandler_gc1fin_c0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flow_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$flowListHandler_j3xyqb_a2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$flowListHandler_j3xyqb_a2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$flowListHandler_j3xyqb_a3a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a$flowListHandler_j3xyqb_a3a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Flows_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/InputText_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_a0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_a0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_b0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a$stepListHandler_qxeu01_d0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Keyword_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$pagesListHandler_ruo3xo_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a$pagesListHandler_ruo3xo_c0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldContain_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/PageToRegister_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$ACTIONSSingleRoleHandler_twirny_e0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$ACTIONSSingleRoleHandler_twirny_e0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$BLOCK_ACTIONSingleRoleHandler_twirny_i0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$BLOCK_ACTIONSingleRoleHandler_twirny_i0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$keywordListHandler_twirny_c0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$keywordListHandler_twirny_c0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$keywordListHandler_twirny_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$keywordListHandler_twirny_d0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$stepsListHandler_twirny_b0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$stepsListHandler_twirny_b0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$stepsListHandler_twirny_d0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a$stepsListHandler_twirny_d0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/Page_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitForCondition_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$Inline_Builder0$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$Inline_Builder0$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$Inline_Builder0.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$Inline_Builder0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_Editor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/EnumerationDescriptor_browsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/EnumerationDescriptor_browsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/EnumerationDescriptor_selectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/EnumerationDescriptor_selectors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/TextGenAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/TextGenAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/textGen/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/typesystem/TypesystemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/typesystem/TypesystemDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/classes_gen/Teasy/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/Teasy/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/Teasy/Generator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IMQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IMQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IfMC.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$IfMC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$LINKS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$PROPS.class" afterDir="false" />
@@ -17,18 +287,79 @@
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$SNsQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated$SNsQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/QueriesGenerated.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/classes_gen/main/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/Teasy/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/Teasy/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/Teasy/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/Teasy/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/main/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/main/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/main/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen.caches/main/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/source_gen/main/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/generator/template/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/generator/template/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginPage.pages.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginTests.tests.robot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/components.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/components.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/config.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/config.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.pages.commons.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.pages.commons.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.textGen.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/HomeTrelloPage.pages.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/LoginTrelloTests.tests.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/components.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/config.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/hooks.pages.commons.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/classes_gen/Teasy/sandbox/page_register.config.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen.caches/Teasy/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/HomeTrelloPage.pages.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloPage.pages.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/LoginTrelloTests.tests.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/components.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/config.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/fsm.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/hooks.pages.commons.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/source_gen/Teasy/sandbox/page_register.config.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/structure/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/textGen/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/textGen/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/textGen/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/textGen/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/typesystem/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen.caches/Teasy/typesystem/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/behavior/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ClickElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ClickElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Component_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Component_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Components_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Components_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Configuration_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Configuration_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/ExecuteJavascript_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/FlowItem_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/FlowItem_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Flow_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Flow_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Flows_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Flows_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/InputText_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/InputText_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Keyword_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Keyword_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageRegisterConfig_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldContainElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldContain_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldContain_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldNotContainElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageShouldNotContain_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageToRegister_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/PageToRegister_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Page_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/Page_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitForCondition_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitForCondition_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsEnabled_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsNotVisible_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilElementIsVisible_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageContainsElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageContains_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageDoesNotContainElement_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/WaitUntilPageDoesNotContain_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/TextGenAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/TextGenAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/textGen/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/source_gen/Teasy/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +372,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="6b57cb89-3f42-48c4-9983-f4a0187cb162/r:1361c403-613e-446b-b437-b987d73977ca(TempModule6b57cb89-3f42-48c4-9983-f4a0187cb162/ConsoleModel_75085211030695)">
+            <model ref="5a038683-77b8-4bbb-a925-cbf3e26394d4/r:a4935441-669f-4370-8e8d-b5eeda6362c2(TempModule5a038683-77b8-4bbb-a925-cbf3e26394d4/ConsoleModel_166536613838916)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -61,11 +392,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="Ij29FpjSOQ">
-                <node concept="3balQm" id="Ij29FpjSOR" role="aymYE" />
-                <node concept="2Clz$F" id="Ij29FpjSOS" role="aymYO" />
-                <node concept="2_V_lH" id="Ij29FpjSOT" role="1PhJh3">
-                  <ref role="2_V_lI" node="Ij29FpjSOS" resolve="CommandHolder" />
+              <node concept="aymSD" id="3PbGDxU1Ip1">
+                <node concept="3balQm" id="3PbGDxU1Ip2" role="aymYE" />
+                <node concept="2Clz$F" id="3PbGDxU1Ip3" role="aymYO" />
+                <node concept="2_V_lH" id="3PbGDxU1Ip4" role="1PhJh3">
+                  <ref role="2_V_lI" node="3PbGDxU1Ip3" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -136,26 +467,6 @@
           <PluginState />
         </value>
       </option>
-      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
       <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
         <value>
           <PluginState>
@@ -174,31 +485,16 @@
           </PluginState>
         </value>
       </option>
-      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
-      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
-        <value>
-          <PluginState />
-        </value>
-      </option>
     </option>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -210,13 +506,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,33 +524,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy#01" />
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,27 +538,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy#01" />
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:c462d32c-c5d1-40a1-b229-3f32c86acd58(main@generator) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/generator/template/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -290,7 +560,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /home/yuryalencar/Documentos/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -300,7 +584,53 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps_types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:a751cd4a-2876-4139-918f-8139ee16c7ba(Teasy.typesystem) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -308,27 +638,103 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5430697704123813184" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
       <pane id="FileSystem" />
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -342,6 +748,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -362,18 +769,15 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="278" y="24" width="800" height="672" key="#Notifications" timestamp="1589672600866">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="278" y="24" width="800" height="672" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1589672600866" />
-    <state x="187" y="0" key="SettingsEditor" timestamp="1589675744961">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589675744961" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590351388901">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590351388901" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

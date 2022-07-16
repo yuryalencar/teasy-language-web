@@ -1,0 +1,16 @@
+PAGE NAME: LoginTrelloPage
+
+  ACTION: LoginWithYuryUser $<
+  
+    INPUT TEXT
+    COMPONENT: LoginEmailInput
+    TEXT:  example@gmail.com
+    CLEAR FIELD:  true
+         
+    INPUT TEXT
+    COMPONENT: LoginPasswordInput
+    TEXT:  example
+    CLEAR FIELD:  true
+             CLICK ELEMENT:  LoginButton
+      
+  >$

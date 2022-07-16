@@ -1,0 +1,6 @@
+PAGE NAME: HomeTrelloPage
+
+  ACTION: VerifyLogin $<
+      PAGE SHOULD CONTAIN ELEMENT:  HomeAllBoardsDiv
+      
+  >$

@@ -1,0 +1,15 @@
+
+  FILENAME: LoginTrelloTests
+  
+  
+  FLOW NAME: LoginWithSuccess $<
+            EXECUTE: LoginWithYuryUser
+             EXECUTE: VerifyLogin
+  >$
+  
+ 
+  
+  FLOW NAME: ExampleName $<
+            EXECUTE: LoginWithYuryUser
+  >$
+  

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="4qnupr48zdvcej4tjmfaayfe4g7fgdx">
-  <files names="HomeTrelloPage.pages.robot:LoginTrelloPage.pages.robot:LoginTrelloTests.tests.robot:components.robot:config.robot:fsm.json:hooks.pages.commons.robot:page_register.config.robot" />
+<product version="3" modelHash="-ecq28e7mz6dqwulxr83l2523iq0hddx">
+  <files dir="components" names="components.robot" />
+  <files dir="config" names="config.robot:page_register.config.robot" />
+  <files dir="pages" names="HomeTrelloPage.pages.robot:LoginTrelloPage.pages.robot" />
+  <files dir="tests" names="LoginTrelloTests.tests.robot" />
 </product>
 

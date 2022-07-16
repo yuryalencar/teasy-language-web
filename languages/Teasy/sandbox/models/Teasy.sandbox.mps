@@ -123,6 +123,12 @@
         <ref role="1y1gd2" node="4GGafXU4J_U" resolve="VerifyLogin" />
       </node>
     </node>
+    <node concept="1y1gcR" id="4HtHGBKMvk8" role="1y4Kc0">
+      <property role="TrG5h" value="ExampleName" />
+      <node concept="1y1gdb" id="4HtHGBKMvk9" role="1y1gc8">
+        <ref role="1y1gd2" node="4GGafXU4J_F" resolve="LoginWithYuryUser" />
+      </node>
+    </node>
   </node>
   <node concept="2D3W_t" id="4GGafXU4J_T">
     <property role="TrG5h" value="HomeTrelloPage" />

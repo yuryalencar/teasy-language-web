@@ -157,31 +157,31 @@
     <property role="TrG5h" value="main" />
     <node concept="3lhOvk" id="7QZy5t8k44u" role="3lj3bC">
       <ref role="30HIoZ" to="57va:7QZy5t8ft0M" resolve="Components" />
-      <ref role="3lhOvi" node="7QZy5t8k44w" resolve="components" />
+      <ref role="3lhOvi" node="7QZy5t8k44w" />
     </node>
     <node concept="3lhOvk" id="7QZy5t8lKFR" role="3lj3bC">
       <ref role="30HIoZ" to="57va:6dW_Ovx5v5L" resolve="Configuration" />
-      <ref role="3lhOvi" node="7QZy5t8kS89" resolve="config" />
+      <ref role="3lhOvi" node="7QZy5t8kS89" />
     </node>
     <node concept="3lhOvk" id="6LGi2$_dFs$" role="3lj3bC">
       <ref role="30HIoZ" to="57va:6dW_Ovx5v5L" resolve="Configuration" />
-      <ref role="3lhOvi" node="6LGi2$_dFsC" resolve="hooks.pages.commons" />
+      <ref role="3lhOvi" node="6LGi2$_dFsC" />
     </node>
     <node concept="3lhOvk" id="3BZt8PInSAz" role="3lj3bC">
       <ref role="30HIoZ" to="57va:2AKZZM0JNqx" resolve="Page" />
-      <ref role="3lhOvi" node="3BZt8PInS7j" resolve="page_name" />
+      <ref role="3lhOvi" node="3BZt8PInS7j" />
     </node>
     <node concept="3lhOvk" id="42wD6wxx5W4" role="3lj3bC">
       <ref role="30HIoZ" to="57va:4cASACxdu5D" resolve="Flows" />
-      <ref role="3lhOvi" node="42wD6wxx5W0" resolve="flows" />
+      <ref role="3lhOvi" node="42wD6wxx5W0" />
     </node>
     <node concept="3lhOvk" id="4GGafXU5l5b" role="3lj3bC">
       <ref role="30HIoZ" to="57va:4GGafXU4Rfl" resolve="PageRegisterConfig" />
-      <ref role="3lhOvi" node="4GGafXU4RiI" resolve="page_register" />
+      <ref role="3lhOvi" node="4GGafXU4RiI" />
     </node>
     <node concept="3lhOvk" id="Ij29Fpk94z" role="3lj3bC">
       <ref role="30HIoZ" to="57va:4GGafXU4Rfl" resolve="PageRegisterConfig" />
-      <ref role="3lhOvi" node="Ij29FpjSPJ" resolve="fsm" />
+      <ref role="3lhOvi" node="Ij29FpjSPJ" />
     </node>
   </node>
   <node concept="356sEV" id="7QZy5t8k44w">

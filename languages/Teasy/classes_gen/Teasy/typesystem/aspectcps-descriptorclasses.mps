@@ -3,6 +3,7 @@
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
+  <attribute name="user-objects" value="true" />
   <languages />
   <imports>
     <import index="mhv4" ref="r:a751cd4a-2876-4139-918f-8139ee16c7ba(Teasy.typesystem)" />
