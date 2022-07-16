@@ -5,7 +5,6 @@ Documentation       Components
 ...                 All commons elements in your application are saved here.
 
 *** Variables ***
-  
 ${LoginEmailInput}      id=user
 ${LoginPasswordInput}      id=password
 ${LoginButton}      id=login

@@ -325,34 +325,19 @@
   <root nodeRef="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen)/5430697704123813653">
     <file name="ExecuteJavascript_TextGen.java">
       <node id="5430697704123813653" at="14,54,15,55" concept="7" />
-      <node id="5430697704123813662" at="15,55,16,18" concept="3" />
-      <node id="5430697704123813663" at="16,18,17,25" concept="3" />
-      <node id="5430697704123813665" at="17,25,18,17" concept="3" />
-      <node id="5430697704123813658" at="18,17,19,37" concept="3" />
-      <node id="5430697704123813666" at="19,37,20,25" concept="3" />
-      <node id="5430697704123813677" at="20,25,21,18" concept="3" />
-      <node id="5430697704123813678" at="21,18,22,25" concept="3" />
-      <node id="5430697704123813680" at="22,25,23,17" concept="3" />
-      <node id="5430697704123813673" at="23,17,24,26" concept="3" />
-      <node id="5430697704123813681" at="24,26,25,25" concept="3" />
-      <node id="5430697704123813688" at="25,25,26,20" concept="3" />
-      <node id="5430697704123813694" at="26,20,27,90" concept="3" />
-      <node id="5430697704123813702" at="27,90,28,18" concept="3" />
-      <node id="5430697704123813704" at="28,18,29,17" concept="3" />
-      <node id="5430697704123813712" at="29,17,30,25" concept="3" />
-      <node id="5430697704123813714" at="30,25,31,17" concept="3" />
-      <node id="5430697704123813707" at="31,17,32,19" concept="3" />
-      <node id="5430697704123813715" at="32,19,33,25" concept="3" />
-      <node id="5430697704123813653" at="37,0,38,0" concept="11" trace="function$9UQd" />
-      <node id="5430697704123813653" at="13,0,35,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="5430697704123813653" at="14,54,33,25">
+      <node id="4416820227522154172" at="15,55,16,45" concept="3" />
+      <node id="4416820227522154173" at="16,45,17,90" concept="3" />
+      <node id="4416820227522154180" at="17,90,18,18" concept="3" />
+      <node id="5430697704123813653" at="22,0,23,0" concept="11" trace="function$9UQd" />
+      <node id="5430697704123813653" at="13,0,20,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5430697704123813653" at="14,54,18,18">
         <var name="tgs" id="5430697704123813653" />
       </scope>
-      <scope id="5430697704123813653" at="13,0,35,0">
+      <scope id="5430697704123813653" at="13,0,20,0">
         <var name="ctx" id="5430697704123813653" />
       </scope>
-      <unit id="5430697704123813653" at="36,0,39,0" name="Teasy.textGen.ExecuteJavascript_TextGen$PROPS" />
-      <unit id="5430697704123813653" at="12,0,40,0" name="Teasy.textGen.ExecuteJavascript_TextGen" />
+      <unit id="5430697704123813653" at="21,0,24,0" name="Teasy.textGen.ExecuteJavascript_TextGen$PROPS" />
+      <unit id="5430697704123813653" at="12,0,25,0" name="Teasy.textGen.ExecuteJavascript_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
       <node id="5430697704123813653" at="36,51,37,47" concept="8" />

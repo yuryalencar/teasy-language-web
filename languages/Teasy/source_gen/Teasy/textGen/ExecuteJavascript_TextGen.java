@@ -13,24 +13,9 @@ public class ExecuteJavascript_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("EXECUTE JAVASCRIPT");
-    tgs.decreaseIndent();
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("SCRIPT:");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Execute Javascript    ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.function$9UQd));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class PROPS {

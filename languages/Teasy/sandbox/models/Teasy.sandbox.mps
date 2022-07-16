@@ -38,6 +38,9 @@
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
       </concept>
+      <concept id="1944097450636882683" name="Teasy.structure.ExecuteJavascript" flags="ng" index="3r3I2J">
+        <property id="1944097450636882684" name="function" index="3r3I2C" />
+      </concept>
       <concept id="1944097450636882605" name="Teasy.structure.ClickElement" flags="ng" index="3r3I3T">
         <reference id="1944097450636882608" name="component" index="3r3I3$" />
       </concept>
@@ -108,6 +111,9 @@
       </node>
       <node concept="3r3I3T" id="4GGafXU4JYR" role="2D3W_k">
         <ref role="3r3I3$" node="4GGafXU4J_q" resolve="LoginButton" />
+      </node>
+      <node concept="3r3I2J" id="3PbGDxUevZ6" role="2D3W_k">
+        <property role="3r3I2C" value="return document.querySelector(&quot;input[id='test']&quot;)" />
       </node>
     </node>
   </node>
