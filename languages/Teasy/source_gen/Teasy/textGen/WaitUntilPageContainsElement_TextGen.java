@@ -15,25 +15,11 @@ public class WaitUntilPageContainsElement_TextGen extends TextGenDescriptorBase 
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("WAIT UNTIL PAGE CONTAINS ELEMENT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Wait Until Page Contains Element    ${");
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.component$UkQ5), PROPS.name$MnvL));
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("TIMEOUT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("}    timeout=");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.timeout$UfsI)));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

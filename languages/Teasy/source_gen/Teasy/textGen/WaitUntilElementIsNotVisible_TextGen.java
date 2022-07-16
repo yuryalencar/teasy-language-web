@@ -15,25 +15,11 @@ public class WaitUntilElementIsNotVisible_TextGen extends TextGenDescriptorBase 
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("WAIT UNTIL ELEMENT IS NOT VISIBLE: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Wait Until Element Is Not Visible    ${");
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.component$s1qJ), PROPS.name$MnvL));
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("TIMEOUT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("}    timeout=");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.timeout$_Mdm)));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

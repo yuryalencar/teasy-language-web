@@ -15,25 +15,11 @@ public class WaitUntilPageDoesNotContainElement_TextGen extends TextGenDescripto
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("WAIT UNTIL PAGE DOES NOT CONTAIN ELEMENT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Wait Until Page Does Not Contain Element    ${");
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.component$1iqd), PROPS.name$MnvL));
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("TIMEOUT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("}    timeout=");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.timeout$1iDe)));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class LINKS {

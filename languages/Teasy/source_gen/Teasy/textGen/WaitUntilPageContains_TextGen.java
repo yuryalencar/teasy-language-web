@@ -13,27 +13,11 @@ public class WaitUntilPageContains_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("WAIT UNTIL PAGE CONTAINS: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Wait Until Page Contains    ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.text$zDwD));
-    tgs.append(" ");
-    tgs.append("");
-    tgs.append(" ");
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("TIMEOUT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    timeout=");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.timeout$zDYF)));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class PROPS {

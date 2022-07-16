@@ -38,6 +38,14 @@
       <concept id="9061110883748270130" name="Teasy.structure.Components" flags="ng" index="Pw_x_">
         <child id="9061110883748270131" name="components" index="Pw_x$" />
       </concept>
+      <concept id="1944097450636888169" name="Teasy.structure.WaitUntilElementIsVisible" flags="ng" index="3r3DCX">
+        <property id="1944097450636888402" name="timeout" index="3r3DG6" />
+        <reference id="1944097450636888171" name="component" index="3r3DCZ" />
+      </concept>
+      <concept id="1944097450636888170" name="Teasy.structure.WaitUntilElementIsNotVisible" flags="ng" index="3r3DCY">
+        <property id="1944097450636888400" name="timeout" index="3r3DG4" />
+        <reference id="1944097450636888173" name="component" index="3r3DCT" />
+      </concept>
       <concept id="1944097450636888312" name="Teasy.structure.WaitUntilElementIsEnabled" flags="ng" index="3r3DEG">
         <property id="1944097450636888398" name="timeout" index="3r3DGq" />
         <reference id="1944097450636888313" name="component" index="3r3DEH" />
@@ -63,6 +71,22 @@
       </concept>
       <concept id="1944097450636883114" name="Teasy.structure.PageShouldNotContain" flags="ng" index="3r3IrY">
         <property id="1944097450636883115" name="text" index="3r3IrZ" />
+      </concept>
+      <concept id="5704377929931945956" name="Teasy.structure.WaitUntilPageContains" flags="ng" index="1t0v9_">
+        <property id="5704377929931945975" name="text" index="1t0v9Q" />
+        <property id="5704377929931945977" name="timeout" index="1t0v9S" />
+      </concept>
+      <concept id="5704377929931946399" name="Teasy.structure.WaitUntilPageDoesNotContainElement" flags="ng" index="1t0vKu">
+        <property id="5704377929931946401" name="timeout" index="1t0vKw" />
+        <reference id="5704377929931946400" name="component" index="1t0vKx" />
+      </concept>
+      <concept id="5704377929931946349" name="Teasy.structure.WaitUntilPageDoesNotContain" flags="ng" index="1t0vNG">
+        <property id="5704377929931946396" name="text" index="1t0vKt" />
+        <property id="5704377929931946351" name="timeout" index="1t0vNI" />
+      </concept>
+      <concept id="5704377929931946216" name="Teasy.structure.WaitUntilPageContainsElement" flags="ng" index="1t0vPD">
+        <property id="5704377929931946218" name="timeout" index="1t0vPF" />
+        <reference id="5704377929931946220" name="component" index="1t0vPH" />
       </concept>
       <concept id="4838803795106586973" name="Teasy.structure.Flow" flags="ng" index="1y1gcR">
         <child id="4838803795106586978" name="flow_item" index="1y1gc8" />
@@ -180,6 +204,30 @@
       <node concept="3r3DEG" id="3PbGDxUinnI" role="2D3W_k">
         <property role="3r3DGq" value="123" />
         <ref role="3r3DEH" node="4GGafXU4J_l" resolve="LoginEmailInput" />
+      </node>
+      <node concept="3r3DCY" id="3PbGDxUiwnK" role="2D3W_k">
+        <property role="3r3DG4" value="12" />
+        <ref role="3r3DCT" node="4GGafXU4J_q" resolve="LoginButton" />
+      </node>
+      <node concept="3r3DCX" id="3PbGDxUiyBY" role="2D3W_k">
+        <property role="3r3DG6" value="324" />
+        <ref role="3r3DCZ" node="4GGafXU4J_l" resolve="LoginEmailInput" />
+      </node>
+      <node concept="1t0v9_" id="3PbGDxUj61O" role="2D3W_k">
+        <property role="1t0v9Q" value="test string" />
+        <property role="1t0v9S" value="12" />
+      </node>
+      <node concept="1t0vPD" id="3PbGDxUjD9e" role="2D3W_k">
+        <property role="1t0vPF" value="3" />
+        <ref role="1t0vPH" node="4GGafXU4J_Z" resolve="HomeAllBoardsDiv" />
+      </node>
+      <node concept="1t0vKu" id="3PbGDxUkc9h" role="2D3W_k">
+        <property role="1t0vKw" value="3" />
+        <ref role="1t0vKx" node="4GGafXU4J_Z" resolve="HomeAllBoardsDiv" />
+      </node>
+      <node concept="1t0vNG" id="3PbGDxUkJ5C" role="2D3W_k">
+        <property role="1t0vKt" value="test string 2" />
+        <property role="1t0vNI" value="2" />
       </node>
     </node>
   </node>
