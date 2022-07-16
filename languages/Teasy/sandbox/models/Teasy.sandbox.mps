@@ -50,6 +50,9 @@
       <concept id="1944097450636882973" name="Teasy.structure.PageShouldContain" flags="ng" index="3r3Ip9">
         <property id="1944097450636882974" name="text" index="3r3Ipa" />
       </concept>
+      <concept id="1944097450636883116" name="Teasy.structure.PageShouldNotContainElement" flags="ng" index="3r3IrS">
+        <reference id="1944097450636883117" name="component" index="3r3IrT" />
+      </concept>
       <concept id="1944097450636883114" name="Teasy.structure.PageShouldNotContain" flags="ng" index="3r3IrY">
         <property id="1944097450636883115" name="text" index="3r3IrZ" />
       </concept>
@@ -129,6 +132,9 @@
       </node>
       <node concept="3r3IrY" id="3PbGDxUgF9K" role="2D3W_k">
         <property role="3r3IrZ" value="DExample" />
+      </node>
+      <node concept="3r3IrS" id="3PbGDxUhdQS" role="2D3W_k">
+        <ref role="3r3IrT" node="4GGafXU4J_q" resolve="LoginButton" />
       </node>
     </node>
   </node>

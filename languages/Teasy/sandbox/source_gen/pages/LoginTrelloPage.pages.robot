@@ -15,5 +15,6 @@ LoginWithYuryUser
     Page Should Contain    My Text Example
     Page Should Contain Element    ${HomeAllBoardsDiv}
     Page Should Not Contain    DExample
+    Page Should Not Contain Element    ${LoginButton}
 
 
