@@ -13,18 +13,9 @@ public class PageShouldNotContain_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("PAGE SHOULD NOT CONTAIN TEXT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Page Should Not Contain    ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.text$BDPd));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class PROPS {
