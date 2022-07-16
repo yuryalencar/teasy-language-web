@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="ekrku815covgkf8u9n9546adp4klg3">
+<product version="3" modelHash="-a1me5xhnfqhwdtfm2g8rglr1yfv38ds">
   <files dir="components" names="components.robot" />
   <files dir="config" names="config.robot:page_register.config.robot" />
   <files dir="pages" names="HomeTrelloPage.pages.robot:LoginTrelloPage.pages.robot" />

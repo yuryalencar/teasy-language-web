@@ -12,5 +12,6 @@ LoginWithYuryUser
     Input Text    ${LoginPasswordInput}    example    clear=true
     Click Element    ${LoginButton}
     Execute Javascript    return document.querySelector("input[id='test']")
+    Page Should Contain    My Text Example
 
 

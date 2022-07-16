@@ -13,18 +13,9 @@ public class PageShouldContain_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("PAGE SHOULD CONTAIN TEXT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Page Should Contain    ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.text$kH$d));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class PROPS {

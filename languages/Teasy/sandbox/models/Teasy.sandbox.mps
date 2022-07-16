@@ -47,6 +47,9 @@
       <concept id="1944097450636883038" name="Teasy.structure.PageShouldContainElement" flags="ng" index="3r3Ioa">
         <reference id="1944097450636883039" name="component" index="3r3Iob" />
       </concept>
+      <concept id="1944097450636882973" name="Teasy.structure.PageShouldContain" flags="ng" index="3r3Ip9">
+        <property id="1944097450636882974" name="text" index="3r3Ipa" />
+      </concept>
       <concept id="4838803795106586973" name="Teasy.structure.Flow" flags="ng" index="1y1gcR">
         <child id="4838803795106586978" name="flow_item" index="1y1gc8" />
       </concept>
@@ -114,6 +117,9 @@
       </node>
       <node concept="3r3I2J" id="3PbGDxUevZ6" role="2D3W_k">
         <property role="3r3I2C" value="return document.querySelector(&quot;input[id='test']&quot;)" />
+      </node>
+      <node concept="3r3Ip9" id="3PbGDxUf2Iy" role="2D3W_k">
+        <property role="3r3Ipa" value="My Text Example" />
       </node>
     </node>
   </node>
