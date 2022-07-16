@@ -9,5 +9,6 @@ Resource            ../components/components.robot
 *** Keywords ***
 VerifyLogin 
     Page Should Contain Element    ${HomeAllBoardsDiv}
+    Wait Until Element Is Enabled    ${LoginEmailInput}    timeout=123
 
 

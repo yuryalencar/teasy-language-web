@@ -552,38 +552,24 @@
     </file>
     <file name="WaitUntilElementIsEnabled_TextGen.java">
       <node id="5430697704123814373" at="16,54,17,55" concept="7" />
-      <node id="5430697704123814383" at="17,55,18,25" concept="3" />
-      <node id="5430697704123814385" at="18,25,19,17" concept="3" />
-      <node id="5430697704123814378" at="19,17,20,50" concept="3" />
-      <node id="5430697704123814386" at="20,50,21,25" concept="3" />
-      <node id="5430697704123814393" at="21,25,22,20" concept="3" />
-      <node id="5430697704123814399" at="22,20,23,135" concept="3" />
-      <node id="5430697704123814418" at="23,135,24,18" concept="3" />
-      <node id="5430697704123814419" at="24,18,25,25" concept="3" />
-      <node id="5430697704123814421" at="25,25,26,17" concept="3" />
-      <node id="5430697704123814414" at="26,17,27,28" concept="3" />
-      <node id="5430697704123814422" at="27,28,28,25" concept="3" />
-      <node id="5430697704123814429" at="28,25,29,20" concept="3" />
-      <node id="5430697704123814436" at="29,20,30,108" concept="3" />
-      <node id="5430697704123814444" at="30,108,31,18" concept="3" />
-      <node id="5430697704123814446" at="31,18,32,17" concept="3" />
-      <node id="5430697704123814454" at="32,17,33,25" concept="3" />
-      <node id="5430697704123814456" at="33,25,34,17" concept="3" />
-      <node id="5430697704123814449" at="34,17,35,19" concept="3" />
-      <node id="5430697704123814457" at="35,19,36,25" concept="3" />
-      <node id="5430697704123814373" at="40,0,41,0" concept="11" trace="component$y_RH" />
-      <node id="5430697704123814373" at="44,0,45,0" concept="11" trace="name$MnvL" />
-      <node id="5430697704123814373" at="45,0,46,0" concept="11" trace="timeout$zxeE" />
-      <node id="5430697704123814373" at="15,0,38,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="5430697704123814373" at="16,54,36,25">
+      <node id="4416820227523299602" at="17,55,18,58" concept="3" />
+      <node id="4416820227523299603" at="18,58,19,135" concept="3" />
+      <node id="4416820227523302501" at="19,135,20,32" concept="3" />
+      <node id="4416820227523303607" at="20,32,21,108" concept="3" />
+      <node id="4416820227523299607" at="21,108,22,18" concept="3" />
+      <node id="5430697704123814373" at="26,0,27,0" concept="11" trace="component$y_RH" />
+      <node id="5430697704123814373" at="30,0,31,0" concept="11" trace="name$MnvL" />
+      <node id="5430697704123814373" at="31,0,32,0" concept="11" trace="timeout$zxeE" />
+      <node id="5430697704123814373" at="15,0,24,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5430697704123814373" at="16,54,22,18">
         <var name="tgs" id="5430697704123814373" />
       </scope>
-      <scope id="5430697704123814373" at="15,0,38,0">
+      <scope id="5430697704123814373" at="15,0,24,0">
         <var name="ctx" id="5430697704123814373" />
       </scope>
-      <unit id="5430697704123814373" at="39,0,42,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen$LINKS" />
-      <unit id="5430697704123814373" at="43,0,47,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen$PROPS" />
-      <unit id="5430697704123814373" at="14,0,48,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen" />
+      <unit id="5430697704123814373" at="25,0,28,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen$LINKS" />
+      <unit id="5430697704123814373" at="29,0,33,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen$PROPS" />
+      <unit id="5430697704123814373" at="14,0,34,0" name="Teasy.textGen.WaitUntilElementIsEnabled_TextGen" />
     </file>
   </root>
   <root nodeRef="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen)/5430697704123814484">
