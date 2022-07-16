@@ -12,6 +12,7 @@
     <list default="true" id="fce6a11c-c26e-4d4c-9196-4ef8ffcc050f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Teasy/models/Teasy.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/models/Teasy.textGen.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Teasy/sandbox/models/Teasy.sandbox.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +151,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -158,47 +173,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemId" value="flows" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,38 +200,12 @@
               <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Teasy" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,6 +240,38 @@
               <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
               <option name="myItemType" value="" />
@@ -309,6 +290,18 @@
               <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Teasy" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -323,8 +316,14 @@
               <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="steps_types" />
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1bfad969-a5b2-423f-8f5a-31b9e4bf6473" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,8 +366,28 @@
               <option name="myItemId" value="r:e4810080-13ff-4563-af2c-319fa18e0181(Teasy.sandbox) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/sandbox/models/Teasy.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="TeasyLanguage" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps_types" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeasyLanguage" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,25 +405,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flows" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeasyLanguage" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="67c1fa65-c7ac-493d-b11b-664188147c91(Teasy)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen) in IdeaFile[path: /Users/yuryalencar/Documents/personal/Teasy/languages/Teasy/models/Teasy.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,7 +427,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5430697704123814070" />
+              <option name="myItemId" value="5430697704123813653" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>

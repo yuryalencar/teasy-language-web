@@ -13,31 +13,11 @@ public class WaitForCondition_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("WAIT FOR CONDITION");
-    tgs.decreaseIndent();
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("CONDITION SCRIPT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    Wait For Condition    ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.condition$dF_d));
-    tgs.newLine();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("TIMEOUT: ");
-    tgs.decreaseIndent();
-    tgs.append(" ");
+    tgs.append("    timeout=");
     tgs.append(Integer.toString(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.timeout$dG3f)));
     tgs.newLine();
-    tgs.indent();
-    tgs.increaseIndent();
-    tgs.indent();
-    tgs.append("");
-    tgs.decreaseIndent();
   }
 
   private static final class PROPS {

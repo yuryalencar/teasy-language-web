@@ -351,42 +351,22 @@
     </file>
     <file name="WaitForCondition_TextGen.java">
       <node id="5430697704123813748" at="14,54,15,55" concept="7" />
-      <node id="5430697704123813757" at="15,55,16,18" concept="3" />
-      <node id="5430697704123813758" at="16,18,17,25" concept="3" />
-      <node id="5430697704123813760" at="17,25,18,17" concept="3" />
-      <node id="5430697704123813753" at="18,17,19,37" concept="3" />
-      <node id="5430697704123813761" at="19,37,20,25" concept="3" />
-      <node id="5430697704123813772" at="20,25,21,18" concept="3" />
-      <node id="5430697704123813773" at="21,18,22,25" concept="3" />
-      <node id="5430697704123813775" at="22,25,23,17" concept="3" />
-      <node id="5430697704123813768" at="23,17,24,37" concept="3" />
-      <node id="5430697704123813776" at="24,37,25,25" concept="3" />
-      <node id="5430697704123813783" at="25,25,26,20" concept="3" />
-      <node id="5430697704123813789" at="26,20,27,91" concept="3" />
-      <node id="5430697704123813806" at="27,91,28,18" concept="3" />
-      <node id="5430697704123813807" at="28,18,29,25" concept="3" />
-      <node id="5430697704123813809" at="29,25,30,17" concept="3" />
-      <node id="5430697704123813802" at="30,17,31,28" concept="3" />
-      <node id="5430697704123813810" at="31,28,32,25" concept="3" />
-      <node id="5430697704123813817" at="32,25,33,20" concept="3" />
-      <node id="5430697704123813824" at="33,20,34,108" concept="3" />
-      <node id="5430697704123813832" at="34,108,35,18" concept="3" />
-      <node id="5430697704123813834" at="35,18,36,17" concept="3" />
-      <node id="5430697704123813842" at="36,17,37,25" concept="3" />
-      <node id="5430697704123813844" at="37,25,38,17" concept="3" />
-      <node id="5430697704123813837" at="38,17,39,19" concept="3" />
-      <node id="5430697704123813845" at="39,19,40,25" concept="3" />
-      <node id="5430697704123813748" at="44,0,45,0" concept="11" trace="condition$dF_d" />
-      <node id="5430697704123813748" at="45,0,46,0" concept="11" trace="timeout$dG3f" />
-      <node id="5430697704123813748" at="13,0,42,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="5430697704123813748" at="14,54,40,25">
+      <node id="4416820227523152386" at="15,55,16,45" concept="3" />
+      <node id="4416820227523152387" at="16,45,17,91" concept="3" />
+      <node id="4416820227523153558" at="17,91,18,31" concept="3" />
+      <node id="4416820227523153559" at="18,31,19,108" concept="3" />
+      <node id="4416820227523152391" at="19,108,20,18" concept="3" />
+      <node id="5430697704123813748" at="24,0,25,0" concept="11" trace="condition$dF_d" />
+      <node id="5430697704123813748" at="25,0,26,0" concept="11" trace="timeout$dG3f" />
+      <node id="5430697704123813748" at="13,0,22,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5430697704123813748" at="14,54,20,18">
         <var name="tgs" id="5430697704123813748" />
       </scope>
-      <scope id="5430697704123813748" at="13,0,42,0">
+      <scope id="5430697704123813748" at="13,0,22,0">
         <var name="ctx" id="5430697704123813748" />
       </scope>
-      <unit id="5430697704123813748" at="43,0,47,0" name="Teasy.textGen.WaitForCondition_TextGen$PROPS" />
-      <unit id="5430697704123813748" at="12,0,48,0" name="Teasy.textGen.WaitForCondition_TextGen" />
+      <unit id="5430697704123813748" at="23,0,27,0" name="Teasy.textGen.WaitForCondition_TextGen$PROPS" />
+      <unit id="5430697704123813748" at="12,0,28,0" name="Teasy.textGen.WaitForCondition_TextGen" />
     </file>
   </root>
   <root nodeRef="r:887a9752-2dcb-458f-817c-26b52d0aa5ce(Teasy.textGen)/5430697704123813865">

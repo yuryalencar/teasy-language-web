@@ -16,5 +16,6 @@ LoginWithYuryUser
     Page Should Contain Element    ${HomeAllBoardsDiv}
     Page Should Not Contain    DExample
     Page Should Not Contain Element    ${LoginButton}
+    Wait For Condition    return document.title==='fdsad'    timeout=3
 
 

@@ -44,6 +44,10 @@
       <concept id="1944097450636882605" name="Teasy.structure.ClickElement" flags="ng" index="3r3I3T">
         <reference id="1944097450636882608" name="component" index="3r3I3$" />
       </concept>
+      <concept id="1944097450636882795" name="Teasy.structure.WaitForCondition" flags="ng" index="3r3I4Z">
+        <property id="1944097450636882796" name="condition" index="3r3I4S" />
+        <property id="1944097450636882798" name="timeout" index="3r3I4U" />
+      </concept>
       <concept id="1944097450636883038" name="Teasy.structure.PageShouldContainElement" flags="ng" index="3r3Ioa">
         <reference id="1944097450636883039" name="component" index="3r3Iob" />
       </concept>
@@ -135,6 +139,10 @@
       </node>
       <node concept="3r3IrS" id="3PbGDxUhdQS" role="2D3W_k">
         <ref role="3r3IrT" node="4GGafXU4J_q" resolve="LoginButton" />
+      </node>
+      <node concept="3r3I4Z" id="3PbGDxUhKru" role="2D3W_k">
+        <property role="3r3I4S" value="return document.title==='fdsad'" />
+        <property role="3r3I4U" value="3" />
       </node>
     </node>
   </node>
